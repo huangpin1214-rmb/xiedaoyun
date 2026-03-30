@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.28",
+    "lastTouchedAt": "2026-03-29T22:45:22.333Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-03-29T22:40:25.894Z",
+    "lastRunVersion": "2026.3.28",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local"
+  },
+  "update": {
+    "auto": {
+      "enabled": false,
+      "betaCheckIntervalHours": 1
+    }
+  },
+  "auth": {
+    "profiles": {
+      "minimax:cn": {
+        "provider": "minimax",
+        "mode": "api_key"
+      }
+    }
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "minimax": {
+        "baseUrl": "https://api.minimaxi.com/anthropic",
+        "api": "anthropic-messages",
+        "authHeader": true,
+        "models": [
+          {
+            "id": "MiniMax-M2.7",
+            "name": "MiniMax M2.7",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0.3,
+              "output": 1.2,
+              "cacheRead": 0.06,
+              "cacheWrite": 0.375
+            },
+            "contextWindow": 204800,
+            "maxTokens": 131072
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "minimax/MiniMax-M2.7"
+      },
+      "models": {
+        "minimax/MiniMax-M2.7": {
+          "alias": "Minimax"
+        }
+      },
+      "workspace": "/Users/edy/.openclaw/workspace",
+      "compaction": {
+        "mode": "safeguard"
+      }
+    }
+  },
+  "tools": {
+    "profile": "full",
+    "alsoAllow": [
+      "feishu_bitable_app",
+      "feishu_bitable_app_table",
+      "feishu_bitable_app_table_field",
+      "feishu_bitable_app_table_record",
+      "feishu_bitable_app_table_view",
+      "feishu_calendar_calendar",
+      "feishu_calendar_event",
+      "feishu_calendar_event_attendee",
+      "feishu_calendar_freebusy",
+      "feishu_chat",
+      "feishu_chat_members",
+      "feishu_create_doc",
+      "feishu_doc_comments",
+      "feishu_doc_media",
+      "feishu_drive_file",
+      "feishu_fetch_doc",
+      "feishu_get_user",
+      "feishu_im_bot_image",
+      "feishu_im_user_fetch_resource",
+      "feishu_im_user_get_messages",
+      "feishu_im_user_get_thread_messages",
+      "feishu_im_user_message",
+      "feishu_im_user_search_messages",
+      "feishu_oauth",
+      "feishu_oauth_batch_auth",
+      "feishu_search_doc_wiki",
+      "feishu_search_user",
+      "feishu_sheet",
+      "feishu_task_comment",
+      "feishu_task_subtask",
+      "feishu_task_task",
+      "feishu_task_tasklist",
+      "feishu_update_doc",
+      "feishu_wiki_space",
+      "feishu_wiki_space_node"
+    ],
+    "web": {
+      "search": {
+        "enabled": true,
+        "provider": "tavily"
+      }
+    }
+  },
+  "bindings": [
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "feishu",
+        "accountId": "default"
+      }
+    }
+  ],
+  "messages": {
+    "tts": {}
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "channels": {
+    "feishu": {
+      "enabled": true,
+      "appId": "cli_a93534f5edb85bd3",
+      "appSecret": "6164wgLUMqCMAL6rOATCDdwxvnYRRVV0",
+      "connectionMode": "websocket",
+      "domain": "feishu",
+      "groupPolicy": "open",
+      "webhookPath": "/feishu/events",
+      "dmPolicy": "pairing",
+      "reactionNotifications": "own",
+      "typingIndicator": true,
+      "resolveSenderNames": true
+    },
+    "openclaw-wechat-access-plugin": {
+      "enabled": true,
+      "token": "530b0bc82564baac4df3ba488f15da14",
+      "wsUrl": "wss://mmgrcalltoken.3g.qq.com/agentwss",
+      "guid": "9310e3875ee5a891f03d91683b8de70c",
+      "userId": 1081139418
+    }
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "5af5504f0848a5fd4bb1729334bac8de08bc600f766df1b8"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "contacts.add",
+        "calendar.add",
+        "reminders.add",
+        "sms.send"
+      ]
+    }
+  },
+  "skills": {
+    "entries": {
+      "coding-agent": {
+        "enabled": true
+      }
+    }
+  },
+  "plugins": {
+    "allow": [
+      "openclaw-lark",
+      "openclaw-wechat-access-plugin"
+    ],
+    "entries": {
+      "tavily": {
+        "enabled": true,
+        "config": {
+          "webSearch": {
+            "apiKey": "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"
+          }
+        }
+      },
+      "feishu": {
+        "enabled": false
+      },
+      "openclaw-lark": {
+        "enabled": true,
+        "config": {}
+      },
+      "openclaw-wechat-access-plugin": {
+        "enabled": true,
+        "config": {}
+      }
+    },
+    "installs": {
+      "openclaw-lark": {
+        "source": "archive",
+        "sourcePath": "/var/folders/8r/0b88l2d52ys5974p0fms08mr0000gn/T/openclaw-lark-DGz9lK/larksuite-openclaw-lark-2026.3.25.tgz",
+        "installPath": "/Users/edy/.openclaw/extensions/openclaw-lark",
+        "version": "2026.3.25",
+        "installedAt": "2026-03-25T04:32:35.134Z"
+      },
+      "openclaw-wechat-access-plugin": {
+        "source": "archive",
+        "sourcePath": "/tmp/fengcch-openclaw-wechat-access-plugin-0.1.1.tgz",
+        "installPath": "/Users/edy/.openclaw/extensions/openclaw-wechat-access-plugin",
+        "version": "0.1.1",
+        "installedAt": "2026-03-26T07:28:09.065Z"
+      }
+    }
+  }
+}

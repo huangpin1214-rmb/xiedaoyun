@@ -1,0 +1,73 @@
+{
+  "version": 2,
+  "runs": {
+    "15d7d148-2a4e-417f-b119-1d90d2a84317": {
+      "runId": "15d7d148-2a4e-417f-b119-1d90d2a84317",
+      "childSessionKey": "agent:main:subagent:05f2d97e-5eaa-4803-874f-e3f430f076ab",
+      "controllerSessionKey": "agent:main:feishu:direct:ou_2ad19bb3863e71e2d0eff5cc4aeedd83",
+      "requesterSessionKey": "agent:main:feishu:direct:ou_2ad19bb3863e71e2d0eff5cc4aeedd83",
+      "requesterOrigin": {
+        "channel": "feishu",
+        "to": "user:ou_2ad19bb3863e71e2d0eff5cc4aeedd83",
+        "accountId": "default"
+      },
+      "requesterDisplayKey": "agent:main:feishu:direct:ou_2ad19bb3863e71e2d0eff5cc4aeedd83",
+      "task": "请帮我调用 feishu_doc_media 工具，action=bitable_upload，参数如下：\n- app_token: TAxUbXUmKaXVuXsNWOacbP1Tne1\n- table_id: tblJ7fKHxchaECKz\n- field_id: fld2F4ad3r\n- file_path: /var/folders/8r/0b88l2d52ys5974p0fms08mr0000gn/T/english_unit2.jpg\n- type: image\n\n把返回的 file_token 发给我。",
+      "cleanup": "keep",
+      "expectsCompletionMessage": true,
+      "spawnMode": "run",
+      "model": "minimax/MiniMax-M2.7",
+      "workspaceDir": "/Users/edy/.openclaw/workspace",
+      "runTimeoutSeconds": 0,
+      "createdAt": 1774665221371,
+      "startedAt": 1774665222136,
+      "sessionStartedAt": 1774665221371,
+      "accumulatedRuntimeMs": 0,
+      "cleanupHandled": true,
+      "retainAttachmentsOnKeep": false,
+      "endedAt": 1774665239565,
+      "outcome": {
+        "status": "ok"
+      },
+      "endedReason": "subagent-complete",
+      "frozenResultText": "抱歉，我查看了可用的飞书工具列表，**没有找到名为 `feishu_doc_media` 的工具**。\n\n目前可用的飞书相关工具包括：\n- 多维表格（bitable）相关：bitable_app、bitable_app_table、bitable_app_table_field、bitable_app_table_record、bitable_app_table_view\n- 日历相关：calendar_calendar、calendar_event、calendar_event_attendee、calendar_freebusy\n- IM消息相关：im_bot_image、im_user_fetch_resource、im_user_get_messages、im_user_message 等\n- 任务相关：task_task、task_tasklist、task_comment、task_subtask\n- 其他：chat、search_user、oauth 等\n\n你说的 `feishu_doc_media` 工具不在我的工具列表中，可能是：\n1. 工具名称拼写有误\n2. 该工具尚未安装或配置\n3. 该工具是其他系统/版本的工具\n\n你能确认一下工具的正确名称，或者告诉我你想要完成的**具体任务**（比如\"上传图片到多维表格的附件字段\"），我可以帮你用现有工具实现。",
+      "frozenResultCapturedAt": 1774665239628,
+      "endedHookEmittedAt": 1774665260971,
+      "cleanupCompletedAt": 1774665260972
+    },
+    "cccd8554-d132-4725-97a1-20e6240200ce": {
+      "runId": "cccd8554-d132-4725-97a1-20e6240200ce",
+      "childSessionKey": "agent:main:subagent:21d20a5f-f1b2-4ce7-88ab-c5f9c0607702",
+      "controllerSessionKey": "agent:main:feishu:direct:ou_2ad19bb3863e71e2d0eff5cc4aeedd83",
+      "requesterSessionKey": "agent:main:feishu:direct:ou_2ad19bb3863e71e2d0eff5cc4aeedd83",
+      "requesterOrigin": {
+        "channel": "feishu",
+        "to": "user:ou_2ad19bb3863e71e2d0eff5cc4aeedd83",
+        "accountId": "default"
+      },
+      "requesterDisplayKey": "agent:main:feishu:direct:ou_2ad19bb3863e71e2d0eff5cc4aeedd83",
+      "task": "请直接调用 feishu_doc_media 工具（action=bitable_upload），参数：\n- app_token: TAxUbXUmKaXVuXsNWOacbP1Tne1\n- table_id: tblJ7fKHxchaECKz\n- field_id: fld2F4ad3r\n- file_path: /var/folders/8r/0b88l2d52ys5974p0fms08mr0000gn/T/math_inequality.jpg\n- type: image\n\n请把返回的完整 JSON 结果发给我，包括 file_token。",
+      "cleanup": "keep",
+      "expectsCompletionMessage": true,
+      "spawnMode": "run",
+      "model": "minimax/MiniMax-M2.7",
+      "workspaceDir": "/Users/edy/.openclaw/workspace",
+      "runTimeoutSeconds": 0,
+      "createdAt": 1774665887128,
+      "startedAt": 1774665887947,
+      "sessionStartedAt": 1774665887128,
+      "accumulatedRuntimeMs": 0,
+      "cleanupHandled": true,
+      "retainAttachmentsOnKeep": false,
+      "endedAt": 1774665902892,
+      "outcome": {
+        "status": "ok"
+      },
+      "endedReason": "subagent-complete",
+      "frozenResultText": "抱歉，我的可用工具列表中**没有** `feishu_doc_media` 这个工具。\n\n我当前可用的飞书相关工具主要包括：\n\n- **多维表格（Bitable）相关**：feishu_bitable_app、feishu_bitable_app_table、feishu_bitable_app_table_field、feishu_bitable_app_table_record、feishu_bitable_app_table_view\n- **日历相关**：feishu_calendar_calendar、feishu_calendar_event、feishu_calendar_freebusy\n- **消息相关**：feishu_im_user_message、feishu_im_user_get_messages、feishu_im_user_search_messages 等\n- **文档相关**：feishu_create_doc、feishu_fetch_doc、feishu_update_doc\n- **任务相关**：feishu_task_task、feishu_task_tasklist 等\n- **用户/群聊**：feishu_get_user、feishu_search_user、feishu_chat 等\n\n**没有** `feishu_doc_media` 工具。如果你是想往多维表格的附件字段上传图片/文件，可以考虑使用 `feishu_bitable_app_table_record` 的 `update` 或 `create` 操作，配合附件类型的字段（type=17）。\n\n需要我帮你用多维表格记录的方式上传吗？",
+      "frozenResultCapturedAt": 1774665902961,
+      "endedHookEmittedAt": 1774666098291,
+      "cleanupCompletedAt": 1774666098292
+    }
+  }
+}

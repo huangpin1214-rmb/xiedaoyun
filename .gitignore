@@ -1,0 +1,20 @@
+# 操作系统
+.DS_Store
+*.swp
+*.tmp
+
+# 缓存/临时（不备份）
+logs/
+media/
+completions/
+memory/
+cache/
+*.log
+
+# OpenClaw 运行时（不备份）
+.openclaw/workspace-state.json
+canvas/
+subagents/
+
+# 教辅素材库图片太大（按需备份）
+教辅素材库/
