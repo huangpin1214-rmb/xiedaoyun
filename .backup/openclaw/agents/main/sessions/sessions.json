@@ -1,7 +1,7 @@
 {
   "agent:main:main": {
     "sessionId": "b283302c-a7c1-4618-929c-b379e5fbd59c",
-    "updatedAt": 1774831534866,
+    "updatedAt": 1774896510079,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -214,13 +214,13 @@
       ],
       "version": 0
     },
-    "status": "done",
-    "startedAt": 1774831521550,
+    "status": "failed",
+    "startedAt": 1774896364408,
     "modelProvider": "minimax",
     "model": "MiniMax-M2.7",
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1774831521531,
+      "generatedAt": 1774896364389,
       "sessionId": "b283302c-a7c1-4618-929c-b379e5fbd59c",
       "sessionKey": "agent:main:main",
       "provider": "minimax",
@@ -732,23 +732,22 @@
         ]
       }
     },
-    "cacheRead": 36361,
-    "cacheWrite": 0,
-    "totalTokensFresh": true,
+    "cacheRead": 0,
+    "cacheWrite": 36881,
+    "totalTokensFresh": false,
     "authProfileOverride": "minimax:cn",
     "authProfileOverrideSource": "auto",
     "authProfileOverrideCompactionCount": 0,
     "contextTokens": 204800,
-    "inputTokens": 1957,
-    "outputTokens": 275,
-    "estimatedCostUsd": 0.06332695499999999,
-    "totalTokens": 37406,
-    "endedAt": 1774831534768,
-    "runtimeMs": 13218
+    "inputTokens": 134,
+    "outputTokens": 45,
+    "estimatedCostUsd": 0.5856436950000001,
+    "endedAt": 1774896397217,
+    "runtimeMs": 32809
   },
   "agent:main:feishu:direct:ou_2ad19bb3863e71e2d0eff5cc4aeedd83": {
     "sessionId": "6d867f16-84b0-4d64-b0ba-835f0d02c0c3",
-    "updatedAt": 1774833172410,
+    "updatedAt": 1774884574467,
     "systemSent": true,
     "abortedLastRun": false,
     "chatType": "direct",
@@ -968,13 +967,13 @@
       ],
       "version": 0
     },
-    "status": "running",
-    "startedAt": 1774833172385,
+    "status": "done",
+    "startedAt": 1774884467946,
     "modelProvider": "minimax",
     "model": "MiniMax-M2.7",
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1774828520956,
+      "generatedAt": 1774884467909,
       "sessionId": "6d867f16-84b0-4d64-b0ba-835f0d02c0c3",
       "sessionKey": "agent:main:feishu:direct:ou_2ad19bb3863e71e2d0eff5cc4aeedd83",
       "provider": "minimax",
@@ -1493,10 +1492,12 @@
     "authProfileOverrideSource": "auto",
     "authProfileOverrideCompactionCount": 0,
     "contextTokens": 204800,
-    "inputTokens": 73520,
-    "outputTokens": 1389,
-    "estimatedCostUsd": 0.14327408999999997,
-    "totalTokens": 51808
+    "inputTokens": 574556,
+    "outputTokens": 3157,
+    "estimatedCostUsd": 2.3280649799999997,
+    "totalTokens": 96473,
+    "endedAt": 1774884574400,
+    "runtimeMs": 106454
   },
   "agent:main:subagent:05f2d97e-5eaa-4803-874f-e3f430f076ab": {
     "sessionId": "d7133bf6-4308-41c6-a6c4-52e559158477",
@@ -2655,5 +2656,27 @@
     "cacheRead": 0,
     "cacheWrite": 25432,
     "estimatedCostUsd": 0.010133399999999999
+  },
+  "agent:main:feishu:group:ou_2ad19bb3863e71e2d0eff5cc4aeedd83": {
+    "chatType": "group",
+    "channel": "feishu",
+    "groupId": "ou_2ad19bb3863e71e2d0eff5cc4aeedd83",
+    "displayName": "feishu:g-ou_2ad19bb3863e71e2d0eff5cc4aeedd83",
+    "origin": {
+      "label": "feishu:group:ou_2ad19bb3863e71e2d0eff5cc4aeedd83",
+      "provider": "feishu",
+      "surface": "feishu",
+      "chatType": "group",
+      "from": "feishu:group:ou_2ad19bb3863e71e2d0eff5cc4aeedd83",
+      "to": "channel:ou_2ad19bb3863e71e2d0eff5cc4aeedd83",
+      "accountId": "default"
+    },
+    "sessionId": "f2a24f58-46fb-4940-8cbd-07054570bca8",
+    "updatedAt": 1774878427958,
+    "deliveryContext": {
+      "channel": "feishu"
+    },
+    "lastChannel": "feishu",
+    "sessionFile": "/Users/edy/.openclaw/agents/main/sessions/f2a24f58-46fb-4940-8cbd-07054570bca8.jsonl"
   }
 }
