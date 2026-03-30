@@ -197,3 +197,49 @@ curl -s -X POST "https://open.feishu.cn/open-apis/drive/v1/files/upload_all" \
 - 地理题必须先识别图中地理环境，再匹配知识点
 - 不能先入为主调用"最典型知识点"去套题目
 - 第20题错因：把新疆和若铁路（塔克拉玛干沙漠）误认为青藏铁路，没有仔细看图辨认
+
+---
+
+## 女儿各科薄弱点（2026-03-30 分析更新）
+
+**🔴 数学 — 最高优先**
+- 分类讨论意识薄弱（等腰三角形漏情况、含参不等式边界）
+- 几何模型识别力弱（半角模型、辅助线构造）
+- 待定系数法运算不过关（k 值易算错）
+- 改进：每天3道分类讨论题 + 几何模型卡片
+
+**🟠 英语 — 高优先（积累型）**
+- 词性转换不扎实（pain→painful、repeat→repeatedly、enter→entrance）
+- 现在完成时标志词混淆（already/yet/since/for vs ago/last）
+- 固定搭配记忆模糊（had difficulty doing、clear the air）
+- 改进：每日3组词性转换闪卡 + 固定搭配集中背
+
+**🟠 地理 — 高优先（思维型）**
+- 因果链条未建立（地形→气候→农业；河流特征→航运/水能）
+- 区域核心特征模糊（青藏=高寒、西北=干旱）
+- 图文对照能力弱
+- 改进：每日10分钟地图+说特征；建立"地气水土生→农业"思维链
+
+**🟡 物理 — 中优先**
+- 受力分析不过关（一重二弹三摩擦不熟练）
+- 液体压强与容器形状综合分析
+- 整体法与隔离法应用不熟
+- 改进：受力分析四步口诀，每题画图
+
+---
+
+## 备份体系（2026-03-30 建立）
+
+- **GitHub 仓库**：`github.com:huangpin1214-rmb/xiedaoyun`
+- **备份脚本**：`~/.openclaw/workspace/scripts/openclaw-backup.sh`
+- **Crontab**：每天凌晨 3:00 自动执行并推送
+- **备份范围**：`.backup/openclaw/`（配置）+ `.backup/skills/`（Skills）
+- **SSH Key**：`~/.ssh/id_ed25519_github`（已添加到 GitHub）
+
+---
+
+## OpenClaw 版本与配置（2026-03-30）
+
+- 当前版本：2026.3.28（已关闭自动升级）
+- 更新策略：手动升级，需要时再升
+- 插件：openclaw-lark（飞书）、openclaw-wechat-access-plugin
