@@ -238,6 +238,19 @@ curl -s -X POST "https://open.feishu.cn/open-apis/drive/v1/files/upload_all" \
 
 ---
 
+## 飞书权限说明（2026-03-31）
+
+### 已确认可用的权限
+- `calendar:calendar:read` → ✅ 可读主日历元数据（summary、calendar_id）
+- `drive:drive:read` → ✅ 云盘文件读写
+
+### 缺失的权限（功能降级可接受）
+- `calendar:calendar.event:read` → ❌ 缺失；只能看忙闲（free/busy），无法查看具体日程详情
+  - 影响：无法查看日程标题、时间、描述等
+  - 状态：已告知频哥，待确认是否授权
+
+---
+
 ## OpenClaw 版本与配置（2026-03-30）
 
 - 当前版本：2026.3.28（已关闭自动升级）
