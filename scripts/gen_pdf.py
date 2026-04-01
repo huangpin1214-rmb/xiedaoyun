@@ -1,0 +1,165 @@
+#!/usr/bin/env python3
+from reportlab.lib.pagesizes import A4
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+from reportlab.lib.units import mm
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak
+from reportlab.lib.enums import TA_LEFT, TA_CENTER, TA_JUSTIFY
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.lib.colors import HexColor
+
+# 注册中文字体
+pdfmetrics.registerFont(TTFont('PingFang', '/System/Library/Fonts/PingFang.ttc'))
+
+# 创建样式
+styles = getSampleStyleSheet()
+title_style = ParagraphStyle(
+    'CustomTitle',
+    parent=styles['Heading1'],
+    fontName='PingFang',
+    fontSize=16,
+    alignment=TA_CENTER,
+    spaceAfter=6,
+)
+subtitle_style = ParagraphStyle(
+    'Subtitle',
+    parent=styles['Normal'],
+    fontName='PingFang',
+    fontSize=10,
+    alignment=TA_CENTER,
+    spaceAfter=12,
+)
+section_style = ParagraphStyle(
+    'Section',
+    parent=styles['Heading2'],
+    fontName='PingFang',
+    fontSize=12,
+    spaceAfter=6,
+    spaceBefore=12,
+)
+question_style = ParagraphStyle(
+    'Question',
+    parent=styles['Normal'],
+    fontName='PingFang',
+    fontSize=10,
+    spaceAfter=4,
+    leading=14,
+)
+answer_style = ParagraphStyle(
+    'Answer',
+    parent=styles['Normal'],
+    fontName='PingFang',
+    fontSize=9,
+    textColor=HexColor('#006400'),
+    spaceAfter=8,
+)
+
+# 内容
+content = []
+
+# 标题
+content.append(Paragraph('2026年成都市初中毕业会考生物模拟试卷（四）', title_style))
+content.append(Paragraph('考试时间：60分钟    满分：100分', subtitle_style))
+content.append(Spacer(1, 6))
+
+# 第I卷
+content.append(Paragraph('第Ⅰ卷  选择题（共40分）', section_style))
+content.append(Paragraph('说明：下列各题的四个选项中，只有一个是符合题意的答案。每小题2分，共40分。', question_style))
+content.append(Spacer(1, 4))
+
+questions = [
+    ("1", "用显微镜观察洋葱表皮细胞临时装片，目镜10×和物镜40×，观察到的细胞被放大了（    ）倍。", "A. 50倍    B. 200倍    C. 400倍    D. 1600倍", "答案：C"),
+    ("2", "能正确表示动物细胞结构的是（    ）", "A. 有细胞壁、叶绿体、液泡    B. 椭圆形，有细胞膜、细胞质、细胞核，无细胞壁    C. 有细胞壁、叶绿体、线粒体    D. 有鞭毛", "答案：B"),
+    ("3", "关于细胞核的说法正确的是（    ）", "A. 细胞核是细胞生命活动的控制中心    B. 所有细胞都有细胞核    C. 细胞核是能量转换主要场所    D. 细胞核不需要线粒体供能", "答案：A"),
+    ("4", "制作口腔上皮细胞临时装片时，滴生理盐水的目的是（    ）", "A. 给细胞提供营养    B. 维持细胞正常形态    C. 消毒杀菌    D. 更容易观察细胞核", "答案：B"),
+    ("5", "关于'绿叶在光下制造有机物'实验，说法正确的是（    ）", "A. 暗处理目的是让叶片积累淀粉    B. 遮光形成对照，变量是光    C. 酒精需加热至沸腾    D. 未遮光部分变蓝说明需要水", "答案：B"),
+    ("6", "正确的光合作用公式是（    ）", "A. CO₂ + H₂O →（光/叶绿体）→ 有机物 + O₂", "答案：A"),
+    ("7", "不能提高农作物产量的是（    ）", "A. 合理密植    B. 延长光照    C. 增加CO₂    D. 大量施用氮肥", "答案：D"),
+    ("8", "温室蔬菜做法不恰当的是（    ）", "A. 增加光照    B. 增加CO₂    C. 夜间降温    D. 夜间升温", "答案：D"),
+    ("9", "关于呼吸作用正确的是（    ）", "A. 只在夜晚进行    B. 产物是CO₂和水    C. 释放能量全部用于生命活动    D. 主要在线粒体进行", "答案：B"),
+    ("10", "消化食物和吸收营养的主要场所是（    ）", "A. 口腔    B. 胃    C. 小肠    D. 大肠", "答案：C"),
+    ("11", "不需要消化就能吸收的是（    ）", "A. 淀粉    B. 蛋白质    C. 脂肪    D. 维生素", "答案：D"),
+    ("12", "胆汁的作用是（    ）", "A. 消化蛋白质    B. 消化脂肪，乳化成脂肪微粒    C. 消化淀粉    D. 中和胃酸", "答案：B"),
+    ("13", "小肠绒毛壁的特点是（    ）", "A. 壁厚，多层细胞    B. 有丰富的毛细血管和淋巴管    C. 只吸收小分子    D. 只吸收脂溶性物质", "答案：B"),
+    ("14", "淀粉开始消化的部位是（    ）", "A. 口腔    B. 胃    C. 小肠    D. 大肠", "答案：A"),
+    ("15", "心脏壁最厚、泵血功能最强的是（    ）", "A. 右心房    B. 左心房    C. 右心室    D. 左心室", "答案：D"),
+    ("16", "体循环的起点和终点是（    ）", "A. 左心房、右心房    B. 左心室、右心室    C. 左心室、右心房    D. 右心室、左心房", "答案：C"),
+    ("17", "关于血细胞正确的是（    ）", "A. 红细胞吞噬病菌    B. 白细胞运输氧    C. 血小板止血凝血    D. 血浆运输氧和CO₂", "答案：C"),
+    ("18", "AB型血可以接受的血型是（    ）", "A. A型    B. B型    C. AB型    D. O型", "答案：C"),
+    ("19", "血涂片中数量最多的血细胞是（    ）", "A. 红细胞    B. 白细胞    C. 血小板    D. 无法判断", "答案：A"),
+    ("20", "代谢废物排出途径包括（    ）", "A. 排尿、排汗、呼气    B. 排尿、排便、呼气    C. 排汗、排便、排尿    D. 排尿、排便、呼气", "答案：A"),
+    ("21", "尿液中尿素浓度升高的原因是（    ）", "A. 蛋白质被过滤出来    B. 部分水被肾小管重吸收    C. 肾小球过滤出问题    D. 肾小管重新分泌尿素", "答案：B"),
+    ("22", "能滤过血液形成原尿的是（    ）", "A. 肾小球    B. 肾小管    C. 肾盂    D. 输尿管", "答案：A"),
+    ("23", "排出尿的意义是（    ）", "A. 排出废物，调节体温    B. 排出废物，调节水和无机盐平衡    C. 排出废物，运输营养    D. 排出废物，促进消化", "答案：B"),
+    ("24", "缩手反射传导路径是（    ）", "A. 感受器→传入神经→神经中枢→传出神经→效应器", "答案：A"),
+    ("25", "属于条件反射的是（    ）", "A. 眨眼反射    B. 缩手反射    C. 谈虎色变    D. 膝跳反射", "答案：C"),
+    ("26", "醉酒后走路不稳因酒精影响（    ）", "A. 大脑    B. 小脑    C. 脑干    D. 脊髓", "答案：B"),
+    ("27", "关于神经元错误的是（    ）", "A. 神经元是神经系统基本单位    B. 神经元由细胞体和突起组成    C. 神经冲动只能单向传导    D. 神经末梢就是感受器", "答案：D"),
+    ("28", "属于后天学习行为的是（    ）", "A. 蜜蜂采蜜    B. 蜘蛛结网    C. 大山雀喝牛奶    D. 鸟类迁徙", "答案：C"),
+    ("29", "体温恒定的是（    ）", "A. 鲤鱼、乌龟、青蛙    B. 家鸽、蝙蝠、鲸    C. 蛇、蜥蜴、壁虎    D. 鲫鱼、带鱼、鲨鱼", "答案：B"),
+    ("30", "动物在自然界作用不包括（    ）", "A. 帮助植物传粉传播种子    B. 促进物质循环    C. 制造有机物储存能量    D. 维持生态平衡", "答案：C"),
+    ("31", "完全变态发育的昆虫是（    ）", "A. 蝗虫    B. 蟋蟀    C. 家蚕    D. 螳螂", "答案：C"),
+    ("32", "夫妇双眼皮，孩子有单眼皮，双眼皮基因可能是（    ）", "A. 全部AA    B. 全部Aa    C. AA或Aa    D. Aa或aa", "答案：D"),
+    ("33", "关于染色体、DNA、基因关系正确的是（    ）", "A. 染色体是基因的载体    B. 一个DNA就是一个基因    C. 基因是染色体上有遗传效应的片段    D. DNA就是染色体", "答案：C"),
+    ("34", "人类正常体细胞染色体数目是（    ）", "A. 23条    B. 23对    C. 46对    D. 48条", "答案：B"),
+    ("35", "生物进化最直接有力的证据是（    ）", "A. 化石证据    B. 胚胎学证据    C. 分子生物学证据    D. 比较解剖学证据", "答案：A"),
+    ("36", "关于自然选择学说错误的是（    ）", "A. 自然选择是定向的    B. 变异是不定向的    C. 自然选择保留有利变异    D. 用进废退是自然选择的基础", "答案：D"),
+    ("37", "食物网中属于生产者的是（    ）", "A. 草    B. 兔    C. 蝗虫    D. 蛇", "答案：A"),
+    ("38", "能量流动特点是（    ）", "A. 循环流动、逐级增加    B. 单向流动、逐级递减    C. 循环流动、逐级递减    D. 单向流动、逐级增加", "答案：B"),
+    ("39", "属于分解者的是（    ）", "A. 藻类    B. 蘑菇    C. 兔子    D. 老虎", "答案：B"),
+    ("40", "关于生物多样性正确的是（    ）", "A. 生物多样性就是物种多样性    B. 外来物种入侵一定有利    C. 最有效措施是就地保护    D. 人类活动不影响生物多样性", "答案：C"),
+]
+
+for num, q, opts, ans in questions:
+    content.append(Paragraph(f'<b>{num}.</b> {q}', question_style))
+    content.append(Paragraph(opts, question_style))
+    content.append(Paragraph(f'<font color="green">{ans}</font>', answer_style))
+
+# 第II卷
+content.append(PageBreak())
+content.append(Paragraph('第Ⅱ卷  非选择题（共60分）', section_style))
+content.append(Spacer(1, 6))
+
+# 填空题
+content.append(Paragraph('<b>填空题（每空1分，共20分）</b>', question_style))
+fill_blanks = [
+    ("41", "植物细胞基本结构包括细胞壁、细胞膜、细胞质和________。动物细胞基本结构包括细胞膜、细胞质和________。根尖分生区与________组织有关。光合作用场所是________。人体最大消化腺是________。", "<font color='green'>答案：细胞核；细胞核；分生；叶绿体；肝脏</font>"),
+    ("42", "扦插繁殖属于________生殖。染色体是遗传物质的________。根吸收水分主要部位是根尖的________区。受精卵分裂场所是________。蛋白质初步消化部位是________。", "<font color='green'>答案：无性；载体；成熟；输卵管；胃</font>"),
+    ("43", "呼吸系统由呼吸道和________组成。神经系统包括中枢神经和________神经系统。神经元包括细胞体和________。心脏防止血液倒流结构是________。尿液形成包括肾小球________作用和肾小管重吸收。", "<font color='green'>答案：肺；周围；突起（或神经纤维）；瓣膜；滤过</font>"),
+    ("44", "动物行为分为________行为和后天学习行为。生物进化趋势是由简单到复杂、由低等到高等、由________。生态系统稳定性与生态系统具有________能力有关。提供能量的营养物质是糖类、脂肪和________。染色体________条时才能形成受精卵。", "<font color='green'>答案：先天性；水生到陆生；自动调节；蛋白质；23</font>"),
+]
+for num, q, ans in fill_blanks:
+    content.append(Paragraph(f'<b>{num}.</b> {q}', question_style))
+    content.append(Paragraph(ans, answer_style))
+
+content.append(Spacer(1, 8))
+
+# 识图题
+content.append(Paragraph('<b>识图题（共20分）</b>', question_style))
+content.append(Paragraph('<b>题目45：眼球结构（10分）</b>', question_style))
+content.append(Paragraph("(1) 外界光线进入眼球后，在[    ]折射后，在[    ]上形成物像。<br/>(2) 近视眼是因为眼球[    ]曲度变大，或眼球前后径过长，导致物像落在视网膜[    ]方。<br/>(3) 矫正近视眼应佩戴[    ]透镜。<br/>(4) 视觉形成部位是[    ]。瞳孔大小由[    ]控制。<br/>(5) 预防近视做法（写2点）：________", question_style))
+content.append(Paragraph("<font color='green'>答案：（1）晶状体；视网膜  （2）晶状体；前  （3）凹  （4）大脑皮层；虹膜  （5）保持正确读写姿势、控制用眼时间</font>", answer_style))
+
+content.append(Spacer(1, 6))
+content.append(Paragraph('<b>题目46：种子结构（10分）</b>', question_style))
+content.append(Paragraph("(1) 菜豆种子[    ]将来发育成茎和叶。<br/>(2) 菜豆种子[    ]两片，储存营养；玉米种子营养主要在[    ]中。<br/>(3) 菜豆和玉米种子相同点：都有[    ]和胚。<br/>(4) 种子萌发外界条件：适宜的[    ]、一定的[    ]、充足的空气。<br/>(5) 种子中发育成新植物体的结构是[    ]。", question_style))
+content.append(Paragraph("<font color='green'>答案：（1）胚芽  （2）子叶；胚乳  （3）种皮（果皮）  （4）温度；水分  （5）胚</font>", answer_style))
+
+content.append(Spacer(1, 8))
+
+# 分析探究题
+content.append(Paragraph('<b>分析探究题（共20分）</b>', question_style))
+content.append(Paragraph('<b>题目47：探究"馒头在口腔中的变化"（10分）</b>', question_style))
+content.append(Paragraph("实验步骤：<br/>- ①号试管：馒头碎屑 + 2mL唾液，37℃水浴10分钟 → 滴碘液<br/>- ②号试管：馒头碎屑 + 2mL清水，37℃水浴10分钟 → 滴碘液<br/>- ③号试管：馒头碎屑 + 2mL唾液，0℃水浴10分钟 → 滴碘液<br/><br/>实验结果：①号不变蓝，②号变蓝，③号部分变蓝<br/><br/>(1) ①号和②号对照，变量是[    ]。<br/>(2) ①号不变蓝，说明[    ]被分解了。<br/>(3) ②号变蓝，说明[    ]。<br/>(4) ①号和③号对照，说明[    ]会影响唾液淀粉酶活性。<br/>(5) 结论：唾液中的[    ]能消化淀粉，酶活性受[    ]影响。", question_style))
+content.append(Paragraph("<font color='green'>答案：（1）唾液  （2）淀粉  （3）淀粉没有被分解  （4）温度  （5）唾液淀粉酶；温度</font>", answer_style))
+
+content.append(Spacer(1, 6))
+content.append(Paragraph('<b>题目48：遗传分析（10分）</b>', question_style))
+content.append(Paragraph("已知：双眼皮（A）为显性，单眼皮（a）为隐性。<br/><br/>调查结果：<br/>- 调查一：父亲双眼皮，母亲单眼皮，子女中单眼皮和双眼皮都有<br/>- 调查二：父母都是双眼皮，子女也都是双眼皮<br/>- 调查三：父亲单眼皮（aa），母亲双眼皮，子女都是双眼皮<br/><br/>(1) 双眼皮和单眼皮在遗传学上称为一对[    ]性状。<br/>(2) 调查一中，父亲基因组成为[    ]，母亲基因组成为[    ]。<br/>(3) 调查二中，如果父母基因组成都是Aa，则子女是单眼皮的概率是[    ]。<br/>(4) 调查三中，如果母亲基因组成是AA，父亲基因组成是aa，则子女基因全部为[    ]，全部为[    ]眼皮。<br/>(5) 女性卵细胞中所含性染色体是[    ]。", question_style))
+content.append(Paragraph("<font color='green'>答案：（1）相对  （2）Aa；aa  （3）1/4或25%  （4）Aa；双  （5）X</font>", answer_style))
+
+# 生成PDF
+output_path = '/tmp/成都中考生物模拟试卷四.pdf'
+doc = SimpleDocTemplate(output_path, pagesize=A4, topMargin=15*mm, bottomMargin=15*mm, leftMargin=15*mm, rightMargin=15*mm)
+doc.build(content)
+print(f'PDF已生成：{output_path}')
