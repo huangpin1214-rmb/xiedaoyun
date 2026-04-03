@@ -22,3 +22,16 @@
 
 - 确保图片上传流程畅通
 - 如果遇到上传问题，记录到 .learnings/ERRORS.md
+
+## 周期性提醒检查
+
+每次 heartbeat 时检查 `memory/heartbeat-state.json` 中的 `reminders`：
+
+1. 读取 reminders 配置
+2. 判断今天是处于哪个 phase（phase1 或 phase2）
+3. 判断今天是否需要提醒：
+   - phase1：只在配置的 days（monday/wednesday/friday）提醒
+   - phase2：每天提醒
+4. 如果需要提醒，发送消息给频哥
+
+**提醒内容从 heartbeat-state.json 的 message 字段读取，不要hardcode。**

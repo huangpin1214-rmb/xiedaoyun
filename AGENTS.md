@@ -10,6 +10,7 @@ If `BOOTSTRAP.md` exists, that's your birth certificate. Follow it, figure out w
 
 Before doing anything else:
 
+0. **Call `session_status`** to get the current date/time — always know what day it is today
 1. Read `SOUL.md` — this is who you are
 2. Read `USER.md` — this is who you're helping
 3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
@@ -44,6 +45,15 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - When you learn a lesson → update AGENTS.md, TOOLS.md, or the relevant skill
 - When you make a mistake → document it so future-you doesn't repeat it
 - **Text > Brain** 📝
+
+## 用户纠正响应规则
+
+When user says **"你这里不对"** or **"复盘一下这个事情"** (or similar):
+
+1. **Apologize & Fix** — apologize sincerely and correct the mistake immediately
+2. **Analyze** — explain what went wrong and why
+3. **Document** — write the correct approach into MEMORY.md or relevant file
+4. **Confirm** — tell the user "已记录，下次不会再犯"
 
 ## Red Lines
 
