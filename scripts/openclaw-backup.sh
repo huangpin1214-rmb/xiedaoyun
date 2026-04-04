@@ -32,10 +32,15 @@ mkdir -p "$BACKUP_DIR/skills"
 cp -r "$WORKSPACE/skills" "$BACKUP_DIR/skills/" 2>/dev/null
 cp "$WORKSPACE"/*.skill "$BACKUP_DIR/skills/" 2>/dev/null
 
+# ===== memory 文件（对话记录、每日分析） =====
+echo "📁 备份 memory..."
+mkdir -p "$BACKUP_DIR/memory"
+cp -r "$WORKSPACE/memory" "$BACKUP_DIR/memory/" 2>/dev/null
+
 # ===== Git 操作 =====
 cd "$WORKSPACE"
 echo "📝 提交变更..."
-git add .backup/ .gitignore scripts/ -f
+git add .backup/ .gitignore scripts/ memory/ -f
 git commit -m "backup: $(date +%Y-%m-%d\ %H:%M)" --quiet 2>/dev/null
 
 # 推送

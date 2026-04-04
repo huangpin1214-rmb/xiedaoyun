@@ -1,0 +1,27 @@
+{
+  "lastChecks": {
+    "email": null,
+    "calendar": null,
+    "weather": null,
+    "daily_review": "2026-04-03T21:00+08:00"
+  },
+  "reminders": {
+    "bio_exam": {
+      "examDate": "2026-04-24",
+      "reminderFrequency": {
+        "phase1": {
+          "start": "2026-04-01",
+          "end": "2026-04-16",
+          "days": ["monday", "wednesday", "friday"]
+        },
+        "phase2": {
+          "start": "2026-04-17",
+          "end": "2026-04-23",
+          "days": ["everyday"]
+        }
+      },
+      "message": "📅 兮兮生物实验操作考试倒计时！今天是提醒督促日，别忘了看看兮兮的复习进度～",
+      "active": true
+    }
+  }
+}
