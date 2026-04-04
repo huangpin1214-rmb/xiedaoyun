@@ -1,7 +1,7 @@
 {
   "agent:main:main": {
     "sessionId": "e64a88fe-1061-46c9-b403-b68aef922e65",
-    "updatedAt": 1775260897366,
+    "updatedAt": 1775266850953,
     "systemSent": true,
     "abortedLastRun": false,
     "authProfileOverride": "minimax:cn",
@@ -388,13 +388,13 @@
       "version": 0
     },
     "status": "done",
-    "startedAt": 1775260884907,
+    "startedAt": 1775266844908,
     "modelProvider": "minimax",
     "model": "MiniMax-M2.7",
     "contextTokens": 204800,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1775260884890,
+      "generatedAt": 1775266844883,
       "sessionId": "e64a88fe-1061-46c9-b403-b68aef922e65",
       "sessionKey": "agent:main:main",
       "provider": "minimax",
@@ -414,9 +414,9 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 47572,
+        "chars": 47219,
         "projectContextChars": 19037,
-        "nonProjectContextChars": 28535
+        "nonProjectContextChars": 28182
       },
       "injectedWorkspaceFiles": [
         {
@@ -575,7 +575,7 @@
       },
       "tools": {
         "listChars": 10193,
-        "schemaChars": 49553,
+        "schemaChars": 48198,
         "entries": [
           {
             "name": "read",
@@ -585,9 +585,9 @@
           },
           {
             "name": "edit",
-            "summaryChars": 511,
-            "schemaChars": 2470,
-            "propertiesCount": 13
+            "summaryChars": 326,
+            "schemaChars": 1103,
+            "propertiesCount": 5
           },
           {
             "name": "write",
@@ -598,7 +598,7 @@
           {
             "name": "exec",
             "summaryChars": 181,
-            "schemaChars": 1086,
+            "schemaChars": 1098,
             "propertiesCount": 12
           },
           {
@@ -675,7 +675,7 @@
           },
           {
             "name": "session_status",
-            "summaryChars": 207,
+            "summaryChars": 262,
             "schemaChars": 89,
             "propertiesCount": 2
           },
@@ -922,19 +922,19 @@
         ]
       }
     },
-    "inputTokens": 3721,
-    "outputTokens": 412,
-    "cacheRead": 38025,
-    "cacheWrite": 0,
-    "estimatedCostUsd": 0.14448134999999998,
-    "totalTokens": 39956,
+    "inputTokens": 130,
+    "outputTokens": 144,
+    "cacheRead": 0,
+    "cacheWrite": 38515,
+    "estimatedCostUsd": 0.17667444,
+    "totalTokens": 38645,
     "totalTokensFresh": true,
-    "endedAt": 1775260897263,
-    "runtimeMs": 12356
+    "endedAt": 1775266850851,
+    "runtimeMs": 5943
   },
   "agent:main:feishu:direct:ou_2ad19bb3863e71e2d0eff5cc4aeedd83": {
     "sessionId": "2abfa89b-b492-48db-9aa4-db22045a7979",
-    "updatedAt": 1775261463247,
+    "updatedAt": 1775267065026,
     "systemSent": true,
     "abortedLastRun": false,
     "authProfileOverride": "minimax:cn",
@@ -1328,13 +1328,13 @@
       "version": 0
     },
     "status": "running",
-    "startedAt": 1775261463237,
+    "startedAt": 1775267065007,
     "modelProvider": "minimax",
     "model": "MiniMax-M2.7",
     "contextTokens": 204800,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1775261383353,
+      "generatedAt": 1775264071195,
       "sessionId": "2abfa89b-b492-48db-9aa4-db22045a7979",
       "sessionKey": "agent:main:feishu:direct:ou_2ad19bb3863e71e2d0eff5cc4aeedd83",
       "provider": "minimax",
@@ -1354,9 +1354,9 @@
         "sandboxed": false
       },
       "systemPrompt": {
-        "chars": 48256,
+        "chars": 47903,
         "projectContextChars": 19037,
-        "nonProjectContextChars": 29219
+        "nonProjectContextChars": 28866
       },
       "injectedWorkspaceFiles": [
         {
@@ -1515,7 +1515,7 @@
       },
       "tools": {
         "listChars": 10193,
-        "schemaChars": 49541,
+        "schemaChars": 48186,
         "entries": [
           {
             "name": "read",
@@ -1525,9 +1525,9 @@
           },
           {
             "name": "edit",
-            "summaryChars": 511,
-            "schemaChars": 2470,
-            "propertiesCount": 13
+            "summaryChars": 326,
+            "schemaChars": 1103,
+            "propertiesCount": 5
           },
           {
             "name": "write",
@@ -1538,7 +1538,7 @@
           {
             "name": "exec",
             "summaryChars": 181,
-            "schemaChars": 1086,
+            "schemaChars": 1098,
             "propertiesCount": 12
           },
           {
@@ -1615,7 +1615,7 @@
           },
           {
             "name": "session_status",
-            "summaryChars": 207,
+            "summaryChars": 262,
             "schemaChars": 89,
             "propertiesCount": 2
           },
@@ -1862,12 +1862,12 @@
         ]
       }
     },
-    "inputTokens": 4107,
-    "outputTokens": 198,
-    "cacheRead": 38258,
+    "inputTokens": 330928,
+    "outputTokens": 11041,
+    "cacheRead": 37857,
     "cacheWrite": 0,
-    "estimatedCostUsd": 0.062159835000000004,
-    "totalTokens": 42231,
+    "estimatedCostUsd": 0.28153010999999994,
+    "totalTokens": 64769,
     "totalTokensFresh": true
   },
   "agent:main:subagent:05f2d97e-5eaa-4803-874f-e3f430f076ab": {

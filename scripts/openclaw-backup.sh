@@ -5,6 +5,8 @@
 WORKSPACE="$HOME/.openclaw/workspace"
 BACKUP_DIR="$WORKSPACE/.backup"
 OPENCLAW_DIR="$HOME/.openclaw"
+LOG_FILE="$WORKSPACE/.backup.log"
+STATUS="✅ 备份成功"
 
 echo "📦 开始备份... $(date)"
 
@@ -45,6 +47,61 @@ git commit -m "backup: $(date +%Y-%m-%d\ %H:%M)" --quiet 2>/dev/null
 
 # 推送
 echo "🚀 推送到 GitHub..."
-git push origin main 2>&1
+PUSH_RESULT=$(git push origin main 2>&1)
+PUSH_EXIT=$?
 
-echo "✅ 备份完成: $(date)"
+if [ $PUSH_EXIT -ne 0 ]; then
+    STATUS="❌ 备份失败"
+    echo "$STATUS: $PUSH_RESULT" | tee -a "$LOG_FILE"
+    exit 1
+fi
+
+echo "✅ 备份完成: $(date)" | tee -a "$LOG_FILE"
+
+# ===== 发送飞书通知 =====
+python3 << 'PYEOF'
+import subprocess, json, sys
+
+# 飞书应用配置
+APP_ID = "cli_a93534f5edb85bd3"
+APP_SECRET = subprocess.run(
+    ["security", "find-generic-password", "-s", "openclaw-feishu-app", "-a", APP_ID, "-w"],
+    capture_output=True, text=True
+).stdout.strip()
+
+USER_OPEN_ID = "ou_2ad19bb3863e71e2d0eff5cc4aeedd83"
+
+# 获取 app_access_token
+result = subprocess.run(
+    ["curl", "-s", "-X", "POST",
+     "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal",
+     "-H", "Content-Type: application/json",
+     "-d", json.dumps({"app_id": APP_ID, "app_secret": APP_SECRET})],
+    capture_output=True, text=True
+)
+token_data = json.loads(result.stdout)
+app_token = token_data.get("tenant_access_token", "")
+
+if not app_token:
+    print("获取 token 失败，跳过通知")
+    sys.exit(0)
+
+# 发送消息
+import datetime
+now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+msg = f"📦 定时备份报告\n\n✅ GitHub 推送成功\n⏰ 时间：{now}\n📁 备份内容：配置、Skills、memory"
+
+result = subprocess.run(
+    ["curl", "-s", "-X", "POST",
+     "https://open.feishu.cn/open-apis/im/v1/messages?receive_id_type=open_id",
+     "-H", f"Authorization: Bearer {app_token}",
+     "-H", "Content-Type: application/json",
+     "-d", json.dumps({
+         "receive_id": USER_OPEN_ID,
+         "msg_type": "text",
+         "content": json.dumps({"text": msg})
+     })],
+    capture_output=True, text=True
+)
+print("飞书通知已发送")
+PYEOF

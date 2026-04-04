@@ -1,11 +1,11 @@
 {
   "meta": {
-    "lastTouchedVersion": "2026.3.28",
-    "lastTouchedAt": "2026-03-29T22:45:22.333Z"
+    "lastTouchedVersion": "2026.4.2",
+    "lastTouchedAt": "2026-04-04T00:40:22.836Z"
   },
   "wizard": {
-    "lastRunAt": "2026-03-29T22:40:25.894Z",
-    "lastRunVersion": "2026.3.28",
+    "lastRunAt": "2026-04-04T00:40:22.821Z",
+    "lastRunVersion": "2026.4.2",
     "lastRunCommand": "doctor",
     "lastRunMode": "local"
   },
@@ -190,7 +190,8 @@
   "plugins": {
     "allow": [
       "openclaw-lark",
-      "openclaw-wechat-access-plugin"
+      "openclaw-wechat-access-plugin",
+      "minimax"
     ],
     "entries": {
       "tavily": {
@@ -211,6 +212,9 @@
       "openclaw-wechat-access-plugin": {
         "enabled": true,
         "config": {}
+      },
+      "minimax": {
+        "enabled": true
       }
     },
     "installs": {
