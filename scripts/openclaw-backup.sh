@@ -60,14 +60,14 @@ echo "✅ 备份完成: $(date)" | tee -a "$LOG_FILE"
 
 # ===== 发送飞书通知 =====
 python3 << 'PYEOF'
-import subprocess, json, sys
+import subprocess, json, sys, os
 
-# 飞书应用配置
+# 飞书应用配置 - 从 openclaw.json 读取
 APP_ID = "cli_a93534f5edb85bd3"
-APP_SECRET = subprocess.run(
-    ["security", "find-generic-password", "-s", "openclaw-feishu-app", "-a", APP_ID, "-w"],
-    capture_output=True, text=True
-).stdout.strip()
+CONFIG_FILE = os.path.expanduser("~/.openclaw/openclaw.json")
+with open(CONFIG_FILE) as f:
+    feishu_cfg = json.load(f).get("channels", {}).get("feishu", {})
+APP_SECRET = feishu_cfg.get("appSecret", "")
 
 USER_OPEN_ID = "ou_2ad19bb3863e71e2d0eff5cc4aeedd83"
 
