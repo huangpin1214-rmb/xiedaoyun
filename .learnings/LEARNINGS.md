@@ -79,6 +79,60 @@ Corrections, insights, and knowledge gaps captured during development.
 
 ---
 
+## [LRN-20260404-001] correction
+
+**Logged**: 2026-04-04T21:45:00+08:00
+**Priority**: high
+**Status**: pending
+**Area**: tutoring
+
+### Summary
+答案不能来回改，根源是没有独立判断；物理自检时我自己做B1/B4/23-1三道题都出错
+
+### Details
+**事件："
+答案改了三遍"现象**
+- 第10题改了三遍，越改越没把握，根源是：没有独立判断，每次都是看到"好像不对"就改，而不是真的想清楚
+- 改进：自己做一遍再对照，不一致时直接报给频哥确认，不强行解释
+
+**物理自检失败教训**
+- 我自检 B1、B4、23-1 三道题，都和原始记录不一致
+- 事后分析：我是在"验证已知答案"而不是"独立解题"，这两件事本质不同
+- 验证已知答案：只能做原理层面检查，不能重新做一遍
+- 独立解题后发现不一致：如实说"我算出X，记录Y，请确认"
+
+### Suggested Action
+独立判断 + 不改记录：自己做一遍，不一致就报给频哥，不强行统一
+
+### Metadata
+- Source: self_review
+- Tags: tutoring, answer-checking, self-discipline
+
+---
+
+## [LRN-20260404-002] best_practice
+
+**Logged**: 2026-04-04T21:45:00+08:00
+**Priority**: medium
+**Status**: pending
+**Area**: infra
+
+### Summary
+PDF处理：系统Python的pypdf可用，pip install的反而没有；工具使用前先盘点环境
+
+### Details
+今天调了7-8种PDF处理方法失败，最终发现：
+- `/usr/bin/python3`（系统Python）有 `pypdf` 库，可用
+- `pip install` 的反而没有
+
+**工具使用规则**：先盘点环境，再选择工具，避免随机试错
+
+### Metadata
+- Source: error
+- Tags: pdf, python, environment-check
+
+---
+
 ## [LRN-20260328-003] best_practice
 
 **Logged**: 2026-03-28T23:10:00+08:00

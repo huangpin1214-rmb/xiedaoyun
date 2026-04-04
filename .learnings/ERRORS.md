@@ -95,3 +95,43 @@ const fullBody = Buffer.concat([headerBuf, fileBuf, trailerBuf]);
 - See Also: ERR-20260328-001（晚上又一次踩同样的坑，用 Buffer.concat 解决）
 
 ---
+
+## [ERR-20260404-001] Get笔记列表查询慢
+
+**Logged**: 2026-04-04T10:36:00+08:00
+**Priority**: medium
+**Status**: documented
+**Area**: getnote
+
+### Summary
+Get笔记列表 API 不支持日期过滤，只能按时间倒序翻页。查"90天前某一天"需要翻完全部笔记。
+
+### Error
+Get笔记共 7331 条，从最新往旧翻到 2026-01-04 翻了 36 页才找到，每页 20 条，每次请求间隔 0.2s，耗时约 2 分钟。
+
+### Context
+- 列表 API：`GET /open/api/v1/resource/note/list?since_id=0`
+- 不支持按日期过滤、不支持按关键词搜索（搜索用 `/recall` 接口）
+- 单次请求间隔 0.2s，翻 36 页 ≈ 2 分钟
+- 语义搜索接口 `/recall` 更快但只能搜内容，不能按日期查列表
+
+### 教训
+1. **查特定日期的笔记**：先用 `/recall` 语义搜索日期关键词（如"1月4日"），比翻列表快得多
+2. **翻列表时用后台 process**：耗时长不要在主流程等待，用 `exec background:true` + `process poll`
+3. **已知 API 限制 → 换思路**：Get笔记不支持日期过滤，搜索日期相关内容应该用 recall 接口而不是 list
+
+### Suggested Fix
+查特定日期的笔记 → 用 recall 接口：
+```bash
+curl -X POST "https://openapi.biji.com/open/api/v1/resource/recall" \
+  -H "Authorization: $API_KEY" \
+  -H "X-Client-ID: $CLIENT_ID" \
+  -d '{"query":"1月4日","top_k":10}'
+```
+翻列表（无日期过滤需求时）→ 用后台执行，不阻塞主对话
+
+### Metadata
+- Reproducible: N/A（API 限制，非 bug）
+- Related: Get笔记 skill installed at /Users/edy/.openclaw/workspace/skills/getnote
+
+---

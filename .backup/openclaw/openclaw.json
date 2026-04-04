@@ -184,6 +184,12 @@
     "entries": {
       "coding-agent": {
         "enabled": true
+      },
+      "getnote": {
+        "apiKey": "gk_live_9dace17c324ab0c6.41c06a0e5732a5d7447f034d3bbe2082f54a48732dd24685",
+        "env": {
+          "GETNOTE_CLIENT_ID": "cli_3802f9db08b811f197679c63c078bacc"
+        }
       }
     }
   },
