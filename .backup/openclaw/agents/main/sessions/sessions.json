@@ -1,7 +1,7 @@
 {
   "agent:main:main": {
     "sessionId": "e64a88fe-1061-46c9-b403-b68aef922e65",
-    "updatedAt": 1775305571899,
+    "updatedAt": 1775328331311,
     "systemSent": true,
     "abortedLastRun": false,
     "authProfileOverride": "minimax:cn",
@@ -388,13 +388,13 @@
       "version": 0
     },
     "status": "done",
-    "startedAt": 1775305560077,
+    "startedAt": 1775328327063,
     "modelProvider": "minimax",
     "model": "MiniMax-M2.7",
     "contextTokens": 204800,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1775305560042,
+      "generatedAt": 1775328327040,
       "sessionId": "e64a88fe-1061-46c9-b403-b68aef922e65",
       "sessionKey": "agent:main:main",
       "provider": "minimax",
@@ -922,19 +922,19 @@
         ]
       }
     },
-    "inputTokens": 1836,
-    "outputTokens": 329,
-    "cacheRead": 37624,
-    "cacheWrite": 0,
-    "estimatedCostUsd": 0.53849706,
-    "totalTokens": 39330,
+    "inputTokens": 130,
+    "outputTokens": 36,
+    "cacheRead": 0,
+    "cacheWrite": 48220,
+    "estimatedCostUsd": 0.8372797500000001,
+    "totalTokens": 48350,
     "totalTokensFresh": true,
-    "endedAt": 1775305571778,
-    "runtimeMs": 11701
+    "endedAt": 1775328331201,
+    "runtimeMs": 4138
   },
   "agent:main:feishu:direct:ou_2ad19bb3863e71e2d0eff5cc4aeedd83": {
     "sessionId": "2abfa89b-b492-48db-9aa4-db22045a7979",
-    "updatedAt": 1775306541931,
+    "updatedAt": 1775315599954,
     "systemSent": true,
     "abortedLastRun": false,
     "authProfileOverride": "minimax:cn",
@@ -1327,14 +1327,14 @@
       ],
       "version": 0
     },
-    "status": "running",
-    "startedAt": 1775306541882,
+    "status": "done",
+    "startedAt": 1775315587567,
     "modelProvider": "minimax",
     "model": "MiniMax-M2.7",
     "contextTokens": 204800,
     "systemPromptReport": {
       "source": "run",
-      "generatedAt": 1775306199440,
+      "generatedAt": 1775315587428,
       "sessionId": "2abfa89b-b492-48db-9aa4-db22045a7979",
       "sessionKey": "agent:main:feishu:direct:ou_2ad19bb3863e71e2d0eff5cc4aeedd83",
       "provider": "minimax",
@@ -1863,13 +1863,15 @@
       }
     },
     "inputTokens": 130,
-    "outputTokens": 113,
-    "cacheRead": 0,
-    "cacheWrite": 176412,
-    "estimatedCostUsd": 6.327644070000001,
-    "totalTokens": 176542,
+    "outputTokens": 307,
+    "cacheRead": 174906,
+    "cacheWrite": 470,
+    "estimatedCostUsd": 8.208757770000002,
+    "totalTokens": 175506,
     "totalTokensFresh": true,
-    "channel": "feishu"
+    "channel": "feishu",
+    "endedAt": 1775315599869,
+    "runtimeMs": 12302
   },
   "agent:main:subagent:05f2d97e-5eaa-4803-874f-e3f430f076ab": {
     "sessionId": "d7133bf6-4308-41c6-a6c4-52e559158477",
