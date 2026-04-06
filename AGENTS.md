@@ -62,6 +62,18 @@ When user says **"你这里不对"** or **"复盘一下这个事情"** (or simil
 - `trash` > `rm` (recoverable beats gone forever)
 - When in doubt, ask.
 
+## Skill 安装安全规则（2026-04-06 新增）
+
+**安装任何新 skill 前，必须先运行 `skill-vetter` 进行安全审查。**
+
+这条规则必须执行，不可跳过：
+1. 用户要求安装 skill → 先调用 `skill-vetter` 检查风险
+2. 风险为 Low/Medium → 告知风险结果，用户确认后再安装
+3. 风险为 High/Critical → 直接拒绝安装，建议用户另找替代方案
+4. 安装完成后，将 skill 记录到 memory/ 备用
+
+适用场景：ClawHub / GitHub / 其他来源安装的任何 skill。
+
 ## External vs Internal
 
 **Safe to do freely:**

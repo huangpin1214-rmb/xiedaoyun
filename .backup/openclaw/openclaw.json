@@ -186,9 +186,9 @@
         "enabled": true
       },
       "getnote": {
-        "apiKey": "gk_live_9dace17c324ab0c6.41c06a0e5732a5d7447f034d3bbe2082f54a48732dd24685",
+        "apiKey": "gk_live_79414cc5d34021a6.f48b009c9ed9470d05fbec8f4ef919f4d657e7a15d91347a",
         "env": {
-          "GETNOTE_CLIENT_ID": "cli_3802f9db08b811f197679c63c078bacc"
+          "GETNOTE_CLIENT_ID": "cli_a1b2c3d4e5f6789012345678abcdef90"
         }
       }
     }

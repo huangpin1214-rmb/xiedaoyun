@@ -8,6 +8,14 @@
     "multi-search-engine-2": {
       "version": "1.0.0",
       "installedAt": 1775382978012
+    },
+    "skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1775466973063
+    },
+    "openclaw-find-skills": {
+      "version": "1.0.0",
+      "installedAt": 1775467296544
     }
   }
 }
