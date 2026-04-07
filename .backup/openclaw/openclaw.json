@@ -137,11 +137,13 @@
   "channels": {
     "feishu": {
       "enabled": true,
+      "requireMention": false,
       "appId": "cli_a93534f5edb85bd3",
       "appSecret": "6164wgLUMqCMAL6rOATCDdwxvnYRRVV0",
       "connectionMode": "websocket",
       "domain": "feishu",
       "groupPolicy": "open",
+      "allowFrom": ["*"],
       "webhookPath": "/feishu/events",
       "dmPolicy": "pairing",
       "reactionNotifications": "own",
