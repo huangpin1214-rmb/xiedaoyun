@@ -6,14 +6,5 @@
       "provider": "minimax",
       "key": "sk-cp-shEuWarV8jGnD585UxAlI8QVmy0av3NJnvlV8skoPRxMA7VXo3G-x0rHirOuTRXKa2He_-lhgtIUeexFgw0n4lQRam2oxXNZfUkAbSFidq-cQ6J8HkO4EQs"
     }
-  },
-  "lastGood": {
-    "minimax": "minimax:cn"
-  },
-  "usageStats": {
-    "minimax:cn": {
-      "errorCount": 0,
-      "lastUsed": 1775674185908
-    }
   }
 }
