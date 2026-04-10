@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-09T23:26:59.647Z",
+  "entries": {
+    "memory:memory/2026-03-28.md:1:36": {
+      "key": "memory:memory/2026-03-28.md:1:36",
+      "path": "memory/2026-03-28.md",
+      "startLine": 1,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "# 2026-03-28 日志 ## 今天发生的事 ### 错题本系统搭建 - 为频哥搭建了「初二错题本」飞书多维表格 - 表结构:学科、题目内容、正确答案、错因分析、知识点(多选)、难度(⭐)、录入时间、备注、原图 - 完整流程打通:发图片+指令 → AI识别 → 自动录入飞书表格(含原图) - app_token: `TAxUbXUmKaXVuXsNWOacbP1Tne1` - table_id: `tblJ7fKHxchaECKz` ### 技术突破(折腾最久的问题) **飞书 Bitable 附件上传(彻底解决)** 核心问题:云盘 API 返回的 file_token 在 bitable 里预览 404。 解决过程: 1. 最初发现 feishu_doc_media 工具描述不全,读源码发现 hidden action `bitable_upload` 2. Gateway 重启后工具不可用,尝试用 curl 调 API 绕过 3. 走了大量弯路:错误 endpoint(media vs files)、错误 parent_type(bitable_file vs bitable_image) 4. 最终发现正确方案:直接从 Keychain 拿 user access_token → 调 `https://open.feishu.cn/open-apis/drive/v1/files/upload_all` + `extra.bitablePerm` 5. 成功!完整流程稳定 **教训:** - 工具描述不等于工具能力,源码才是最终答案 - API en",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.8277861159993063,
+      "maxScore": 0.8277861159993063,
+      "firstRecalledAt": "2026-04-09T23:26:59.647Z",
+      "lastRecalledAt": "2026-04-09T23:26:59.647Z",
+      "queryHashes": [
+        "840b8c38906c"
+      ],
+      "recallDays": [
+        "2026-04-10"
+      ],
+      "conceptTags": [
+        "gateway",
+        "app-token",
+        "table-id",
+        "file-token",
+        "feishu-doc-media",
+        "bitable-upload",
+        "parent-type",
+        "bitable-file"
+      ]
+    },
+    "memory:memory/2026-04-04.md:1:30": {
+      "key": "memory:memory/2026-04-04.md:1:30",
+      "path": "memory/2026-04-04.md",
+      "startLine": 1,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "# 2026-04-04 日志 ## 今日完成事项 ### 系统与工具 - OpenClaw 升级 2026.3.28 → 2026.4.2 ✅ - 备份脚本升级：memory/ 目录纳入备份 + 飞书通知功能 ✅ - Get笔记 skill 安装 + 配置完成 ✅（API Key: gk_live_9dace1...） - 备份脚本加入飞书通知，凌晨3点备份后自动推送消息给频哥 ✅ ### 兮兮辅导 - 物理错题本（育才水井坊 七八章练习 20260312）录入 9 条到飞书 Bitable ✅ - PDF 附件上传到「兮兮的错题本」（file_token: SEY4bt2t1o2dupx13EtcyGrDnzm）✅ ### 频哥请求的提醒 - 今晚 21:00 提醒频哥找兮兮要生物 + 英语考试卷子 ✅（已设置 at 任务） ## 今日启发（Get笔记辅导审查） 从 Get笔记 提取的辅导原则（已写入 MEMORY.md）： 1. **虚假掌握感是最大敌人**：越熟的知识点越容易大意丢分 2. **英语是积累型**：每天3组词性转换 > 一次性刷100道题 3. **生物资料最完整**：功夫最深但不能松懈，持续巩固 4. **错题本是核心资产**：坚持录入 + 定期回顾 ## 复盘与教训（2026-04-04） ### 今日教训 1. **答案不能来回改**：第10题改了三遍，根源是没有独立判断 → 已写入MEMORY.md「独立判断原则」",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.822701362471387,
+      "maxScore": 0.822701362471387,
+      "firstRecalledAt": "2026-04-09T23:26:59.647Z",
+      "lastRecalledAt": "2026-04-09T23:26:59.647Z",
+      "queryHashes": [
+        "840b8c38906c"
+      ],
+      "recallDays": [
+        "2026-04-10"
+      ],
+      "conceptTags": [
+        "备份",
+        "2026.3.28",
+        "2026.4.2",
+        "gk-live-9dace1",
+        "file-token",
+        "memory.md",
+        "已写入memory.md",
+        "日志"
+      ]
+    }
+  }
+}
