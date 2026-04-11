@@ -3,6 +3,9 @@
 # 每天检查并更新所有Skills
 # cron: 0 6 * * * /Users/edy/.openclaw/workspace/scripts/openclaw-auto-update.sh
 
+# 确保 PATH 包含 /usr/local/bin（Node.js 全局命令在这里）
+export PATH="/usr/local/bin:$PATH"
+
 WORKSPACE="$HOME/.openclaw/workspace"
 LOG_FILE="$WORKSPACE/.backup.log"
 DATE=$(date +%Y-%m-%d)
