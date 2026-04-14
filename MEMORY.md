@@ -392,7 +392,11 @@ OpenClaw 升级时如果 Git 有更新，workspace 会被 `git pull --rebase` �
 }
 ```
 
-**预防**：升级前先检查 git 状态，确保本地修改已提交；升级后检查 `plugins.entries.feishu.enabled` 是否被重置为 false，如被重置立即手动改回 true 并重启 Gateway。（2026-03-30）
+**预防**：升级前先检查 git 状态，确保本地修改已提交；升级后检查 `plugins.entries.feishu.enabled` 是否被重置为 false，如被重置立即手动改回 true 并重启 Gateway。
+
+**自动防护**：每 30 分钟检查一次 `feishu.enabled`，若被重置为 false 则自动修复并重启 Gateway。
+
+**飞书通道问题排查优先级**：遇到飞书消息不响应时，**首先检查** `plugins.entries.feishu.enabled` 是否为 true（这是最常见的重置点），其次检查飞书插件是否 loaded，再检查 dmPolicy 配置。（2026-03-30）
 
 - 当前版本：2026.4.2（已关闭自动升级）
 - 更新策略：手动升级，需要时再升
