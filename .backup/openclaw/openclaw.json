@@ -1,11 +1,11 @@
 {
   "meta": {
-    "lastTouchedVersion": "2026.4.2",
-    "lastTouchedAt": "2026-04-04T00:40:22.836Z"
+    "lastTouchedVersion": "2026.4.12",
+    "lastTouchedAt": "2026-04-14T06:29:47.402Z"
   },
   "wizard": {
-    "lastRunAt": "2026-04-04T00:40:22.821Z",
-    "lastRunVersion": "2026.4.2",
+    "lastRunAt": "2026-04-14T05:55:35.955Z",
+    "lastRunVersion": "2026.4.12",
     "lastRunCommand": "doctor",
     "lastRunMode": "local"
   },
@@ -46,6 +46,21 @@
             },
             "contextWindow": 204800,
             "maxTokens": 131072
+          },
+          {
+            "id": "MiniMax-V06",
+            "name": "MiniMax V06 (视觉)",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0.5,
+              "output": 1.5
+            },
+            "contextWindow": 204800,
+            "maxTokens": 131072
           }
         ]
       }
@@ -56,9 +71,15 @@
       "model": {
         "primary": "minimax/MiniMax-M2.7"
       },
+      "imageModel": {
+        "primary": "minimax/MiniMax-V06"
+      },
       "models": {
         "minimax/MiniMax-M2.7": {
           "alias": "Minimax"
+        },
+        "minimax/MiniMax-V06": {
+          "alias": "Minimax-V06"
         }
       },
       "workspace": "/Users/edy/.openclaw/workspace",
@@ -147,17 +168,10 @@
         "*"
       ],
       "webhookPath": "/feishu/events",
-      "dmPolicy": "pairing",
+      "dmPolicy": "open",
       "reactionNotifications": "own",
       "typingIndicator": true,
       "resolveSenderNames": true
-    },
-    "openclaw-wechat-access-plugin": {
-      "enabled": true,
-      "token": "530b0bc82564baac4df3ba488f15da14",
-      "wsUrl": "wss://mmgrcalltoken.3g.qq.com/agentwss",
-      "guid": "9310e3875ee5a891f03d91683b8de70c",
-      "userId": 1081139418
     }
   },
   "gateway": {
@@ -199,9 +213,10 @@
   },
   "plugins": {
     "allow": [
-      "openclaw-lark",
-      "openclaw-wechat-access-plugin",
-      "minimax"
+      "minimax",
+      "memory-core",
+      "tavily",
+      "feishu"
     ],
     "entries": {
       "tavily": {
@@ -213,15 +228,7 @@
         }
       },
       "feishu": {
-        "enabled": false
-      },
-      "openclaw-lark": {
-        "enabled": true,
-        "config": {}
-      },
-      "openclaw-wechat-access-plugin": {
-        "enabled": true,
-        "config": {}
+        "enabled": true
       },
       "minimax": {
         "enabled": true
