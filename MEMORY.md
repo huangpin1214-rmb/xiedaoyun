@@ -379,7 +379,20 @@ curl -s -X POST "https://open.feishu.cn/open-apis/drive/v1/files/upload_all" \
 
 ---
 
-## OpenClaw 版本与配置（2026-03-30）
+## OpenClaw 版本与配置
+
+### ⚠️ 升级 Workspace 重置风险（2026-04-14 新增）
+OpenClaw 升级时如果 Git 有更新，workspace 会被 `git pull --rebase` 覆盖，以下字段**必须保留**：
+
+```json
+"plugins": {
+  "entries": {
+    "feishu": { "enabled": true }   ← 飞书插件，必须保持 true！
+  }
+}
+```
+
+**预防**：升级前先检查 git 状态，确保本地修改已提交；升级后检查 `plugins.entries.feishu.enabled` 是否被重置为 false，如被重置立即手动改回 true 并重启 Gateway。（2026-03-30）
 
 - 当前版本：2026.4.2（已关闭自动升级）
 - 更新策略：手动升级，需要时再升
