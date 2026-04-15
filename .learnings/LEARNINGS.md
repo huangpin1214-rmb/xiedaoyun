@@ -243,3 +243,68 @@ AI 图像生成模型无法可靠渲染中文标签，SVG→QLManage→PNG 是�
 - See Also: LRN-20260328-004（飞书相关知识）
 
 ---
+
+## [LRN-20260415-001] knowledge_gap
+
+**Logged**: 2026-04-15T06:22:00+08:00
+**Priority**: high
+**Status**: pending
+**Area**: docs
+
+### Summary
+地理题分析时遗漏了老师的红笔批改标记，导致漏判扣分点；另一个AI指出后才发现问题
+
+### Details
+收到兮兮的地理考试答题卡图片（27题和28题），我识别后录入错题本。但另一个AI工具的批改指出：
+- 我漏判了27(1)题的山脉走向扣分（老师划掉了"自西南向东北"，应该是"东北-西南走向"）
+- 27(3)商品率扣分原因分析也不够精确
+- 没有给出满分版答案
+
+我的分析 vs 另一个AI的分析差距明显，说明图像识别存在盲区——老师的红笔批改痕迹容易被忽略。
+
+### Suggested Action
+收到图片类错题时，必须：
+1. 先定位所有红笔标记，每处划痕都对应一个扣分点
+2. 对照题目和小题号，确认是哪一空的哪个词被划掉
+3. 查MEMORY.md里的地理备考资料，对照标准地理术语
+4. 给出"错误写法→正确写法"两步走分析
+5. 总结是"知识性错误"还是"表述性失分"
+
+### Metadata
+- Source: user_feedback
+- Related Files: memory/成都中考生物十年完整分析.md, MEMORY.md
+- Tags: geography, image-analysis, exam-review, teaching
+- See Also: LRN-20260329-001 (地理判题原则：图文对照优先)
+- Pattern-Key: geo.exam.red-pen-analysis
+
+---
+
+## [LRN-20260415-002] best_practice
+
+**Logged**: 2026-04-15T06:22:30+08:00
+**Priority**: high
+**Status**: pending
+**Area**: config
+
+### Summary
+做错题分析时应该调用对应学科的tutor skill，而不是凭直觉输出；被用户指正后应该立即调用self-improvement skill记录
+
+### Details
+频哥让我用self-improvement skill复盘，我才发现：
+1. 收到"录入错题本"指令时，应该同时调用对应学科skill（如geography-tutor）做分析
+2. 被频哥指出"和另一个AI分析有差距"时，应该立即调用self-improvement记录，而不是自己凭直觉写复盘
+
+这是一个流程漏洞：skill触发后应该自动走skill流程，而不是跳过skill直接输出。
+
+### Suggested Action
+建立两个强制习惯：
+- 收到图片类错题 → 立即调用对应学科tutor skill（geography-tutor/math-tutor/biology-tutor等）
+- 被用户指正分析有差距 → 立即调用self-improvement skill记录
+
+### Metadata
+- Source: user_feedback
+- Related Files: skills/geography-tutor/SKILL.md, skills/self-improving-agent/SKILL.md
+- Tags: workflow, skill-trigger, self-improvement
+- Pattern-Key: skill.forced-calling-habit
+
+---
