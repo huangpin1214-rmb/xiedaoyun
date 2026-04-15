@@ -7,17 +7,45 @@
 - 不主动发起多次重复授权请求
 - 批量操作优先，减少 API 调用次数
 
-### 飞书权限卡片处理（2026-04-03 新增）
+### 飞书权限卡片处理（2026-04-03 新增，已更新 2026-04-15）
 - 当出现 `im:message` / `im:message.send_as_user` 等用户身份权限申请卡片时
 - **不要反复排查 token 是否有效** → 频哥已经批量授权过了，token 本身没问题
-- **正确做法**：直接建议用 `feishu_oauth_batch_auth` 重新授权，而不是反复排查
-- 教训：之前花了很长时间排查 token，但真正的问题是用户授权范围不全，batch auth 一步解决
+- `feishu_oauth_batch_auth` 是旧版工具，**新版(2026.4.x)已不存在**
+- **正确做法**：优先用 tenant token 绕过 uat 问题；如果 tenant token 不够用，再尝试引导用户授权
+- 教训：之前花了很长时间排查 token 和授权方式，**tenant token 才是捷径**
 
 ---
 
 ## 技术经验
 
-### 🔑 飞书 Bitable 附件上传（完整解决方案 2026-03-28）
+### 🔑 飞书 Token 体系（2026-04-15 更新）
+
+**两种 Token 用途不同：**
+
+| Token 类型 | 获取方式 | 用途 | 有效期 |
+|-----------|---------|------|--------|
+| User Access Token (uat) | OAuth 用户授权 | 操作需要用户身份的功能（部分 bitable/云盘） | 2小时，过期需重新授权 |
+| Tenant Access Token | app_id + app_secret 调用 API | 应用级别的文件上传、消息发送、bitable 读写 | 2小时，自动续期 |
+
+**macOS Keychain 存储位置：**
+```
+Service: openclaw-feishu-uat
+Account: {appId}:{userOpenId}  → cli_a93534f5edb85bd3:ou_2ad19bb3863e71e2d0eff5cc4aeedd83
+```
+
+**核心经验（2026-04-15）：**
+- 错题本图片上传和记录写入，**tenant token 就够用**，不需要 uat
+- uat 过期时不要死磕 OAuth，直接用 tenant token 重试
+- 重新获取 tenant token 命令：
+  ```bash
+  curl -s -X POST "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal" \
+    -H "Content-Type: application/json" \
+    -d '{"app_id":"cli_a93534f5edb85bd3","app_secret":"..."}'
+  ```
+
+---
+
+### 🔑 飞书 Bitable 附件上传（完整解决方案 2026-03-28，已更新 2026-04-15）
 
 ---
 

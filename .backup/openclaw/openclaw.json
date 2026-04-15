@@ -61,6 +61,21 @@
             },
             "contextWindow": 204800,
             "maxTokens": 131072
+          },
+          {
+            "id": "MiniMax-VL-01",
+            "name": "MiniMax VL-01 (Vision)",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0.5,
+              "output": 1.5
+            },
+            "contextWindow": 204800,
+            "maxTokens": 131072
           }
         ]
       }
@@ -72,7 +87,7 @@
         "primary": "minimax/MiniMax-M2.7"
       },
       "imageModel": {
-        "primary": "minimax/MiniMax-V06"
+        "primary": "minimax/MiniMax-VL-01"
       },
       "models": {
         "minimax/MiniMax-M2.7": {
