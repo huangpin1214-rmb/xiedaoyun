@@ -400,3 +400,45 @@ AI 图像生成模型无法可靠渲染中文标签，SVG→QLManage→PNG 是�
 - Pattern-Key: skill.trigger-then-execute
 
 ---
+
+## [LRN-20260415-006] insight
+
+**Logged**: 2026-04-15T11:33:00+08:00
+**Priority**: high
+**Status**: pending
+**Area**: config
+
+### Summary
+为什么测试了3次才成功：根因是"习惯"比"规则"更难改变——知道规则不等于形成反射
+
+### Details
+频哥问：为什么要测试3次？一次做对不行吗？
+
+**我的分析：**
+
+测试1失败：说完"你说开始我就执行"才执行skill
+- 原因：习惯性把"对话回复"当作第一优先级
+
+测试2失败：read后说"Skill已读取"才继续
+- 原因：即使知道要执行，还是习惯在工具之间插确认
+
+测试3成功：完全无缝衔接
+- 原因：经过前两次失败，大脑才真正把"无缝执行"当成目标
+
+**根本问题：**
+- 第1次：我以为"说了规则=做到了"
+- 第2次：我以为"理解了流程=做到了"  
+- 第3次：失败反馈累积后，才真正调整了行为模式
+
+知道规则和做到规则之间，隔着"习惯"这座山。AI的"记忆"不像人类那样形成反射，需要真实失败才能修正。
+
+### Suggested Action
+规则写入系统文件后，给自己一个"强制冷静期"：收到触发词时，先想"我应该先执行还是先回复"，强迫把工具动作放在第一位，而不是凭直觉先说话。
+
+### Metadata
+- Source: user_question
+- Related Files: SOUL.md, AGENTS.md, .learnings/LEARNINGS.md
+- Tags: habit-change, rule-vs-practice, behavior-pattern, self-improvement
+- Pattern-Key: insight.rule-vs-habit-gap
+
+---
