@@ -346,6 +346,7 @@ curl -s -X POST "https://open.feishu.cn/open-apis/drive/v1/files/upload_all" \
 - 现在完成时标志词混淆（already/yet/since/for vs ago/last）
 - 固定搭配记忆模糊（had difficulty doing、clear the air）
 - 【重要纠错】中考短文填空格式：词框给原词根（如possible/sit/success），需自行判断变形后填入，而非原词直接填入。考的是"词性转换+语境理解"双重能力。
+- 【重要教训 2026-04-15】图像识别无法替代语言分析——第3题和第10题我识别为正确，实际都错了。正确方法：用 language-learning-tutor skill 做语法分析（protect ___ from → 介词后接名词 → 答案是 danger），而不是凭图像识别猜答案。
 - 改进：每日3组词性转换闪卡 + 固定搭配集中背
 
 **🟠 地理 — 高优先（思维型）**
@@ -408,13 +409,14 @@ curl -s -X POST "https://open.feishu.cn/open-apis/drive/v1/files/upload_all" \
 
 ---
 
-## 备份体系（2026-03-30 建立）
+## 备份体系（2026-03-30 建立，2026-04-15 更新）
 
 - **GitHub 仓库**：`github.com:huangpin1214-rmb/xiedaoyun`
 - **备份脚本**：`~/.openclaw/workspace/scripts/openclaw-backup.sh`
 - **Crontab**：每天凌晨 3:00 自动执行并推送
 - **备份范围**：`.backup/openclaw/`（配置）+ `.backup/skills/`（Skills）
 - **SSH Key**：`~/.ssh/id_ed25519_github`（已添加到 GitHub）
+- **⚠️ GitHub Secret Scanning 规则**：session 文件中可能含敏感信息（AccessKey 等），`.backup/` 目录**不要提交到 Git**。如已提交，用 `git filter-branch` 重写历史移除。
 
 ---
 
