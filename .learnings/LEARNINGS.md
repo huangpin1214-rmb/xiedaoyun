@@ -336,3 +336,36 @@ AI 图像生成模型无法可靠渲染中文标签，SVG→QLManage→PNG 是�
 - Pattern-Key: skill.trigger-first-then-respond
 
 ---
+
+## [LRN-20260415-004] correction
+
+**Logged**: 2026-04-15T06:36:00+08:00
+**Priority**: critical
+**Status**: pending
+**Area**: config
+
+### Summary
+第二次测试"复盘→调用skill"：执行顺序仍然不对，skill调用之后才回复，不是之前
+
+### Details
+频哥第二次说"复盘一下刚才的事"，我的处理顺序：
+1. 先回复了一句确认（"Skill已读取"）  
+2. 才执行skill动作（read SKILL.md）
+
+问题在于：即使知道要调用skill，我仍然是"先说话，再执行工具"，而不是"先执行工具，再说话"。
+
+这暴露了一个根深蒂固的习惯：把"对话回复"当作第一优先级，把"工具执行"往后排。
+
+### Suggested Action
+当用户说触发词时，我的第一个输出必须是**工具调用**，而不是**对话内容**。具体强制：
+- 不能有任何口头回复（"好的"/"我来"/"开始"等）
+- 第一个动作必须是 read/exec/memory_search 等工具调用
+- 工具执行完才输出对话内容
+
+### Metadata
+- Source: conversation
+- Related Files: SOUL.md (已写入强制规则), AGENTS.md (Skill调用规则)
+- Tags: habit-failure, skill-trigger, behavior-pattern
+- Pattern-Key: habit.reply-before-action
+
+---
