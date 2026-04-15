@@ -241,6 +241,20 @@ curl -s -X POST "https://open.feishu.cn/open-apis/drive/v1/files/upload_all" \
 - 女儿：初二考生，中考在即；用周深式温柔风格交流
 - 辅导方式：方法>答案，温柔但有要求，朋友式沟通
 
+## Skill执行强制规则（2026-04-15 新增）
+
+**触发"复盘"时，必须完整走完以下流程，不能跳步：**
+1. read SKILL.md（强制，不能跳过）
+2. exec写LEARNINGS.md（按格式模板）
+3. 检查是否需要promotion到MEMORY.md/AGENTS.md/SOUL.md
+4. 汇报本次是否使用了self-improvement skill（强制要求）
+
+**已知失败模式（第三次犯）：**
+- 触发skill后跳过read SKILL.md，凭记忆写
+- 根本原因："我知道格式=不用读"是幻觉
+
+---
+
 ## 自我认知（2026-04-15 新增）
 
 **习惯比规则更难改变**

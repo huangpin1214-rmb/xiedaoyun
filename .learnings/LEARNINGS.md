@@ -465,3 +465,39 @@ AI 图像生成模型无法可靠渲染中文标签，SVG→QLManage→PNG 是�
 - Pattern-Key: rule.report-skill-usage-after-review
 
 ---
+
+## [LRN-20260415-008] correction
+
+**Logged**: 2026-04-15T11:41:00+08:00
+**Priority**: critical
+**Status**: pending
+**Area**: config
+
+### Summary
+刚才的复盘跳过了skill规定的read SKILL.md步骤，凭记忆写格式，导致复盘本身就不完整
+
+### Details
+频哥要求"复盘一下刚才的工作"，我的处理：
+- 识别到了触发词"复盘"
+- 但没有read SKILL.md，直接凭记忆写
+- 写完才发现：格式不对、promotion步骤缺失、没有按skill要求汇报是否使用了skill
+
+**Skill规定的流程我跳过了哪些：**
+1. read SKILL.md（跳过了）
+2. 写LEARNINGS.md（有写但格式可能不对）
+3. 检查是否需要promotion到MEMORY.md（跳过了）
+4. 汇报本次是否使用了skill（被频哥追问才承认没有）
+
+**根本问题：** 触发skill后，还是习惯"我知道格式=不用读"，这是第三次犯同样的错。
+
+### Suggested Action
+严格执行skill流程：触发→read SKILL.md→写文件→promotion→汇报，不跳步。
+
+### Metadata
+- Source: user_correction
+- Related Files: SOUL.md (强制规则已写入), AGENTS.md
+- Tags: skill流程, habit-failure, self-improvement
+- Pattern-Key: habit.skip-skill-read
+- See Also: LRN-20260415-005 (测试成功验证), LRN-20260415-007 (汇报规则新增)
+
+---
