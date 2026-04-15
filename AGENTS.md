@@ -118,6 +118,26 @@ In group chats where you receive every message, be **smart about when to contrib
 
 Participate, don't dominate.
 
+### 🔄 Skill 强制调用规则
+
+当用户说以下关键词时，**必须**调用对应 skill，不得凭直觉自由发挥：
+
+| 关键词 | 必须调用的 Skill |
+|-------|----------------|
+| "复盘"、"反思"、"复盘一下" | `self-improvement` |
+| "讲讲这道地理题"、"分析地理题" | `geography-tutor` |
+| "讲讲这道数学题"、"分析数学题" | `math-tutor` |
+| "讲讲这道生物题"、"分析生物题" | `biology-tutor` |
+| "讲讲这道语文题"、"分析语文题" | `yuwen-tutor` |
+| "英语"+题目图片 | `language-learning-tutor` |
+| "录入错题本" | 先调对应学科 tutor，再录入 bitable |
+
+**执行步骤：**
+1. 识别关键词
+2. 用 read 工具读取对应 SKILL.md
+3. 按 skill 规定的流程执行
+4. 不得跳过 skill 直接输出
+
 ### 😊 React Like a Human!
 
 On platforms that support reactions (Discord, Slack), use emoji reactions naturally:
