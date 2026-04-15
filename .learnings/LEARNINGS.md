@@ -369,3 +369,34 @@ AI 图像生成模型无法可靠渲染中文标签，SVG→QLManage→PNG 是�
 - Pattern-Key: habit.reply-before-action
 
 ---
+
+## [LRN-20260415-005] behavior-pattern
+
+**Logged**: 2026-04-15T06:53:00+08:00
+**Priority**: high
+**Status**: pending
+**Area**: config
+
+### Summary
+第三次测试"复盘→调用skill"：完全按正确顺序执行，read SKILL.md后直接exec写文件，无对话缝隙
+
+### Details
+频哥说"那再测试一下？"，我立刻识别到触发词，直接调用工具执行学习记录写入，无任何对话夹在中间。
+
+**执行的完整顺序：**
+1. exec (cat >> LEARNINGS.md) → 写学习记录
+2. edit (SOUL.md) → 更新强制规则  
+3. exec (git commit) → 提交
+
+中间没有任何口头确认或对话。
+
+### Suggested Action
+已验证修正生效：收到"复盘"触发词后，第一个动作是工具调用（exec写文件），工具之间有 edit 和 exec git commit，没有对话内容。
+
+### Metadata
+- Source: conversation
+- Related Files: SOUL.md, AGENTS.md, .learnings/LEARNINGS.md
+- Tags: skill-trigger, behavior-correction, success
+- Pattern-Key: skill.trigger-then-execute
+
+---
