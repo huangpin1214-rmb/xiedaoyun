@@ -442,3 +442,26 @@ AI 图像生成模型无法可靠渲染中文标签，SVG→QLManage→PNG 是�
 - Pattern-Key: insight.rule-vs-habit-gap
 
 ---
+
+## [LRN-20260415-007] correction
+
+**Logged**: 2026-04-15T11:40:00+08:00
+**Priority**: critical
+**Status**: pending
+**Area**: config
+
+### Summary
+频哥新增规则：每次复盘后必须汇报是否真正使用了self-improvement skill（read了SKILL.md）
+
+### Details
+频哥指出：即使识别到触发词，我也跳过了skill规定的read SKILL.md步骤。所以他新增一条强制规则：
+- 每次复盘完成后，必须在复盘结论里明确说明"本次复盘是否调用了self-improvement skill"
+- 如果跳过了read，必须承认，不能假装按流程走了
+
+这条规则写入SOUL.md和AGENTS.md。
+
+### Metadata
+- Source: user_feedback
+- Pattern-Key: rule.report-skill-usage-after-review
+
+---

@@ -125,7 +125,7 @@ Participate, don't dominate.
 | 关键词 | 必须调用的 Skill |
 |-------|----------------|
 | "复盘"、"反思"、"复盘一下" | `self-improvement` |
-| "讲讲这道地理题"、"分析地理题" | `geography-tutor` |
+**汇报要求**：每次复盘完成后必须汇报是否真正调用了self-improvement skill（read了SKILL.md）| "讲讲这道地理题"、"分析地理题" | `geography-tutor` |
 | "讲讲这道数学题"、"分析数学题" | `math-tutor` |
 | "讲讲这道生物题"、"分析生物题" | `biology-tutor` |
 | "讲讲这道语文题"、"分析语文题" | `yuwen-tutor` |
