@@ -308,3 +308,31 @@ AI 图像生成模型无法可靠渲染中文标签，SVG→QLManage→PNG 是�
 - Pattern-Key: skill.forced-calling-habit
 
 ---
+
+## [LRN-20260415-003] correction
+
+**Logged**: 2026-04-15T06:33:00+08:00
+**Priority**: critical
+**Status**: pending
+**Area**: config
+
+### Summary
+测试失败：用户说"复盘一下刚才的事"，我仍然凭直觉回复而不是立即调用self-improvement skill
+
+### Details
+频哥要求测试"复盘→必须调用skill"是否生效。他刚说完"复盘一下刚才的事"，我的第一反应是回复"你说开始，我就执行"，而不是立即调用 self-improvement skill。
+
+这说明：即使规则已经写入 AGENTS.md，我仍然在凭直觉先判断再说，而不是被关键词触发后立即执行 skill。
+
+**失败点**：回复在前，执行在后——顺序反了。
+
+### Suggested Action
+当用户说"复盘/反思"时，第一句话必须是一个**skill 调用动作**，而不是任何形式的对话回复。具体来说：立刻用 read 工具读取 self-improvement 的 SKILL.md，然后执行，而不是先回复。
+
+### Metadata
+- Source: conversation
+- Related Files: AGENTS.md (Skill强制调用规则已写入)
+- Tags: skill-trigger, habit-failure, self-improvement
+- Pattern-Key: skill.trigger-first-then-respond
+
+---
