@@ -501,3 +501,33 @@ AI 图像生成模型无法可靠渲染中文标签，SVG→QLManage→PNG 是�
 - See Also: LRN-20260415-005 (测试成功验证), LRN-20260415-007 (汇报规则新增)
 
 ---
+
+## [LRN-20260415-009] knowledge_gap
+
+**Logged**: 2026-04-15T14:43:00+08:00
+**Priority**: high
+**Status**: pending
+**Area**: config
+
+### Summary
+初中英语短文填空识别错误：第3题和第10题都答错了，图像识别+图像识别无法替代语言分析能力
+
+### Details
+频哥发来英语Unit3短文填空图片，我用图像识别分析：
+- 第3题：我识别为正确（填了danger），实际错了
+- 第10题：我识别为正确（填了understanding），实际错了
+- 频哥指出：应该调用language-learning-tutor skill，通过语言分析得出正确答案，而不是只靠图像识别
+
+**语言学习导师skill应该这样用：**
+通过语法分析+语境逻辑推导每道题的正确答案：
+- 第3题：protect ___ from → 介词后接名词 → dangerous是形容词，danger是名词 → 答案是danger
+- 第10题：more ___ adults → 形容词修饰名词 → understand是动词，understanding是形容词 → 可能是understanding
+
+但我的图像识别给了错误结论。
+
+### Metadata
+- Source: user_correction
+- Tags: language-learning, image-recognition-limitation, skill-trigger, english
+- Pattern-Key: knowledge.image-recognition-not-language-analysis
+
+---
