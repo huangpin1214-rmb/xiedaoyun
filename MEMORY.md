@@ -33,9 +33,10 @@ Service: openclaw-feishu-uat
 Account: {appId}:{userOpenId}  → cli_a93534f5edb85bd3:ou_2ad19bb3863e71e2d0eff5cc4aeedd83
 ```
 
-**核心经验（2026-04-15）：**
+**核心经验（2026-04-15，已更新 2026-04-16）：**
 - 错题本图片上传和记录写入，**tenant token 就够用**，不需要 uat
 - uat 过期时不要死磕 OAuth，直接用 tenant token 重试
+- **token 获取失败排错**：错误码 10014 "app secret invalid" → 说明 appSecret 记录值与飞书应用实际值不符，必须用 `python3 -c "import json; print(json.load(open('/Users/edy/.openclaw/openclaw.json'))['channels']['feishu']['appSecret'])"` 重新读取正确值（之前记录的值末尾多了一个字符导致一直失败）
 - 重新获取 tenant token 命令：
   ```bash
   curl -s -X POST "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal" \

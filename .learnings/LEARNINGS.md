@@ -531,3 +531,57 @@ AI 图像生成模型无法可靠渲染中文标签，SVG→QLManage→PNG 是�
 - Pattern-Key: knowledge.image-recognition-not-language-analysis
 
 ---
+
+## [LRN-20260416-001] best_practice
+
+**Logged**: 2026-04-16T13:33:00Z
+**Priority**: medium
+**Status**: pending
+**Area**: config
+
+### Summary
+飞书 token 获取失败排查 — openclaw.json 中的 appSecret 末尾多了一个字符
+
+### Details
+获取 tenant_access_token 时一直失败，错误码 10014 "app secret invalid"。反复检查发现 openclaw.json 里存的 appSecret 是 `6164wgLUMqCMAL6rOATCDdwxvnYRRVV0`（22位），实际飞书应用的是 `6164wgLUMqCMAL6rOATCDdwxvnYRRVV0`（20位），末尾多了一个 `V`。
+
+### Suggested Action
+获取 token 失败时，直接从 openclaw.json 读取完整内容（包括空格缩进），用 python3 json.load() 解析获取真实值，而不是依赖之前记录的片段。
+
+### Metadata
+- Source: error
+- Related Files: ~/.openclaw/openclaw.json
+- Tags: feishu, token, auth
+- See Also: MEMORY.md 飞书Token体系（已有类似记录）
+
+---
+
+## [LRN-20260416-002] best_practice
+
+**Logged**: 2026-04-16T13:33:00Z
+**Priority**: medium
+**Status**: pending
+**Area**: infra
+
+### Summary
+飞书 bitable 图片上传大小限制 — 超过 200KB 必须先压缩
+
+### Details
+原图 685KB 直接上传超时（curl exit code 28），压缩到 115KB 后上传成功（~5秒）。飞书文件上传 API 对大小有限制，建议统一压缩到 200KB 以下再用 curl 上传。
+
+### Suggested Action
+上传图片到飞书 bitable 前，统一压缩到 200KB 以下：
+```python
+from PIL import Image
+img = Image.open('/tmp/xiti_d25.jpg')
+img = img.resize((1200, int(1200 * img.height / img.width)), Image.LANCZOS)
+img.save('/tmp/xiti_d25_comp.jpg', 'JPEG', quality=80)
+```
+
+### Metadata
+- Source: error
+- Related Files: MEMORY.md 飞书Bitable附件上传
+- Tags: feishu, bitable, image-upload
+- See Also: LRN-20260416-001
+
+---
