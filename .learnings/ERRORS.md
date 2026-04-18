@@ -135,3 +135,33 @@ curl -X POST "https://openapi.biji.com/open/api/v1/resource/recall" \
 - Related: Get笔记 skill installed at /Users/edy/.openclaw/workspace/skills/getnote
 
 ---
+
+## [ERR-20260418-001] cron script permission denied
+
+**Logged**: 2026-04-18T11:17:00+08:00
+**Priority**: high
+**Status**: resolved
+**Area**: infra
+
+### Summary
+daily-edu-push cron script had no execute permission, causing silent failure
+
+### Error
+```
+/bin/sh: /Users/edy/.openclaw/workspace/skills/daily-edu-push/scripts/cron-daily-edu-push.sh: Permission denied
+```
+
+### Context
+- Crontab entry: `0 8 * * * /Users/edy/.openclaw/workspace/skills/daily-edu-push/scripts/cron-daily-edu-push.sh`
+- Script created on 2026-04-17, never executed until manually tested
+- `write` tool and `cp` create files with 644 permissions (rw-r--r--), no execute bit
+
+### Suggested Fix
+- Add `chmod +x` after creating scripts that need execution
+- Or create with `exec` and heredoc in one step: `cat > script.sh << 'EOF' ... EOF && chmod +x script.sh`
+
+### Resolution
+- **Resolved**: 2026-04-18
+- **Fix**: `chmod +x ~/.openclaw/workspace/skills/daily-edu-push/scripts/cron-daily-edu-push.sh`
+
+---

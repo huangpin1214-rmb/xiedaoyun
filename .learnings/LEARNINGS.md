@@ -585,3 +585,29 @@ img.save('/tmp/xiti_d25_comp.jpg', 'JPEG', quality=80)
 - See Also: LRN-20260416-001
 
 ---
+
+## [LRN-20260418-001] best_practice
+
+**Logged**: 2026-04-18T11:17:00+08:00
+**Priority**: medium
+**Status**: promoted
+**Area**: infra
+
+### Summary
+`write` tool creates files without execute permission; scripts must be chmod +x before crontab can run them
+
+### Details
+When creating shell scripts via `write` tool or `cp`, files get default permission 644 (rw-r--r--). Crontab calls scripts directly by path, requiring execute permission. Without it, crontab fails silently with "Permission denied" — the error goes to cron daemon logs, not visible in normal output.
+
+Prevention: After creating any script that will be executed by crontab, always run `chmod +x /path/to/script.sh`.
+
+### Suggested Action
+When creating scripts in future, add `&& chmod +x` as a final step. For scripts created via `exec`, use heredoc + chmod in same command block.
+
+### Metadata
+- Source: error
+- Related Files: ~/.openclaw/workspace/skills/daily-edu-push/scripts/cron-daily-edu-push.sh
+- See Also: ERR-20260418-001
+- **Promoted**: TOOLS.md
+
+---

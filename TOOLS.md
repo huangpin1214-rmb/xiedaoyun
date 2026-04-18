@@ -37,4 +37,22 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
-Add whatever helps you do your job. This is your cheat sheet.
+## Script Creation - Execute Permission (2026-04-18)
+
+`write` tool and `cp` create files with 644 permissions (rw-r--r--), **no execute bit**.
+
+**Problem:** Scripts without execute permission fail silently in crontab:
+```
+Permission denied
+```
+
+**Rule:** After creating any script via `write`/`cp` that will be run by crontab, always `chmod +x /path/to/script.sh`.
+
+**Better approach:** Use `exec` with heredoc + chmod in one step:
+```bash
+cat > /path/to/script.sh << 'EOF'
+#!/bin/bash
+...
+EOF
+chmod +x /path/to/script.sh
+```
