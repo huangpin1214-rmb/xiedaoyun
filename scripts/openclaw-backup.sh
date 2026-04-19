@@ -6,7 +6,6 @@ WORKSPACE="$HOME/.openclaw/workspace"
 BACKUP_DIR="$WORKSPACE/.backup"
 OPENCLAW_DIR="$HOME/.openclaw"
 LOG_FILE="$WORKSPACE/.backup.log"
-STATUS="✅ 备份成功"
 DATE=$(date +%Y-%m-%d)
 
 echo "📦 开始备份... $DATE"
@@ -65,16 +64,12 @@ echo "🚀 推送到 GitHub..."
 PUSH_RESULT=$(git push origin main 2>&1)
 PUSH_EXIT=$?
 
-if [ $PUSH_EXIT -ne 0 ]; then
-    STATUS="❌ 备份失败"
-    echo "$STATUS: $PUSH_RESULT" | tee -a "$LOG_FILE"
-    exit 1
-fi
-
-echo "✅ 备份完成: $(date)" | tee -a "$LOG_FILE"
-
 # ===== 发送飞书通知 =====
-python3 << 'PYEOF'
+send_notify() {
+    local status="$1"  # "success" 或 "fail"
+    local detail="$2"  # 成功时为空，失败时为原因
+
+    python3 << PYEOF
 import subprocess, json, sys, os, datetime
 
 APP_ID = "cli_a93534f5edb85bd3"
@@ -100,7 +95,14 @@ if not app_token:
 
 now_str = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
 date_str = now_str[:10]
-msg = f"📦 定时备份报告\n\n✅ GitHub 推送成功\n⏰ 时间：{now_str}\n📦 备份包：openclaw_backup_{date_str}.tar.gz\n📁 memory/ 单独 commit，可查看每日变化"
+
+status_flag, msg = None, None
+if "$status" == "success":
+    status_flag = "✅"
+    msg = f"📦 定时备份报告\n\n✅ GitHub 推送成功\n⏰ 时间：{now_str}\n📦 备份包：openclaw_backup_{date_str}.tar.gz\n📁 memory/ 单独 commit，可查看每日变化"
+elif "$status" == "fail":
+    status_flag = "❌"
+    msg = f"📦 定时备份报告\n\n❌ 备份失败\n⏰ 时间：{now_str}\n📌 原因：{detail}\n💡 需要手动补跑，请联系谢道韫"
 
 subprocess.run(
     ["curl", "-s", "-X", "POST",
@@ -116,3 +118,13 @@ subprocess.run(
 )
 print("飞书通知已发送")
 PYEOF
+}
+
+if [ $PUSH_EXIT -ne 0 ]; then
+    echo "❌ 备份失败: $PUSH_RESULT" | tee -a "$LOG_FILE"
+    send_notify "fail" "$PUSH_RESULT"
+    exit 1
+fi
+
+echo "✅ 备份完成: $(date)" | tee -a "$LOG_FILE"
+send_notify "success"
