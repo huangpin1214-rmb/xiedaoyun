@@ -3,8 +3,8 @@
     "email": null,
     "calendar": null,
     "weather": null,
-    "daily_review": "2026-04-19T21:19:00+08:00",
-    "bio_exam_reminder": "2026-04-20T04:49:00+08:00",
+    "daily_review": "2026-04-20T21:49:00+08:00",
+    "bio_exam_reminder": "2026-04-21T05:49:00+08:00",
     "xi_physics_d13": {
       "task": "请兮兮找物理老师确认：第13题为什么选D是错的？",
       "detail": "原题：直筒塑料管底部橡皮膜，下压后膜的形变方向。兮兮选D但被判错，老师标准答案是D。物理分析：下压时外部液体压强增大 > 内部水柱压强不变 → 膜应向上凸起，与老师结论矛盾，需当面确认。",
@@ -18,16 +18,22 @@
         "phase1": {
           "start": "2026-04-01",
           "end": "2026-04-16",
-          "days": ["monday", "wednesday", "friday"]
+          "days": [
+            "monday",
+            "wednesday",
+            "friday"
+          ]
         },
         "phase2": {
           "start": "2026-04-17",
           "end": "2026-04-23",
-          "days": ["everyday"]
+          "days": [
+            "everyday"
+          ]
         }
       },
       "message": "📅 兮兮生物实验操作考试倒计时！今天是提醒督促日，别忘了看看兮兮的复习进度～",
-      "active": true
+      "active": false
     }
   }
 }
