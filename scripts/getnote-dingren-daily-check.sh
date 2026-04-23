@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-盯人日报每日检查脚本
+盯人日报每日检查脚本（优化版）
 - 检查 Get笔记 知识库 EJ9zwkln 是否有新笔记
-- 过滤 AI/教育 相关内容，有则推送；无则告知"无相关更新"
+- 推送策略：
+  1. 盯人日报（#数字）：直接推送 → 输出结构化摘要（深读要点 + 链接）
+  2. 其他相关笔记：包含 AI/教育/孩子 等关键词的优质内容
+- 优化：不再只推标题，而是输出结构化摘要（深读要点 + 链接）
 - cron: 0 8 * * * /Users/edy/.openclaw/workspace/scripts/getnote-dingren-daily-check.sh
 """
 
@@ -57,6 +60,47 @@ def fetch_latest_notes(page=1):
     )
     return json.loads(result.stdout)
 
+def clean_title(t):
+    """清理盯人日报标题：去掉 emoji、日期后缀，保留期号"""
+    t = t.strip()
+    t = re.sub(r'[\U0001F300-\U0001F9FF\u2600-\u26FF\u2700-\u27BF]+\s*', '', t)
+    t = t.replace('\uFE0F', '')
+    t = re.sub(r'\s*\|\s*\d{4}-\d{2}-\d{2}\s*$', '', t)
+    t = re.sub(r'\s+', ' ', t)
+    t = re.sub(r'^#\s*', '', t)
+    m = re.match(r'盯人日报\s*#(\d+)', t)
+    if m:
+        return f'盯人日报 #{m.group(1)}'
+    return t.strip()
+
+def extract_summary(content):
+    """从笔记内容中提取摘要（取 💡 和 📝 开头的行）"""
+    if not content:
+        return ""
+    fragments = []
+    for line in content.split('\n'):
+        line = line.strip()
+        if line.startswith('💡'):
+            fragments.append(line.replace('💡', '').strip())
+        elif line.startswith('📝'):
+            fragments.append(line.replace('📝', '').strip())
+    return ' | '.join(fragments[:3]) if fragments else ""
+
+def extract_links(content):
+    """从内容中提取链接（取前3个，清理末尾非法字符）"""
+    if not content:
+        return []
+    urls = re.findall(r'https?://[\S]+', content)
+    seen = set()
+    result = []
+    for url in urls:
+        # 去掉末尾的全角括号/半角括号及其他异常字符
+        url_clean = re.sub(r'[\)）\]\>]+$', '', url)
+        if url_clean.startswith('http') and 'biji.com' not in url_clean and url_clean not in seen:
+            seen.add(url_clean)
+            result.append(url_clean)
+    return result[:3]
+
 def main():
     last_id = ""
     if os.path.exists(STATE_FILE):
@@ -65,7 +109,7 @@ def main():
 
     data = fetch_latest_notes(1)
     notes = data.get("data", {}).get("notes", [])
-    
+
     if not notes:
         print("获取笔记失败")
         return
@@ -88,7 +132,10 @@ def main():
         print("无新内容")
         return
 
-    # 过滤关键词
+    # 分类：盯人日报 vs 其他
+    dingren_notes = []
+    other_notes = []
+
     ai_edu_keywords = [
         "AI", "人工智能", "大模型", "ChatGPT", "Claude", "Gemini", "GPT", "LLM",
         "模型", "神经网络", "深度学习", "AGI", "Scaling",
@@ -96,26 +143,28 @@ def main():
         "吴军", "脱不花", "池晓", "曾诚", "馒头大师", "汪潮", "大疆"
     ]
 
-    def clean_title(t):
-        t = re.sub(r"^\[.*?\]\s*", "", t)
-        t = re.sub(r"^盯人日报 #\d+ \| \d{4}-\d{2}-\d{2}\s*", "", t)
-        return t.strip()
-
-    relevant = []
     for n in reversed(new_notes):
         title = n.get("title", "")
-        content = n.get("content", "")[:800]
+        content = (n.get("content", "") or "")[:1500]
         combined = title + " " + content
-        matched = any(kw in combined for kw in ai_edu_keywords)
-        
-        url = ""
-        if n.get("note_type") == "link":
-            urls = re.findall(r"https?://[^\s\)\"\'\\]+", content)
-            if urls:
-                url = urls[0]
 
-        if matched:
-            relevant.append({"title": clean_title(title), "url": url})
+        is_dingren = "盯人日报" in title and bool(re.search(r'盯人日报\s*#\d+', title))
+
+        if is_dingren:
+            summary = extract_summary(content)
+            urls = extract_links(content)
+            dingren_notes.append({
+                "title": clean_title(title),
+                "summary": summary,
+                "urls": urls,
+            })
+        elif any(kw in combined for kw in ai_edu_keywords):
+            urls = extract_links(content)
+            other_notes.append({
+                "title": clean_title(title),
+                "summary": extract_summary(content),
+                "urls": urls
+            })
 
     # 更新状态
     with open(STATE_FILE, "w") as f:
@@ -129,29 +178,48 @@ def main():
         print("飞书 token 失败")
         return
 
-    if relevant:
-        lines = [f"📬 盯人日报更新！{today_str} ({len(relevant)}条AI/教育相关)"]
-        lines.append("")
-        for item in relevant:
-            if item["url"]:
-                lines.append(f"• {item['title']}")
-                lines.append(f"  {item['url']}")
+    lines = []
+    if dingren_notes:
+        for dn in dingren_notes:
+            lines.append(f"📬 盯人日报 {today_str}")
+            lines.append("")
+            lines.append(f"【{dn['title']}】")
+            if dn["summary"]:
+                lines.append(dn["summary"])
+            if dn["urls"]:
+                for url in dn["urls"]:
+                    lines.append(f"  {url}")
+            lines.append("")
+        lines.append(f"共{total}条新笔记，本期含{len(dingren_notes)}期盯人日报")
+        if other_notes:
+            lines.append(f"+ {len(other_notes)}条AI/教育相关笔记")
+        lines.append("---")
+        lines.append("📎 其他相关笔记：")
+        for on in other_notes:
+            if on["urls"]:
+                lines.append(f"• {on['title']}  {on['urls'][0]}")
             else:
-                lines.append(f"• {item['title']}")
+                lines.append(f"• {on['title']}")
+    elif other_notes:
+        lines.append(f"📬 盯人日报 {today_str}")
         lines.append("")
-        lines.append(f"共{total}条新笔记，向上滚动查看完整更新~")
+        for on in other_notes:
+            if on["urls"]:
+                lines.append(f"• {on['title']}  {on['urls'][0]}")
+            else:
+                lines.append(f"• {on['title']}")
+        lines.append("")
+        lines.append(f"共{total}条新笔记，如需查看全部更新告诉我")
     else:
-        lines = [
-            f"📬 盯人日报更新！{today_str}",
-            "",
-            f"共{total}条新笔记，本期无直接相关AI/教育内容",
-            "(主要涉及：AI行业动态、技术进展、投资并购等)",
-            "如需查看全部更新，告诉我，我帮你翻"
-        ]
+        lines.append(f"📬 盯人日报 {today_str}")
+        lines.append("")
+        lines.append(f"共{total}条新笔记，本期无直接相关AI/教育内容")
+        lines.append("(主要涉及：AI行业动态、技术进展、投资并购等)")
+        lines.append("如需查看全部更新，告诉我，我帮你翻")
 
     msg = "\n".join(lines)
     send_feishu(token, msg)
-    print(f"飞书通知已发送 (relevant={len(relevant)}, total={total})")
+    print(f"飞书通知已发送 (盯人日报={len(dingren_notes)}, 其他={len(other_notes)}, total={total})")
 
 if __name__ == "__main__":
     main()

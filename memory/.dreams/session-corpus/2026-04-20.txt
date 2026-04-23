@@ -78,3 +78,17 @@
 [main/sessions/929b82ee-f377-4eb7-8529-426a9feb3e17.jsonl.reset.2026-04-20T00-39-51.348Z#L459] Assistant: 📅 兮兮生物实验操作考试倒计时！别忘了看看兮兮的复习进度～
 [main/sessions/929b82ee-f377-4eb7-8529-426a9feb3e17.jsonl.reset.2026-04-20T00-39-51.348Z#L460] Assistant: 📅 兮兮生物实验操作考试倒计时！别忘了看看兮兮的复习进度～
 [main/sessions/929b82ee-f377-4eb7-8529-426a9feb3e17.jsonl.reset.2026-04-20T00-39-51.348Z#L461] Assistant: 📅 兮兮生物实验操作考试倒计时！别忘了看看兮兮的复习进度～
+[main/sessions/4c5a7e41-8de7-4070-8d84-290524e5d1f4.jsonl#L768] User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).
+[main/sessions/4c5a7e41-8de7-4070-8d84-290524e5d1f4.jsonl#L769] Assistant: HEARTBEAT_OK
+[main/sessions/4c5a7e41-8de7-4070-8d84-290524e5d1f4.jsonl#L770] User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).
+[main/sessions/4c5a7e41-8de7-4070-8d84-290524e5d1f4.jsonl#L771] Assistant: HEARTBEAT_OK
+[main/sessions/4c5a7e41-8de7-4070-8d84-290524e5d1f4.jsonl#L772] User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).
+[main/sessions/4c5a7e41-8de7-4070-8d84-290524e5d1f4.jsonl#L773] Assistant: HEARTBEAT_OK
+[main/sessions/4c5a7e41-8de7-4070-8d84-290524e5d1f4.jsonl#L774] User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).
+[main/sessions/4c5a7e41-8de7-4070-8d84-290524e5d1f4.jsonl#L781] Assistant: HEARTBEAT_OK
+[main/sessions/4c5a7e41-8de7-4070-8d84-290524e5d1f4.jsonl#L782] User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).
+[main/sessions/4c5a7e41-8de7-4070-8d84-290524e5d1f4.jsonl#L783] Assistant: HEARTBEAT_OK
+[main/sessions/4c5a7e41-8de7-4070-8d84-290524e5d1f4.jsonl#L784] User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).
+[main/sessions/4c5a7e41-8de7-4070-8d84-290524e5d1f4.jsonl#L791] Assistant: HEARTBEAT_OK
+[main/sessions/90978da9-9c52-4c93-8f77-294d47bfc874.jsonl.reset.2026-04-20T23-08-08.105Z#L190] Assistant: 📅 兮兮生物实验操作考试倒计时！别忘了看看兮兮的复习进度～
+[main/sessions/90978da9-9c52-4c93-8f77-294d47bfc874.jsonl.reset.2026-04-20T23-08-08.105Z#L191] Assistant: 📅 兮兮生物实验操作考试倒计时！别忘了看看兮兮的复习进度～
