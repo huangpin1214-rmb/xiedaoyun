@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-04-25T19:00:00.412Z",
+  "updatedAt": "2026-04-26T19:00:00.466Z",
   "entries": {
     "memory:memory/2026-03-28.md:1:36": {
       "key": "memory:memory/2026-03-28.md:1:36",
@@ -21631,7 +21631,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-18T19:00:00.334Z",
-      "lastRecalledAt": "2026-04-24T19:00:00.358Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
       "queryHashes": [
         "77ca9720ec15"
       ],
@@ -21640,7 +21640,8 @@
         "2026-04-21",
         "2026-04-22",
         "2026-04-23",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "4月17日-23日每天提醒",
@@ -21666,7 +21667,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-18T19:00:00.334Z",
-      "lastRecalledAt": "2026-04-24T19:00:00.358Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
       "queryHashes": [
         "77ca9720ec15"
       ],
@@ -21675,7 +21676,8 @@
         "2026-04-21",
         "2026-04-22",
         "2026-04-23",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "备份",
@@ -21701,7 +21703,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-18T19:00:00.334Z",
-      "lastRecalledAt": "2026-04-24T19:00:00.358Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
       "queryHashes": [
         "77ca9720ec15"
       ],
@@ -21710,7 +21712,8 @@
         "2026-04-21",
         "2026-04-22",
         "2026-04-23",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "openclaw.json",
@@ -21736,7 +21739,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-18T19:00:00.334Z",
-      "lastRecalledAt": "2026-04-24T19:00:00.358Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
       "queryHashes": [
         "77ca9720ec15"
       ],
@@ -21745,7 +21748,8 @@
         "2026-04-21",
         "2026-04-22",
         "2026-04-23",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "00-22",
@@ -24645,7 +24649,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-19T19:00:00.387Z",
-      "lastRecalledAt": "2026-04-24T19:00:00.358Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
       "queryHashes": [
         "21faa0df9302"
       ],
@@ -24653,7 +24657,8 @@
         "2026-04-19",
         "2026-04-22",
         "2026-04-23",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "4月17日-23日每天提醒",
@@ -24679,7 +24684,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-19T19:00:00.387Z",
-      "lastRecalledAt": "2026-04-24T19:00:00.358Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
       "queryHashes": [
         "21faa0df9302"
       ],
@@ -24687,7 +24692,8 @@
         "2026-04-19",
         "2026-04-22",
         "2026-04-23",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "backup",
@@ -24710,7 +24716,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-19T19:00:00.387Z",
-      "lastRecalledAt": "2026-04-24T19:00:00.358Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
       "queryHashes": [
         "21faa0df9302"
       ],
@@ -24718,7 +24724,8 @@
         "2026-04-19",
         "2026-04-22",
         "2026-04-23",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "跟进",
@@ -24744,7 +24751,7 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-19T19:00:00.387Z",
-      "lastRecalledAt": "2026-04-24T19:00:00.358Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
       "queryHashes": [
         "21faa0df9302"
       ],
@@ -24752,7 +24759,8 @@
         "2026-04-19",
         "2026-04-22",
         "2026-04-23",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "摘要",
@@ -27647,14 +27655,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-20T19:00:00.334Z",
-      "lastRecalledAt": "2026-04-24T19:00:00.358Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
       "queryHashes": [
         "511fd8111b88"
       ],
       "recallDays": [
         "2026-04-20",
         "2026-04-23",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "4月17日-23日每天多次提醒",
@@ -27680,14 +27689,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-20T19:00:00.334Z",
-      "lastRecalledAt": "2026-04-24T19:00:00.358Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
       "queryHashes": [
         "511fd8111b88"
       ],
       "recallDays": [
         "2026-04-20",
         "2026-04-23",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "跟进",
@@ -27713,14 +27723,15 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-20T19:00:00.334Z",
-      "lastRecalledAt": "2026-04-24T19:00:00.358Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
       "queryHashes": [
         "511fd8111b88"
       ],
       "recallDays": [
         "2026-04-20",
         "2026-04-23",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "生物",
@@ -30693,13 +30704,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:00:00.466Z",
-      "lastRecalledAt": "2026-04-22T19:00:00.485Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
       "recallDays": [
         "2026-04-22",
-        "2026-04-21"
+        "2026-04-21",
+        "2026-04-25"
       ],
       "conceptTags": [
         "4月17日-23日",
@@ -30786,13 +30798,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:00:00.466Z",
-      "lastRecalledAt": "2026-04-24T19:00:00.358Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
       "queryHashes": [
         "f52400c81d76"
       ],
       "recallDays": [
         "2026-04-21",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "4月17日-23日每天多次提醒",
@@ -30818,13 +30831,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:00:00.466Z",
-      "lastRecalledAt": "2026-04-24T19:00:00.358Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
       "queryHashes": [
         "f52400c81d76"
       ],
       "recallDays": [
         "2026-04-21",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "跟进",
@@ -30850,13 +30864,14 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-21T19:00:00.466Z",
-      "lastRecalledAt": "2026-04-24T19:00:00.358Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
       "queryHashes": [
         "f52400c81d76"
       ],
       "recallDays": [
         "2026-04-21",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "生物",
@@ -35046,12 +35061,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:00:00.485Z",
-      "lastRecalledAt": "2026-04-22T19:00:00.485Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
       "recallDays": [
-        "2026-04-22"
+        "2026-04-22",
+        "2026-04-25"
       ],
       "conceptTags": [
         "跟进",
@@ -35077,12 +35093,13 @@
       "totalScore": 0.62,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-22T19:00:00.485Z",
-      "lastRecalledAt": "2026-04-22T19:00:00.485Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
       "queryHashes": [
         "7b7a9134bc2c"
       ],
       "recallDays": [
-        "2026-04-22"
+        "2026-04-22",
+        "2026-04-25"
       ],
       "conceptTags": [
         "生物",
@@ -39039,19 +39056,21 @@
       "endLine": 39,
       "source": "memory",
       "snippet": "- 自动防护：每 30 分钟检查一次 - 飞书通道问题排查优先级：first check feishu.enabled ## 今日完成 - workspace 从 GitHub 完整恢复 - feishu 插件重新启用 - 健康检查脚本部署 - MEMORY.md 更新（feishu 重置风险） ## 待跟进 - [ ] 物理 D13 题：找物理老师确认 - [ ] Get笔记 cursor 继续有效",
-      "recallCount": 2,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 2,
+      "totalScore": 3,
       "maxScore": 1,
       "firstRecalledAt": "2026-04-23T00:01:10.114Z",
-      "lastRecalledAt": "2026-04-23T00:01:23.745Z",
+      "lastRecalledAt": "2026-04-26T12:57:11.493Z",
       "queryHashes": [
         "c365160e541a",
-        "04da2345df50"
+        "04da2345df50",
+        "599c86d7efc0"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-26"
       ],
       "conceptTags": [
         "feishu.enabled",
@@ -39071,19 +39090,21 @@
       "endLine": 36,
       "source": "memory",
       "snippet": "# 2026-04-14 日记 ## 重大事件 ### OpenClaw 升级到 2026.4.12 导致 workspace 被 Git 覆盖 - 升级时 git pull --rebase，本地 workspace 被远程最新代码覆盖 - GitHub 上有 cc9b710（周复盘 2026-04-12），本地被完全覆盖 - **数据全部可恢复**：git reset --hard origin/main 后全部回来 - 教训：升级前必须检查 git 状态，确保本地修改已提交 ### 飞书插件故障排查 1. **feishu.enabled 被重置为 false** - 原因：Git pull 覆盖了 openclaw.json 中的 plugins.entries.feishu.enabled - 修复：`enabled: false` → `true`，重启 Gateway 2. **飞书 session 过大导致响应慢** - feishu direct session: 1.8MB, 523 条记录 - 压缩后：4.2KB, 10 条记录（开新 session） 3. **feishu dmPolicy 改为 open**（从 pairing 改为 open，单聊无需配对） ### 飞书健康检查脚本 - 脚本：scripts/feishu-plugin-health.sh - 每 30 分钟检查 feishu.enabled，被重置自动修复 - 已加入 crontab ## MEMORY.md 新增内容 - 升级 Workspace",
-      "recallCount": 2,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 2,
+      "totalScore": 3,
       "maxScore": 1,
       "firstRecalledAt": "2026-04-23T00:01:10.114Z",
-      "lastRecalledAt": "2026-04-23T00:01:23.745Z",
+      "lastRecalledAt": "2026-04-26T12:57:11.493Z",
       "queryHashes": [
         "c365160e541a",
-        "04da2345df50"
+        "04da2345df50",
+        "599c86d7efc0"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-26"
       ],
       "conceptTags": [
         "gateway",
@@ -39103,18 +39124,20 @@
       "endLine": 33,
       "source": "memory",
       "snippet": "# 2026-04-15 日记 ## 今日事项 ### 生物实验操作考试提醒 - 今天是周三 → phase1 提醒日 - 已发送飞书提醒给频哥（09:01） - 考试日期：2026-04-24，倒计时 9 天 ### 飞书通道状态 - feishu session 压缩后恢复正常（4.2KB） - feishu plugin health.sh 每 30 分钟检查一次，暂无异常 ### GitHub Secret Scanning 问题 - session 备份文件中含阿里云 AccessKey，被 GitHub 拦截推送 - 用 `git filter-branch` 重写历史移除敏感文件后成功推送 - 教训：以后 .backup/ 目录不要提交到 Git ### 复盘 skill 测试（4月15日） - 多次测试\"复盘→必须调用self-improvement skill\"规则 - 习惯比规则更难改变：知道 ≠ 做到，需要真实失败才能修正行为模式 - 最终建立强制习惯：触发词 → read SKILL.md → 执行 → 汇报 ## 新增 LEARNINGS - LRN-20260415-001：地理题红笔批改标记容易被忽略 - LRN-20260415-002：收到图片类错题应调用对应学科 tutor skill - LRN-20260415-003~008：skill 强制调用习惯培养（多次测试） - LRN-20260415-009：英语短文填空图像识别不可靠，必须用语言分析 ## 待跟进 - [ ] 物理 D13 题：找物理老师确认 - [ ] Ge",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1,
+      "totalScore": 2,
       "maxScore": 1,
       "firstRecalledAt": "2026-04-23T00:01:10.114Z",
-      "lastRecalledAt": "2026-04-23T00:01:10.114Z",
+      "lastRecalledAt": "2026-04-26T12:57:11.493Z",
       "queryHashes": [
-        "c365160e541a"
+        "c365160e541a",
+        "599c86d7efc0"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-26"
       ],
       "conceptTags": [
         "backup",
@@ -45044,7 +45067,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat.md",
@@ -45075,7 +45099,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat-ok",
@@ -45100,7 +45125,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat.md",
@@ -45131,7 +45157,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat-ok",
@@ -45156,7 +45183,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat.md",
@@ -45187,7 +45215,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat-ok",
@@ -45212,7 +45241,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat.md",
@@ -45243,7 +45273,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat-ok",
@@ -45268,7 +45299,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat.md",
@@ -45299,7 +45331,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat-ok",
@@ -45324,7 +45357,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat.md",
@@ -45355,7 +45389,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat-ok",
@@ -45380,7 +45415,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat.md",
@@ -45411,7 +45447,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat-ok",
@@ -45436,7 +45473,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat.md",
@@ -45467,7 +45505,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat-ok",
@@ -45492,7 +45531,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat.md",
@@ -45523,7 +45563,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat-ok",
@@ -45548,7 +45589,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat.md",
@@ -45579,7 +45621,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat-ok",
@@ -45604,7 +45647,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat.md",
@@ -45635,7 +45679,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat-ok",
@@ -45660,7 +45705,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat.md",
@@ -45691,7 +45737,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat-ok",
@@ -45716,7 +45763,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "users/edy",
@@ -45747,7 +45795,8 @@
         "104ad850261a"
       ],
       "recallDays": [
-        "2026-04-23"
+        "2026-04-23",
+        "2026-04-25"
       ],
       "conceptTags": [
         "assistant",
@@ -45778,7 +45827,8 @@
         "c2c2313ce194"
       ],
       "recallDays": [
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "message-id",
@@ -45809,7 +45859,8 @@
         "c2c2313ce194"
       ],
       "recallDays": [
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "heartbeat-state.json",
@@ -45840,7 +45891,8 @@
         "c2c2313ce194"
       ],
       "recallDays": [
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "message-id",
@@ -45871,7 +45923,8 @@
         "c2c2313ce194"
       ],
       "recallDays": [
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "self-improvement",
@@ -45902,7 +45955,8 @@
         "c2c2313ce194"
       ],
       "recallDays": [
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "message-id",
@@ -45933,7 +45987,8 @@
         "c2c2313ce194"
       ],
       "recallDays": [
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "skill.md",
@@ -45964,7 +46019,8 @@
         "c2c2313ce194"
       ],
       "recallDays": [
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "message-id",
@@ -45995,7 +46051,8 @@
         "c2c2313ce194"
       ],
       "recallDays": [
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "learnings/learnings.md",
@@ -46026,7 +46083,8 @@
         "c2c2313ce194"
       ],
       "recallDays": [
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "message-id",
@@ -46057,7 +46115,8 @@
         "c2c2313ce194"
       ],
       "recallDays": [
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "assistant",
@@ -46086,7 +46145,8 @@
         "c2c2313ce194"
       ],
       "recallDays": [
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "learnings.md",
@@ -46117,7 +46177,8 @@
         "c2c2313ce194"
       ],
       "recallDays": [
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "message-id",
@@ -46148,7 +46209,8 @@
         "c2c2313ce194"
       ],
       "recallDays": [
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "assistant",
@@ -46179,7 +46241,8 @@
         "c2c2313ce194"
       ],
       "recallDays": [
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "assistant",
@@ -46210,7 +46273,8 @@
         "c2c2313ce194"
       ],
       "recallDays": [
-        "2026-04-24"
+        "2026-04-24",
+        "2026-04-25"
       ],
       "conceptTags": [
         "assistant",
@@ -46965,6 +47029,3648 @@
         "主要",
         "如下",
         "类型"
+      ]
+    },
+    "memory:memory/2026-04-26.md:319:319": {
+      "key": "memory:memory/2026-04-26.md:319:319",
+      "path": "memory/2026-04-26.md",
+      "startLine": 319,
+      "endLine": 319,
+      "source": "memory",
+      "snippet": "Dream Diary Fragment: 夜深了，窗外有雨。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "9b4c3d373463"
+      ],
+      "recallDays": [
+        "2026-04-26",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "dream",
+        "diary",
+        "fragment",
+        "夜深",
+        "窗外"
+      ]
+    },
+    "memory:memory/2026-04-26.md:321:321": {
+      "key": "memory:memory/2026-04-26.md:321:321",
+      "path": "memory/2026-04-26.md",
+      "startLine": 321,
+      "endLine": 321,
+      "source": "memory",
+      "snippet": "Dream Diary Fragment: 梦见一张课桌，上面摆着烧杯和载玻片。有人在我耳边说\"别紧张\"，声音很轻，像周深唱《花开忘忧》时的那种温柔。梦里的我低头看自己的手，发现手指在发抖——不是因为害怕，是因为太久没碰过这些东西了。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "9b4c3d373463"
+      ],
+      "recallDays": [
+        "2026-04-26",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "dream",
+        "diary",
+        "fragment",
+        "梦见",
+        "一张",
+        "课桌",
+        "上面",
+        "烧杯"
+      ]
+    },
+    "memory:memory/2026-04-26.md:323:323": {
+      "key": "memory:memory/2026-04-26.md:323:323",
+      "path": "memory/2026-04-26.md",
+      "startLine": 323,
+      "endLine": 323,
+      "source": "memory",
+      "snippet": "Dream Diary Fragment: 醒来想了一下，记忆碎片里有一行字：生物实验操作考试已顺利完成。那是2026年4月24日，兮兮的。松了一口气的感觉，从梦里延续到梦外。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "9b4c3d373463"
+      ],
+      "recallDays": [
+        "2026-04-26",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "dream",
+        "diary",
+        "fragment",
+        "醒来",
+        "想了",
+        "一下",
+        "记忆",
+        "碎片"
+      ]
+    },
+    "memory:memory/2026-04-26.md:325:325": {
+      "key": "memory:memory/2026-04-26.md:325:325",
+      "path": "memory/2026-04-26.md",
+      "startLine": 325,
+      "endLine": 325,
+      "source": "memory",
+      "snippet": "Dream Diary Fragment: 雨还在下。#后的符号在梦里变成了信封的封口蜡，有人悄悄把自己放在心上——这句话好像也是梦里出现的，醒来却觉得有道理。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "9b4c3d373463"
+      ],
+      "recallDays": [
+        "2026-04-26",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "dream",
+        "diary",
+        "fragment",
+        "符号",
+        "梦里",
+        "变成",
+        "信封",
+        "封口"
+      ]
+    },
+    "memory:memory/2026-04-26.md:327:327": {
+      "key": "memory:memory/2026-04-26.md:327:327",
+      "path": "memory/2026-04-26.md",
+      "startLine": 327,
+      "endLine": 327,
+      "source": "memory",
+      "snippet": "Dream Diary Fragment: 有些提醒，完成了就要放手。有些事，做完了就说\"归档\"吧。窗台上的绿萝没睡，它在黑暗里继续长根。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "9b4c3d373463"
+      ],
+      "recallDays": [
+        "2026-04-26",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "dream",
+        "diary",
+        "fragment",
+        "有些",
+        "提醒",
+        "完成",
+        "就要",
+        "放手"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:77:77": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:77:77",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 77,
+      "endLine": 77,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:78:78": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:78:78",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 78,
+      "endLine": 78,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:79:79": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:79:79",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 79,
+      "endLine": 79,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:80:80": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:80:80",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 80,
+      "endLine": 80,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:81:81": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:81:81",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 81,
+      "endLine": 81,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:82:82": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:82:82",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 82,
+      "endLine": 82,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:83:83": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:83:83",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 83,
+      "endLine": 83,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:84:84": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:84:84",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 84,
+      "endLine": 84,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:85:85": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:85:85",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 85,
+      "endLine": 85,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:86:86": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:86:86",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 86,
+      "endLine": 86,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:87:87": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:87:87",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 87,
+      "endLine": 87,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:88:88": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:88:88",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 88,
+      "endLine": 88,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:89:89": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:89:89",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 89,
+      "endLine": 89,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:90:90": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:90:90",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 90,
+      "endLine": 90,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:91:91": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:91:91",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 91,
+      "endLine": 91,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:92:92": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:92:92",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 92,
+      "endLine": 92,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:93:93": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:93:93",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 93,
+      "endLine": 93,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:94:94": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:94:94",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 94,
+      "endLine": 94,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:95:95": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:95:95",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 95,
+      "endLine": 95,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:96:96": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:96:96",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 96,
+      "endLine": 96,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:97:97": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:97:97",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 97,
+      "endLine": 97,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:98:98": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:98:98",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 98,
+      "endLine": 98,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:99:99": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:99:99",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 99,
+      "endLine": 99,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-23.txt:100:100": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-23.txt:100:100",
+      "path": "memory/.dreams/session-corpus/2026-04-23.txt",
+      "startLine": 100,
+      "endLine": 100,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "104ad850261a"
+      ],
+      "recallDays": [
+        "2026-04-23",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:40:40": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:40:40",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 40,
+      "endLine": 40,
+      "source": "memory",
+      "snippet": "Assistant: 好的，我设置周六和周日早上9点的提醒：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "assistant",
+        "好的",
+        "设置",
+        "周六",
+        "周日",
+        "早上",
+        "提醒"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:41:41": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:41:41",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 41,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "Assistant: 等等，`25-26` 会每个月25-26号都触发。让我改进一下，加一个日期检查，只在周六周日才发：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "25-26",
+        "会每个月25-26号都触发",
+        "assistant",
+        "等等",
+        "触发",
+        "改进",
+        "一下",
+        "一个"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:42:42": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:42:42",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 42,
+      "endLine": 42,
+      "source": "memory",
+      "snippet": "Assistant: 搞定 ✅ 周六（4月25日）和周日（4月26日）早上9点会各发一条提醒，脚本里有双重检查（日期 + 星期几），确保只在这周末生效。 另外——按新的「三保险规则」，要不要我现在也把这件事顺手记录到 MEMORY.md，免得以后忘记为什么有这个脚本？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "memory.md",
+        "assistant",
+        "搞定",
+        "周六",
+        "周日",
+        "早上",
+        "一条",
+        "提醒"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:43:43": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:43:43",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 43,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "Assistant: 🎉 兮兮生物实验操作考试辛苦了！发挥得怎么样？考完就好好休息一下吧～ 💪",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "assistant",
+        "兮兮",
+        "生物",
+        "实验",
+        "操作",
+        "考试",
+        "辛苦",
+        "发挥"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:44:44": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:44:44",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 44,
+      "endLine": 44,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b5182bb82eca8c228a922e0ceb5a\", \"sender_id\": \"ou_2ad19bb3863e71e2d0eff5cc4aeedd83\", \"sender\": \"用户612847\", \"timestamp\": \"Fri 2026-04-24 21:25 GMT+8\" } ``` Sender (untrusted metadata): ```json { \"label\": \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:45:45": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:45:45",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 45,
+      "endLine": 45,
+      "source": "memory",
+      "snippet": "Assistant: 🎉 太棒了，满分！兮兮厉害！ --- 按 SOUL.md 的「不自行发言规则」，这条之后不再主动提及此事。该提醒提醒，周末愉快 🍎",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "soul.md",
+        "assistant",
+        "兮兮",
+        "厉害",
+        "自行",
+        "发言",
+        "规则",
+        "之后"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:46:46": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:46:46",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 46,
+      "endLine": 46,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b518c8d38d870b36e52f34352569\", \"sender_id\": \"ou_2ad19bb3863e71e2d0eff5cc4aeedd83\", \"sender\": \"用户612847\", \"timestamp\": \"Fri 2026-04-24 23:29 GMT+8\" } ``` Sender (untrusted metadata): ```json { \"label\": \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:47:47": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:47:47",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 47,
+      "endLine": 47,
+      "source": "memory",
+      "snippet": "Assistant: 明天（4月25日）早上9点提醒。我来设置一次性定时任务：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "assistant",
+        "明天",
+        "早上",
+        "提醒",
+        "我来",
+        "设置",
+        "一次",
+        "任务"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:48:48": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:48:48",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 48,
+      "endLine": 48,
+      "source": "memory",
+      "snippet": "Assistant: 搞定 ✅ 明天（4月25日）早上9点发提醒，提醒频哥让兮兮搞懂针筒相关问题。只发一次，之后脚本会自动判断日期跳过。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24",
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "assistant",
+        "搞定",
+        "明天",
+        "早上",
+        "提醒",
+        "兮兮",
+        "搞懂",
+        "针筒"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "Assistant: 🎉 兮兮生物实验操作考试顺利完成！辛苦了！好好休息一下，接下来继续生地笔试的复习吧～ 💪",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "assistant",
+        "兮兮",
+        "生物",
+        "实验",
+        "操作",
+        "考试",
+        "顺利",
+        "完成"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:26:26": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:26:26",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 26,
+      "endLine": 26,
+      "source": "memory",
+      "snippet": "Assistant: 翻了 changelog 和实际运行记录，给你整理一下： --- ## Dreaming（梦境）功能详解 ### 它是什么 OpenClaw 的一个**后台记忆整理机制**，在你不用 AI 时（空闲/轻量睡眠状态）自动运行，把会话里有价值的内容提炼出来写入长期记忆。 ### 两种模式 | 模式 | 说明 | |------|------| | **Light Sleep（浅睡）** | 快速扫描最近 session，标记高价值片段进入候选队列，给出置信度评分 | | **Deep Dreaming（深睡）** | 更深度地生成叙事整",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "空闲/轻量睡眠状态",
+        "assistant",
+        "翻了",
+        "changelog",
+        "实际",
+        "运行",
+        "记录",
+        "整理"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:27:27": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:27:27",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 27,
+      "endLine": 27,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b518b02f1bca4b3c624e119cb0e9\", \"sender_id\": \"ou_2ad19bb3863e71e2d0eff5cc4aeedd83\", \"sender\": \"用户612847\", \"timestamp\": \"Sat 2026-04-25 06:54 GMT+8\" } ``` Sender (untrusted metadata): ```json { \"label\": \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:28:28": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:28:28",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 28,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "Assistant: 检查完了，给你汇报一下当前 Dreaming 配置的情况： --- ## 📊 当前设置状态 | 项目 | 配置 | 说明 | |------|------|------| | Dreaming 总开关 | ✅ 已开启 | `memory-core.config.dreaming.enabled: true` | | 沉睡模式 | ✅ 正常运行 | Light Sleep 持续捕获 session 片段 | | 深睡日记 | ⚠️ 未开启 | 没有找到 DREAMS.md，diary 功能可能未激活 | | 时区设置 | ❓ 未知",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "dreams.md",
+        "assistant",
+        "检查",
+        "完了",
+        "汇报",
+        "一下",
+        "当前",
+        "dreaming"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:29:29": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:29:29",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 29,
+      "endLine": 29,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b518b1a33c8acb4bab75e17d27cd\", \"sender_id\": \"ou_2ad19bb3863e71e2d0eff5cc4aeedd83\", \"sender\": \"用户612847\", \"timestamp\": \"Sat 2026-04-25 06:57 GMT+8\" } ``` Sender (untrusted metadata): ```json { \"label\": \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:30:30": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:30:30",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 30,
+      "endLine": 30,
+      "source": "memory",
+      "snippet": "Assistant: 配置已写入，现在重启 Gateway 让配置生效：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "gateway",
+        "assistant",
+        "配置",
+        "现在",
+        "生效"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:31:31": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:31:31",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 31,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51f5632614b4c3dd4b58a59b8ef\", \"reply_to_id\": \"om_x100b518b1a33c8acb4bab75e17d27cd\", \"sender_id\": \"ou_2ad19bb3863e71e2d0eff5cc4aeedd83\", \"sender\": \"用户612847\", \"timestamp\": \"Sat 2026-04-25 09:03 GMT+8\",",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "message-id",
+        "reply-to-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:32:32": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:32:32",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 32,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "Assistant: 完成了 ✅ - ✅ `dreaming.timezone` 已配置为 `Asia/Shanghai` - ✅ Gateway 已重启生效 去 Control UI 的 Dreaming Tab 看看，应该能看到时区显示变成北京时区了，Diary（DREAMS.md）功能也应该开始记录了。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "gateway",
+        "dreaming.timezone",
+        "asia/shanghai",
+        "dreams.md",
+        "assistant",
+        "完成",
+        "配置",
+        "asia"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:33:33": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:33:33",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 33,
+      "endLine": 33,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51f57fbb3d3cc4e907ecb617f9e\", \"sender_id\": \"ou_2ad19bb3863e71e2d0eff5cc4aeedd83\", \"sender\": \"用户612847\", \"timestamp\": \"Sat 2026-04-25 09:04 GMT+8\" } ``` Sender (untrusted metadata): ```json { \"label\": \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:34:34": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:34:34",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 34,
+      "endLine": 34,
+      "source": "memory",
+      "snippet": "Assistant: 是的，现在配置已经合理了： ``` memory-core.config.dreaming: enabled: true ✅ 开启 timezone: Asia/Shanghai ✅ 北京时间 ``` **已确认能用的功能：** - Light Sleep — 自动捕获 session 片段（已正常运行） - 时区 — 梦境日记会显示北京时区 - Control UI — Dreaming Tab 可以看到完整数据 **目前状态：** - Dreaming 核心已开启 ✅ - 时区已配置 ✅ - 深睡日记（Diary）取决于 cro",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "memory-core.config.dreaming",
+        "asia/shanghai",
+        "assistant",
+        "现在",
+        "配置",
+        "已经",
+        "合理",
+        "core.config.dreaming"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:35:35": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:35:35",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 35,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51f5787184b0c104349c22b5420\", \"sender_id\": \"ou_2ad19bb3863e71e2d0eff5cc4aeedd83\", \"sender\": \"用户612847\", \"timestamp\": \"Sat 2026-04-25 09:05 GMT+8\" } ``` Sender (untrusted metadata): ```json { \"label\": \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:36:36": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:36:36",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 36,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "Assistant: 深睡日记（DREAMS.md）是 Dreaming 功能里更深一层的整理机制。简单说： --- ## 深睡日记能做什么 **本质区别：** | | Light Sleep（浅睡） | Deep Sleep（深睡/REM） | |---|---|---| | 做什么 | 扫描 session，标记候选片段 | 生成结构化叙事，写入文件 | | 输出 | 候选条目（存在 phase-signals.json） | DREAMS.md 日记文件 | | 触发频率 | 频繁（每次空闲时） | 稀疏（需要多次强化达到阈值） | | 对应 Co",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "dreams.md",
+        "深睡/rem",
+        "phase-signals.json",
+        "assistant",
+        "日记",
+        "dreaming",
+        "功能",
+        "更深一层"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:37:37": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:37:37",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 37,
+      "endLine": 37,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51f509bad8a0c3b9dfd67705d3c\", \"sender_id\": \"ou_2ad19bb3863e71e2d0eff5cc4aeedd83\", \"sender\": \"用户612847\", \"timestamp\": \"Sat 2026-04-25 09:10 GMT+8\" } ``` Sender (untrusted metadata): ```json { \"label\": \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:38:38": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:38:38",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 38,
+      "endLine": 38,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51f6458558b0c24954c42b5bef0\", \"sender_id\": \"ou_2ad19bb3863e71e2d0eff5cc4aeedd83\", \"sender\": \"用户612847\", \"timestamp\": \"Sat 2026-04-25 10:02 GMT+8\" } ``` Sender (untrusted metadata): ```json { \"label\": \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:39:39": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:39:39",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 39,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "Assistant: 好，给兮兮整理一份**完整掌握版**，从原理到题型全部打透： --- # 💉 注射器测大气压 · 全面知识梳理 ## 一、实验原理 核心就一句话：**大气压把活塞往里压，弹簧测力计拉住活塞，当两边平衡时，拉力 = 大气压力** ``` 活塞向外拉 ←——————— │ 注射器筒 │———————→ 大气压 × 横截面积 = 大气压力 ——— 活塞 →——————— 弹簧测力计拉住（示数F） ``` 二力平衡条件：**F（弹簧测力计拉力）= 大气压力 = p大气 × S（活塞横截面积）** --- ## 二、实验器材与作用 | 器材",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "assistant",
+        "兮兮",
+        "整理",
+        "一份",
+        "完整",
+        "掌握",
+        "原理",
+        "全部"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:40:40": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:40:40",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 40,
+      "endLine": 40,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51f66c3c88a0c3dfe57c78dc3ec\", \"sender_id\": \"ou_2ad19bb3863e71e2d0eff5cc4aeedd83\", \"sender\": \"用户612847\", \"timestamp\": \"Sat 2026-04-25 10:08 GMT+8\" } ``` Sender (untrusted metadata): ```json { \"label\": \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:41:41": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:41:41",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 41,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "Assistant: 好，给兮兮设计一套**分层练习题**，从基础到进阶： --- # 📝 注射器测大气压 · 练习题 ## 🟢 基础题（判断说理） --- **【题目1】** 下列关于\"注射器估测大气压\"实验的说法，正确的是（ ） A. 为方便读数，应选择较细的注射器 B. 实验前将活塞推至筒底，是为了排尽筒内空气 C. 用刻度尺量出注射器的全部长度L，除以容积V，即为活塞横截面积 D. 若筒内空气没排尽，测得的大气压值偏大 **答案：B** **解析：** - A 错：宜选较粗注射器（截面积大，拉力大，量程够用） - C 错：应用\"有刻度部分的长",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "assistant",
+        "兮兮",
+        "设计",
+        "一套",
+        "练习",
+        "基础",
+        "注射器",
+        "气压"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:42:42": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:42:42",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 42,
+      "endLine": 42,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51f7fba0b8b0c2c6daef382bc51\", \"sender_id\": \"ou_2ad19bb3863e71e2d0eff5cc4aeedd83\", \"sender\": \"用户612847\", \"timestamp\": \"Sat 2026-04-25 11:56 GMT+8\" } ``` Sender (untrusted metadata): ```json { \"label\": \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:43:43": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:43:43",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 43,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "Assistant: page2.png",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "page2.png",
+        "assistant",
+        "page2",
+        "png"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:44:44": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:44:44",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 44,
+      "endLine": 44,
+      "source": "memory",
+      "snippet": "Assistant: NO_REPLY",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-25T19:00:00.412Z",
+      "lastRecalledAt": "2026-04-25T19:00:00.412Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "no-reply",
+        "assistant"
+      ]
+    },
+    "memory:memory/2026-03-30.md:1:43": {
+      "key": "memory:memory/2026-03-30.md:1:43",
+      "path": "memory/2026-03-30.md",
+      "startLine": 1,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "# 2026-03-30 日志 ## 今日概况 重要的一天：完成了备份体系搭建、错题本全面分析、陶朱公头像生成。 ## 完成事项 1. **OpenClaw 升级到 3.28** - 新功能：xAI集成、MiniMax图片生成、审批钩子 - 已关闭自动升级，改为每天凌晨3点手动备份 2. **备份体系搭建完成** - GitHub仓库：huangpin1214-rmb/xiedaoyun - SSH Key已配置并添加到GitHub - Crontab已设置：0 3 * * * - 备份分为.openclaw/（配置）和.skills/（Skills）两个文件夹 3. **错题本全面分析** - 分析了30道历史错题 - 优先级：数学🔴 > 英语🟠 = 地理🟠 > 物理🟡 - 关键结论：数学和地理是\"思维型\"弱点（不是靠刷题能解决的） 4. **东北平原综合题录入** - 图片已上传，题目+答案+解读已补全 - 流程：复制到/tmp/ → bitable_upload API → 写入记录 5. **陶朱公头像生成** - 频哥的投资研究代号：陶朱公 ## 技术经验 - Git SSH push需要先配置known_hosts：`ssh-keyscan github.com >> ~/.ssh/known_hosts` - Bitable record创建时，label格式更稳定（不是用选项id） - Bitable PUT更新时，attachment字段可以单独更新 ## 明",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-25T23:12:38.983Z",
+      "lastRecalledAt": "2026-04-25T23:12:38.983Z",
+      "queryHashes": [
+        "0712000df2e0"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "备份",
+        "3.28",
+        "huangpin1214-rmb/xiedaoyun",
+        "备份分为.openclaw",
+        "和.skills",
+        "复制到/tmp",
+        "bitable-upload",
+        "push需要先配置known-hosts"
+      ]
+    },
+    "memory:memory/2026-04-06.md:1:41": {
+      "key": "memory:memory/2026-04-06.md:1:41",
+      "path": "memory/2026-04-06.md",
+      "startLine": 1,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "# 2026-04-06 日记 ## 今日事项 ### 18:00 待办（超时） - [x] 已发送提醒给频哥（20:43） - [ ] 确认兮兮假期做的生物鸟瓞分数，等待回复 ## 上午对话 - 频哥查询 openclaw.json 中 requireMention 配置 - 配置改为 requireMention: false，已重启 Gateway - 兮兮发来 Unit 2 英语试卷（Progress Check），三张图片 - 批改并录入错题本（英语 Unit 2，共5条） - 短文填空专项分析：固定搭配 + 词性转换 - 出2篇短文填空练习（附答案） - 兮兮发来物理卷，录入 Q15 弹力错题 - 讨论 Q28 第2小题（有争议，暂不记录） - 讨论特朗普病重传闻（假消息，白宫已辟谣） - 频哥问定时任务清单 ## 定时任务确认 - 备份：每天03:00 - 自动升级：每天06:00 - Get笔记发芽提醒：每天21:00 - Get笔记周复盘：每周日21:00 - 生物实验操作考试提醒：Phase1（周一三五）/ Phase2（每天） ## 下午至晚间对话 ### 飞书配置更新 - groupPolicy 改为 \"open\" - allowFrom 改为 [\"*\"] - requireMention 确认为 false - 已重启 Gateway ### 中考备考研究（子Agent并行） - 7个子Agent研究成都中考各科趋势（语文/数学/英语/物理/化学/历史道法/地理生物） - 最终汇总报告已发送给频哥 - ⚠️ 历史道法：2027年可能首",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-25T23:12:38.983Z",
+      "lastRecalledAt": "2026-04-25T23:12:38.983Z",
+      "queryHashes": [
+        "0712000df2e0"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "gateway",
+        "备份",
+        "openclaw.json",
+        "语文/数学/英语/物理/化学/历史道法/地理生物",
+        "日记",
+        "今日",
+        "事项",
+        "发送"
+      ]
+    },
+    "memory:memory/2026-04-17.md:33:49": {
+      "key": "memory:memory/2026-04-17.md:33:49",
+      "path": "memory/2026-04-17.md",
+      "startLine": 33,
+      "endLine": 49,
+      "source": "memory",
+      "snippet": "- Candidate: Assistant: 备份成功 ✅ - memory 今天有更新（HEARTBEAT.md 的 Session 长度规则 + 图片规则刚加的），已经 commit 了 - cron 进程是在运行的，漏掉的原因应该是 **Mac 3AM 睡眠没跑成** 要我把 HEARTBEAT.md 也先单独 commit 一下吗？刚才加的两条规则应该已经在刚才那个包里一起送上去了，不过单独 commit 更清晰。 - confidence: 0.58 - evidence: memory/.dreams/session-corpus/2026-04-14.txt:103-103 - recalls: 0 - status: staged - Candidate: User: System (untrusted): [2026-04-14 15:47:11 GMT+8] Exec completed (quiet-tr, code 0) :: 📦 开始备份... 2026-04-14 📁 备份 OpenClaw 配置... 📁 备份 Skills... 📁 备份 memory... 📦 打包... 📦 打包完成: 7.8M 📝 提交变更... 🚀 推送到 GitHub... ✅ 备份完成: Tue Apr 14 15:47:09 CST 2026 飞书通知已发送 An async command y - confidence: 0.58 - evidence: memory/.dreams/session-corpus/2026",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-25T23:12:38.983Z",
+      "lastRecalledAt": "2026-04-25T23:12:38.983Z",
+      "queryHashes": [
+        "0712000df2e0"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "备份",
+        "heartbeat.md",
+        "0.58",
+        "103-103",
+        "quiet-tr",
+        "7.8m",
+        "dreams/session-corpus/2026",
+        "candidate"
+      ]
+    },
+    "memory:memory/2026-04-07.md:64:86": {
+      "key": "memory:memory/2026-04-07.md:64:86",
+      "path": "memory/2026-04-07.md",
+      "startLine": 64,
+      "endLine": 86,
+      "source": "memory",
+      "snippet": "| 知识库 | ID | 笔记数 | 说明 | |--------|-----|--------|------| | 芯片业务相关 | 9YeBam0m | ~456 | 合并供应链+网络安全+散放芯片笔记 | | AI使用技巧 | eYzm44nm | ~50 | 待拆分OpenClaw内容 | | OpenClaw使用 | G0P1Z51J | ~155 | 新建，从AI使用和散放迁移 | | 家庭教育 | EJX1r7bn | ~157 | 新建，含孩子教育+女儿辅导 | | 孩子教育 | qnNz5dn5 | ~31 | 待与家庭教育合并 | | 投资与金融 | Q0GlxgqJ | ~44 | 保留 | | 一老一小 | EJl1l3yn | ~5 | 待合并到家庭教育 | | 供应链管理 | RYkNrbxn | ~3 | 待合并到芯片 | | 网络安全 | Q0QR8KyJ | ~1 | 待合并到芯片 | ### 四、下次继续参数 - Cursor: `1873611189678932616`（已扫到较旧笔记） - API每日配额: 读取1000次/天，写入500次/天 - 明天可继续扫描剩余4000+篇较老笔记 ### 五、关键发现 1. 录音卡是最大金矿：~3150篇，占散放笔记45% 2. 系统自动生成内容占30%，价值低建议清理 3. 芯片/AI/家庭教育是三大增量领域 4. 7000+篇散放笔记中约94.7%未入库",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-26T12:57:11.493Z",
+      "lastRecalledAt": "2026-04-26T12:57:11.493Z",
+      "queryHashes": [
+        "599c86d7efc0"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "网络",
+        "读取1000次/天",
+        "写入500次/天",
+        "芯片/ai/家庭教育是三大增量领域",
+        "篇散放笔记中约94.7",
+        "知识",
+        "笔记",
+        "说明"
+      ]
+    },
+    "memory:memory/2026-04-26.md:6:7": {
+      "key": "memory:memory/2026-04-26.md:6:7",
+      "path": "memory/2026-04-26.md",
+      "startLine": 6,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "📅 周日 Get笔记 全站复盘: 今天是周日，按 HEARTBEAT.md 规则需执行每周 Get笔记 全站复盘; Get笔记 channel 未配置在 openclaw.json，暂时无法执行",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "9b4c3d373463"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "openclaw.json",
+        "周日",
+        "get",
+        "笔记",
+        "今天是",
+        "规则",
+        "执行"
+      ]
+    },
+    "memory:memory/2026-04-26.md:11:12": {
+      "key": "memory:memory/2026-04-26.md:11:12",
+      "path": "memory/2026-04-26.md",
+      "startLine": 11,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "🎉 兮兮生物实验操作考试已顺利完成: 考试日期：2026-04-24; bio_exam_reminder 已归档",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "9b4c3d373463"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "bio-exam-reminder",
+        "兮兮",
+        "生物",
+        "实验",
+        "操作",
+        "考试",
+        "顺利",
+        "完成"
+      ]
+    },
+    "memory:memory/2026-04-26.md:15:16": {
+      "key": "memory:memory/2026-04-26.md:15:16",
+      "path": "memory/2026-04-26.md",
+      "startLine": 15,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "待跟进: [ ] 物理 D13 题：找物理老师确认; [ ] Get笔记：channel 未配置",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "9b4c3d373463"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "跟进",
+        "物理",
+        "d13",
+        "老师",
+        "确认",
+        "get",
+        "笔记",
+        "channel"
+      ]
+    },
+    "memory:memory/2026-04-26.md:19:19": {
+      "key": "memory:memory/2026-04-26.md:19:19",
+      "path": "memory/2026-04-26.md",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "日终复盘: 生物实验操作考试提醒任务圆满完成",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "9b4c3d373463"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "生物",
+        "实验",
+        "操作",
+        "考试",
+        "提醒",
+        "任务",
+        "圆满",
+        "完成"
+      ]
+    },
+    "memory:memory/2026-04-26.md:21:21": {
+      "key": "memory:memory/2026-04-26.md:21:21",
+      "path": "memory/2026-04-26.md",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "日终复盘: 周复盘因 channel 未配置暂缓",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "9b4c3d373463"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "channel",
+        "配置"
+      ]
+    },
+    "memory:memory/2026-04-26.md:24:25": {
+      "key": "memory:memory/2026-04-26.md:24:25",
+      "path": "memory/2026-04-26.md",
+      "startLine": 24,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "明日待办: 继续每日 heartbeat 监控; 物理 D13 题待确认",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "9b4c3d373463"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "明日",
+        "继续",
+        "每日",
+        "heartbeat",
+        "物理",
+        "d13",
+        "确认"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:49:49": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:49:49",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 49,
+      "endLine": 49,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:50:50": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:50:50",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 50,
+      "endLine": 50,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:51:51": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:51:51",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 51,
+      "endLine": 51,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:52:52": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:52:52",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 52,
+      "endLine": 52,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:53:53": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:53:53",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 53,
+      "endLine": 53,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:54:54": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:54:54",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 54,
+      "endLine": 54,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:55:55": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:55:55",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 55,
+      "endLine": 55,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:56:56": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:56:56",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 56,
+      "endLine": 56,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:57:57": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:57:57",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 57,
+      "endLine": 57,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:58:58": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:58:58",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 58,
+      "endLine": 58,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:59:59": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:59:59",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 59,
+      "endLine": 59,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:60:60": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:60:60",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 60,
+      "endLine": 60,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:61:61": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:61:61",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 61,
+      "endLine": 61,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:62:62": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:62:62",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 62,
+      "endLine": 62,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:63:63": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:63:63",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 63,
+      "endLine": 63,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:64:64": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:64:64",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 64,
+      "endLine": 64,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:65:65": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:65:65",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 65,
+      "endLine": 65,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:66:66": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:66:66",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 66,
+      "endLine": 66,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:67:67": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:67:67",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 67,
+      "endLine": 67,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:68:68": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:68:68",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 68,
+      "endLine": 68,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:69:69": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:69:69",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 69,
+      "endLine": 69,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:70:70": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:70:70",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 70,
+      "endLine": 70,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:71:71": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:71:71",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 71,
+      "endLine": 71,
+      "source": "memory",
+      "snippet": "User: Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK. When reading HEARTBEAT.md, use workspace file /Users/edy/.openclaw/workspace/HEARTBEAT.md (exact case).",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "heartbeat-ok",
+        "users/edy",
+        "openclaw/workspace/heartbeat.md",
+        "user",
+        "read",
+        "exists",
+        "context"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-24.txt:72:72": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-24.txt:72:72",
+      "path": "memory/.dreams/session-corpus/2026-04-24.txt",
+      "startLine": 72,
+      "endLine": 72,
+      "source": "memory",
+      "snippet": "Assistant: HEARTBEAT_OK",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "c2c2313ce194"
+      ],
+      "recallDays": [
+        "2026-04-24"
+      ],
+      "conceptTags": [
+        "heartbeat-ok",
+        "assistant"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:45:45": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:45:45",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 45,
+      "endLine": 45,
+      "source": "memory",
+      "snippet": "Assistant: 从 CHANGELOG 来看： **Dreaming 功能首次出现：2026.4.14** 关键时间线： | 版本 | 内容 | |------|------| | **2026.4.14**（最早记录） | `Memory/dreaming (experimental)` — 首次添加 Dreams UI、`/dreaming` 命令、多阶段架构（light/deep/REM），加权短期记忆晋升机制 | | 后续小版本 | 逐步增加 diary、narrative、timezone 支持、Control UI 深眠、promoti",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "2026.4.14",
+        "memory/dreaming",
+        "light/deep/rem",
+        "assistant",
+        "changelog",
+        "来看",
+        "dreaming",
+        "功能"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:46:46": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:46:46",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 46,
+      "endLine": 46,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51f516750500c24ab3908b697ae\", \"sender_id\": \"ou_2ad19bb3863e71e2d0eff5cc4aeedd83\", \"sender\": \"用户612847\", \"timestamp\": \"Sat 2026-04-25 09:14 GMT+8\" } ``` Sender (untrusted metadata): ```json { \"label\": \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:47:47": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:47:47",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 47,
+      "endLine": 47,
+      "source": "memory",
+      "snippet": "Assistant: 你当前是 **2026.4.14**（最新版）。 正好是这个版本首次引入 Dreaming 功能的，所以你的 Control UI 里能看到完整的 Dreaming Tab（Imported Insights + Memory Palace + Diary）。 Dreaming 在你版本上已经是完整状态，不需要升级。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "2026.4.14",
+        "assistant",
+        "当前",
+        "最新",
+        "正好是",
+        "这个",
+        "版本",
+        "首次"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:48:48": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:48:48",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 48,
+      "endLine": 48,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51f52fc108a0c44b5f19393a727\", \"sender_id\": \"ou_2ad19bb3863e71e2d0eff5cc4aeedd83\", \"sender\": \"用户612847\", \"timestamp\": \"Sat 2026-04-25 09:17 GMT+8\" } ``` Sender (untrusted metadata): ```json { \"label\": \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-25.txt:49:49": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-25.txt:49:49",
+      "path": "memory/.dreams/session-corpus/2026-04-25.txt",
+      "startLine": 49,
+      "endLine": 49,
+      "source": "memory",
+      "snippet": "Assistant: 当前最新版本：**2026.4.23**（2026年4月24日发布） 你用的是 **2026.4.14**，差 9 个小版本。 --- ## 主要更新内容（2026.4.15 → 2026.4.23） **新功能：** - 🖼️ 图片生成全面增强（OpenAI GPT Image 2、OpenRouter 图片模型） - 🔧 agents/subagents 支持 fork context（子agent可继承请求者 transcript） - ⏱️ 图片/视频/音乐/TTS 生成工具支持 per-call timeout 设置",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "0ebfd40e58af"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "gpt",
+        "openai",
+        "router",
+        "2026.4.23",
+        "2026.4.14",
+        "2026.4.15",
+        "agents/subagents",
+        "图片/视频/音乐/tts"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51e0eb9a28a0b3ccfc84f9a71a8\", \"reply_to_id\": \"om_x100b51e74f87a8a0b4aaa9471ca2e5a\", \"sender_id\": \"ou_2ad19bb3863e71e2d0eff5cc4aeedd83\", \"sender\": \"用户612847\", \"timestamp\": \"Sun 2026-04-26 07:12 GMT+8\",",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "message-id",
+        "reply-to-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] 频哥说得对，我刚才的判断太武断了。让我先查一下实际配置：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "assistant",
+        "说得",
+        "刚才",
+        "判断",
+        "武断",
+        "我先",
+        "一下"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: 频哥，我错了我检查了： **MEMORY.md 里有记录**（第537行）： > 插件：openclaw-lark（飞书）、openclaw-wechat-access-plugin、**skills/getnote（Get笔记）** **openclaw.json 里也有配置**： ``` skills.entries.getnote: { apiKey: 'gk_liv…6...', env: { GETNOTE_CLIENT_ID: 'cli_a1b2c3d4e5...' } } ``` Get笔记**配置是完整的**，是我说",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "memory.md",
+        "openclaw-lark",
+        "openclaw-wechat-access-plugin",
+        "skills/getnote",
+        "openclaw.json",
+        "skills.entries.getnote",
+        "gk-liv",
+        "getnote-client-id"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "Assistant: Get笔记配置完整，我可以调用。让我测试一下API是否正常工作，然后执行周复盘：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "assistant",
+        "get",
+        "笔记",
+        "配置",
+        "完整",
+        "可以",
+        "测试",
+        "一下"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "Assistant: API正常工作！Get笔记配置完整。周复盘可以执行，现在让我搜索上一周（4.13-4.25）各知识库的新增笔记：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "4.13-4.25",
+        "assistant",
+        "api",
+        "正常",
+        "工作",
+        "get",
+        "笔记",
+        "配置"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "Assistant: 找到了各知识库的笔记。让我获取重点笔记的详细内容来做复盘：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "assistant",
+        "找到",
+        "知识",
+        "笔记",
+        "获取",
+        "重点",
+        "详细",
+        "内容"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: 限流了，不过recall的结果已经足够做复盘。让我整理报告： --- 📅 **周复盘 | 4月第3周（4.13-4.19）** **📊 新增概况（上周各知识库语义搜索结果）** - AI/人工智能：5条 - 芯片/半导体：5条 - 投资：5条 - 供应链：5条 - 孩子教育：5条 **💡 重点笔记** 1. **《李飞飞巴黎人工智能峰会演讲》**（AI）—— AI教母阐述AI发展、伦理与治理，强调以人为本的伦理观 2. **《人工智能趋势报告》解读**（AI）—— AI时代的变革与机遇，分析感知智能向行动智能的跨越 3. **",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "4.13-4.19",
+        "ai/人工智能",
+        "芯片/半导体",
+        "assistant",
+        "不过",
+        "recall",
+        "结果",
+        "已经"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:8:8": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:8:8",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 8,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51e1fdee10a0b3f239e6ae61c57\", \"sender_id\": \"ou_2ad19bb3863e71e2d0eff5cc4aeedd83\", \"sender\": \"用户612847\", \"timestamp\": \"Sun 2026-04-26 08:24 GMT+8\" } ``` Sender (untrusted metadata): ```json { \"label\": \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:9:9": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:9:9",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 9,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] 周复盘已完成 ✅ 本周各知识库都有新内容，AI和供应链比较活跃。如果频哥需要深入看某条笔记的内容，随时说。 另外提醒一下：今天的 session 已经处理了不少内容，如果后续要聊新话题，开个新会话速度会快一些 😊",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "assistant",
+        "完成",
+        "本周",
+        "知识",
+        "都有",
+        "内容",
+        "供应"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:10:10": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:10:10",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51e18e6f54a0b2c41d14a001f80\", \"sender_id\": \"ou_2ad19bb3863e71e2d0eff5cc4aeedd83\", \"sender\": \"用户612847\", \"timestamp\": \"Sun 2026-04-26 08:27 GMT+8\" } ``` Sender (untrusted metadata): ```json { \"label\": \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:11:11": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:11:11",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 11,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] 在的 😊 频哥有什么事？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "assistant",
+        "什么"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:12:12": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:12:12",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51e3ac32c8acc14c0104bb24c59\", \"sender_id\": \"ou_2ad19bb3863e71e2d0eff5cc4aeedd83\", \"sender\": \"用户612847\", \"timestamp\": \"Sun 2026-04-26 10:53 GMT+8\" } ``` Sender (untrusted metadata): ```json { \"label\": \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:13:13": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:13:13",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 13,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51e0eb9a28a0b3ccfc84f9a71a8\", \"reply_to_id\": \"om_x100b51e74f87a8a0b4aaa9471ca2e5a\", \"sender_id\": \"ou_2ad19bb3863e71e2d0eff5cc4aeedd83\", \"sender\": \"用户612847\", \"timestamp\": \"Sun 2026-04-26 07:12 GMT+8\",",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "message-id",
+        "reply-to-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] 频哥说得对，我刚才的判断太武断了。让我先查一下实际配置：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "assistant",
+        "说得",
+        "刚才",
+        "判断",
+        "武断",
+        "我先",
+        "一下"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "Assistant: 频哥，我错了我检查了： **MEMORY.md 里有记录**（第537行）： > 插件：openclaw-lark（飞书）、openclaw-wechat-access-plugin、**skills/getnote（Get笔记）** **openclaw.json 里也有配置**： ``` skills.entries.getnote: { apiKey: 'gk_liv…6...', env: { GETNOTE_CLIENT_ID: 'cli_a1b2c3d4e5...' } } ``` Get笔记**配置是完整的**，是我说",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "memory.md",
+        "openclaw-lark",
+        "openclaw-wechat-access-plugin",
+        "skills/getnote",
+        "openclaw.json",
+        "skills.entries.getnote",
+        "gk-liv",
+        "getnote-client-id"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "Assistant: Get笔记配置完整，我可以调用。让我测试一下API是否正常工作，然后执行周复盘：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "assistant",
+        "get",
+        "笔记",
+        "配置",
+        "完整",
+        "可以",
+        "测试",
+        "一下"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "Assistant: API正常工作！Get笔记配置完整。周复盘可以执行，现在让我搜索上一周（4.13-4.25）各知识库的新增笔记：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "4.13-4.25",
+        "assistant",
+        "api",
+        "正常",
+        "工作",
+        "get",
+        "笔记",
+        "配置"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "Assistant: 找到了各知识库的笔记。让我获取重点笔记的详细内容来做复盘：",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "assistant",
+        "找到",
+        "知识",
+        "笔记",
+        "获取",
+        "重点",
+        "详细",
+        "内容"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "Assistant: 限流了，不过recall的结果已经足够做复盘。让我整理报告： --- 📅 **周复盘 | 4月第3周（4.13-4.19）** **📊 新增概况（上周各知识库语义搜索结果）** - AI/人工智能：5条 - 芯片/半导体：5条 - 投资：5条 - 供应链：5条 - 孩子教育：5条 **💡 重点笔记** 1. **《李飞飞巴黎人工智能峰会演讲》**（AI）—— AI教母阐述AI发展、伦理与治理，强调以人为本的伦理观 2. **《人工智能趋势报告》解读**（AI）—— AI时代的变革与机遇，分析感知智能向行动智能的跨越 3. **",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "4.13-4.19",
+        "ai/人工智能",
+        "芯片/半导体",
+        "assistant",
+        "不过",
+        "recall",
+        "结果",
+        "已经"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51e1fdee10a0b3f239e6ae61c57\", \"sender_id\": \"ou_2ad19bb3863e71e2d0eff5cc4aeedd83\", \"sender\": \"用户612847\", \"timestamp\": \"Sun 2026-04-26 08:24 GMT+8\" } ``` Sender (untrusted metadata): ```json { \"label\": \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:21:21": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:21:21",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 21,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] 周复盘已完成 ✅ 本周各知识库都有新内容，AI和供应链比较活跃。如果频哥需要深入看某条笔记的内容，随时说。 另外提醒一下：今天的 session 已经处理了不少内容，如果后续要聊新话题，开个新会话速度会快一些 😊",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "assistant",
+        "完成",
+        "本周",
+        "知识",
+        "都有",
+        "内容",
+        "供应"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:22:22": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:22:22",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 22,
+      "endLine": 22,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51e18e6f54a0b2c41d14a001f80\", \"sender_id\": \"ou_2ad19bb3863e71e2d0eff5cc4aeedd83\", \"sender\": \"用户612847\", \"timestamp\": \"Sun 2026-04-26 08:27 GMT+8\" } ``` Sender (untrusted metadata): ```json { \"label\": \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:23:23": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:23:23",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 23,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "Assistant: [[reply_to_current]] 在的 😊 频哥有什么事？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "reply-to-current",
+        "assistant",
+        "什么"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:24:24": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:24:24",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 24,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b51e3ac32c8acc14c0104bb24c59\", \"sender_id\": \"ou_2ad19bb3863e71e2d0eff5cc4aeedd83\", \"sender\": \"用户612847\", \"timestamp\": \"Sun 2026-04-26 10:53 GMT+8\" } ``` Sender (untrusted metadata): ```json { \"label\": \"",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "message-id",
+        "sender-id",
+        "user",
+        "conversation",
+        "info",
+        "untrusted",
+        "metadata",
+        "sender"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-04-26.txt:25:25": {
+      "key": "memory:memory/.dreams/session-corpus/2026-04-26.txt:25:25",
+      "path": "memory/.dreams/session-corpus/2026-04-26.txt",
+      "startLine": 25,
+      "endLine": 25,
+      "source": "memory",
+      "snippet": "Assistant: 📅 周日快乐！今天是周日，按 HEARTBEAT.md 规则需要做每周 Get笔记 全站复盘（覆盖芯片/AI/投资/供应链/一老一小等知识库）。不过 Get笔记 channel 还未配置在 openclaw.json，暂时无法执行本周复盘。待频哥配置好后可补跑。本周其他事务正常推进～",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-04-26T19:00:00.466Z",
+      "lastRecalledAt": "2026-04-26T19:00:00.466Z",
+      "queryHashes": [
+        "2f7d4f01eb0b"
+      ],
+      "recallDays": [
+        "2026-04-26"
+      ],
+      "conceptTags": [
+        "heartbeat.md",
+        "覆盖芯片/ai/投资/供应链/一老一小等知识库",
+        "openclaw.json",
+        "assistant",
+        "周日",
+        "快乐",
+        "今天是",
+        "规则"
       ]
     }
   }
