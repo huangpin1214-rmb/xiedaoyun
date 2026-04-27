@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# 每日天气推送脚本 - 每天6:30推送到飞书
+# 每日天气推送脚本 - 每天22:30推送到飞书，预报次日天气
 
 CONFIG_FILE="$HOME/.openclaw/openclaw.json"
 USER_OPEN_ID="ou_2ad19bb3863e71e2d0eff5cc4aeedd83"
@@ -58,14 +58,15 @@ main() {
     weather_json=$(curl -s "wttr.in/Chengdu?format=j1")
     [[ -z "$weather_json" ]] && echo "获取天气失败" && exit 1
 
+    # 取明天（index=1）的数据
     local weather_code temp_c feels_like_c wind_kph humidity wind_deg precip_mm
-    weather_code=$(echo "$weather_json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['current_condition'][0]['weatherCode'])")
-    temp_c=$(echo "$weather_json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['current_condition'][0]['temp_C'])")
-    feels_like_c=$(echo "$weather_json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['current_condition'][0]['FeelsLikeC'])")
-    wind_kph=$(echo "$weather_json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['current_condition'][0]['windspeedKmph'])")
-    humidity=$(echo "$weather_json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['current_condition'][0]['humidity'])")
-    wind_deg=$(echo "$weather_json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['current_condition'][0]['winddirDegree'])")
-    precip_mm=$(echo "$weather_json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['current_condition'][0]['precipMM'])")
+    weather_code=$(echo "$weather_json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['weather'][1]['hourly'][4]['weatherCode'])")
+    temp_c=$(echo "$weather_json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['weather'][1]['hourly'][4]['tempC'])")
+    feels_like_c=$(echo "$weather_json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['weather'][1]['hourly'][4]['FeelsLikeC'])")
+    wind_kph=$(echo "$weather_json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['weather'][1]['hourly'][4]['windspeedKmph'])")
+    humidity=$(echo "$weather_json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['weather'][1]['hourly'][4]['humidity'])")
+    wind_deg=$(echo "$weather_json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['weather'][1]['hourly'][4]['winddirDegree'])")
+    precip_mm=$(echo "$weather_json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['weather'][1]['hourly'][4]['precipMM'])")
 
     local weather_cn wind_cn
     weather_cn=$(weather_code_to_cn "$weather_code")
@@ -81,10 +82,13 @@ main() {
         *) emoji="🌤️" ;;
     esac
 
-    local date_str
-    date_str=$(LC_TIME=zh_CN.UTF-8 date "+%m月%d日 %A")
+    # 明天日期
+    local tomorrow_date
+    tomorrow_date=$(echo "$weather_json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d['weather'][1]['date'])")
+    local date_display
+    date_display=$(date -j -f "%Y-%m-%d" "${tomorrow_date}" "+%m月%d日" 2>/dev/null || date -d "${tomorrow_date}" "+%m月%d日")
 
-    local msg="📍 成都今日天气
+    local msg="📍 成都明日天气（${date_display}）
 - ${emoji} ${weather_cn}，${temp_c}°C（体感 ${feels_like_c}°C）
 - 💨 风速：${wind_cn} ${wind_kph}km/h
 - 💧 湿度：${humidity}%
