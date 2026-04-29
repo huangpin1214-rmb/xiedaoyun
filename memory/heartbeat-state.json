@@ -3,7 +3,7 @@
     "email": null,
     "calendar": null,
     "weather": null,
-    "daily_review": "2026-04-29T21:19:00+08:00",
+    "daily_review": "2026-05-01T21:19:00+08:00",
     "bio_exam_reminder": "2026-04-24T07:00:00+08:00",
     "bio_exam_day": "done",
     "xi_physics_d13": {
@@ -13,6 +13,12 @@
     }
   },
   "reminders": {
+    "grad_school_concept": {
+      "time": "22:00",
+      "concept": "研究生才懂的小众概念",
+      "script": "scripts/grad-school-concept-daily.sh",
+      "active": true
+    },
     "bio_exam": {
       "examDate": "2026-04-24",
       "reminderFrequency": {
