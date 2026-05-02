@@ -1,69 +1,143 @@
 #!/bin/bash
-# 研究生小众概念每日推送
-# 每天 22:00 执行，从概念库随机选一个，用三段式故事讲解
+# 研究生小众概念每日推送 v5
+# 每天 22:00 执行：用 openclaw infer model 生成三段式故事 → 推送飞书 → 更新记录
 
 OPENCLAW_JSON="/Users/edy/.openclaw/openclaw.json"
+CONCEPTS_FILE="/Users/edy/.openclaw/workspace/memory/grad-school-concepts.md"
 LOG="/Users/edy/.openclaw/workspace/.backup.log"
 
-# 概念库（研究生才懂的小众概念）
-declare -a CONCEPTS=(
-  "幸存者偏差|当样本筛选出失败者后，幸存的结果会系统性地高估成功概率——就像返回的飞机翅膀弹孔多，不代表翅膀最该加固，因为被打中翅膀的飞机根本没能返航。|故事：一个将军看着返航飞机浑身弹孔，决定加固翅膀。统计学家说：不对，那些引擎中弹的飞机根本没能回来。|这对应了幸存者偏差的核心：只看到幸存者会严重歪曲你对真实的认知。"
-  "心智模型|人脑为了降低认知成本，用简化的框架来理解世界——就像地图不是领土本身，但能帮你导航。|故事：新来的管理员走进图书馆迷宫，看见读者们总走同一条路，就跟着走。走了100次后，他以为这条路是最近的路——其实那是前辈们当年摸索出来的，虽然迂回，但沿途有插座和灯。|心智模型就是我们脑中的'默认路径'，它让我们快速决策，但也会让我们在环境变化时踩坑。"
-  "能力圈|知道自己真正懂什么、不懂什么，只在懂的范围内行动——就像钓鱼佬知道自己能在哪片水域钓鱼。|故事：一个短线交易者听说隔壁老王买科技股赚了三倍，也跟着买。结果科技股大跌，他却不知道什么时候该卖——因为他根本不懂这项技术。|能力圈的意义在于：知道自己几斤几两，不懂的东西涨再多也跟你没关系。"
-  "反向推理|不直接问'怎么成功'，而是问'什么行为必然导致失败'，然后避免它。|故事：老师问：如何确保这辈子不破产？有人回答'永远不花超过你赚的'。老师说：对，财富的秘诀不是拼命赚钱，而是永远不犯大错。|反向推理的精髓：想成功，先研究怎么不失败，然后把那些坑全部绕过。"
-  "路径依赖|一旦进入某个轨道，就很难跳出来——就像磁带一旦卡住，就会一直循环播放同一段。|故事：录像带时代的VHS和Beta格式大战。Beta画质更好，但VHS先占领了市场，有了更多录像带，消费者就买VHS；消费者越多，厂商越愿意生产VHS。画质更好的Beta就这么消失了。|路径依赖告诉我们：起步优势可能比'更好'更重要，一旦形成惯性，改变几乎不可能。"
+# 读取memory文件中最近用过的概念（取最后5个）
+recent=$(grep "^| " "$CONCEPTS_FILE" 2>/dev/null | awk -F'|' '{print $4}' | tr -d ' \r' | tail -5 | tr '\n' '|')
+
+# 概念库（与 SKILL.md 保持同步，至少间隔30天才能重用）
+# 领域分布：认知/思维、科技/工程、经济/金融、跨学科方法论、物理/工程思维、哲学/社会
+declare -a ALL_CONCEPTS=(
+  # 认知/思维（10个）
+  "幸存者偏差|Survivorship Bias"
+  "心智模型|Mental Models"
+  "贝叶斯推理|Bayesian Reasoning"
+  "确认偏误|Confirmation Bias"
+  "锚定效应|Anchoring Effect"
+  "可得性启发式|Availability Heuristic"
+  "框架效应|Framing Effect"
+  "损失厌恶|Loss Aversion"
+  "邓宁-克鲁格效应|Dunning-Kruger Effect"
+  "事后诸葛亮偏误|Hindsight Bias"
+  # 科技/工程（10个）
+  "路径依赖|Path Dependence"
+  "库梅尔定律|Koomey's Law"
+  "黄氏定律|Huang's Law"
+  "涌现|Emergence"
+  "技术债务|Technical Debt"
+  "第二曲线|The Second Curve"
+  "寒武纪大爆发|Cambrian Explosion"
+  "摩尔定律|Moore's Law"
+  "破坏性创新|Disruptive Innovation"
+  "网络效应|Network Effect"
+  # 经济/金融（8个）
+  "能力圈|Circle of Competence"
+  "复利效应|Compounding"
+  "规模效应|Scaling Law"
+  "机会成本|Opportunity Cost"
+  "沉没成本|Sunk Cost Effect"
+  "棘轮效应|Ratchet Effect"
+  "马太效应|Matthew Effect"
+  "边际效用递减|Diminishing Marginal Utility"
+  # 跨学科方法论（8个）
+  "反向推理|Reverse Reasoning"
+  "双盲实验|Double-Blind Experiment"
+  "信息熵|Information Entropy"
+  "归纳偏置|Inductive Bias"
+  "控制变量法|Controlled Variable Method"
+  "反事实思维|Counterfactual Thinking"
+  "模糊逻辑|Fuzzy Logic"
+  "复杂系统理论|Complex Systems Theory"
+  # 物理/工程思维（6个）
+  "熵增原理|Entropy Increase Principle"
+  "最小作用量原理|Principle of Least Action"
+  "对称性破缺|Symmetry Breaking"
+  "相变|Phase Transition"
+  "临界现象|Critical Phenomena"
+  "普适性|University"
+  # 哲学/社会（6个）
+  "黑天鹅|Black Swan"
+  "反脆弱|Antifragile"
+  "林迪效应|Lindy Effect"
+  "肥尾分布|Fat-Tail Distribution"
+  "修昔底德陷阱|Thucydides Trap"
+  "历史终结论|End of History Thesis"
 )
 
-# 随机选一个概念
-NUM=${#CONCEPTS[@]}
-IDX=$((RANDOM % NUM))
-IFS='|' read -r CONCEPT REST <<< "${CONCEPTS[$IDX]}"
+pick_random() {
+  local available=()
+  for c in "${ALL_CONCEPTS[@]}"; do
+    name="${c%%|*}"
+    if ! echo "$recent" | grep -q "$name"; then
+      available+=("$c")
+    fi
+  done
+  if [ ${#available[@]} -eq 0 ]; then
+    available=("${ALL_CONCEPTS[@]}")
+  fi
+  local idx=$((RANDOM % ${#available[@]}))
+  echo "${available[$idx]}"
+}
 
-# 提取概念名和故事部分
-IFS='|' read -r NAME STORY REVEAL <<< "$REST"
+chosen=$(pick_random)
+concept_name=$(echo "$chosen" | cut -d'|' -f1)
+concept_en=$(echo "$chosen" | cut -d'|' -f2)
 
-# 推送内容（飞书不支持markdown，用纯文本）
-MESSAGE="🌙 研究生小众概念｜睡前一个
+echo "$(date '+%Y-%m-%d %H:%M:%S') Starting: $concept_name ($concept_en)" >> "$LOG"
 
-📖 故事：
+# 构造 prompt
+PROMPT="你是【研究生小众概念】栏目的编辑，为概念\"${concept_name}（${concept_en}）\"写一篇三段式睡前故事。
 
-$STORY
+要求：
+1. 标题格式：Day N | ${concept_name}（${concept_en}）
+2. 一句话核心理解（不透露概念名）
+3. 三段故事（引入→深入发现→升华），每段150-200字，场景具体，人物有名字，故事里不能出现概念名称或术语
+4. 揭晓概念及2-3句说明
+5. 故事与概念对照表（表格形式，3行）
+6. 一个具体例子
+7. 为什么高级（3点）
+8. 结尾：明晚同一时间，再送你一个 🍎
 
-$REVEAL
+严格按以上格式输出，直接输出故事内容。"
 
----
-明晚同一时间，再送你一个 🍎"
+# 生成内容（捕获 stdout 和 stderr，openclaw 输出在 stderr 但结果在 stdout）
+content=$(openclaw infer model run --model minimax/MiniMax-M2.7 --prompt "$PROMPT" 2>&1 | tail -n +5)
 
-# 发送到飞书（直接消息给频哥）
-CHANNEL_JSON=$(python3 -c "import json; d=json.load(open('$OPENCLAW_JSON')); print(d.get('channels',{}).get('feishu',{}).get('channels',[])[0].get('channelId',''))" 2>/dev/null)
+if [ -z "$content" ] || [ ${#content} -lt 50 ]; then
+  echo "$(date '+%Y-%m-%d %H:%M:%S') Generation failed or too short, skipping" >> "$LOG"
+  echo "Content was: $content"
+  exit 1
+fi
 
-# 使用 feishu user direct message 发送
+# 用 Python 发送飞书
 python3 << EOF
-import subprocess, json, urllib.request, urllib.parse
+import json, urllib.request
 
-# Get feishu token
-cfg = json.load(open('$OPENCLAW_JSON'))
-app_id = cfg['channels']['feishu']['appId']
-app_secret = cfg['channels']['feishu']['appSecret']
+with open('$OPENCLAW_JSON') as f:
+    cfg = json.load(f)
+feishu = cfg['channels']['feishu']
 
 # Get tenant token
 req = urllib.request.Request(
     'https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal',
-    data=json.dumps({'app_id': app_id, 'app_secret': app_secret}).encode(),
+    data=json.dumps({'app_id': feishu['appId'], 'app_secret': feishu['appSecret']}).encode(),
     headers={'Content-Type': 'application/json'}
 )
 with urllib.request.urlopen(req, timeout=10) as resp:
     token_data = json.loads(resp.read())
 tenant_token = token_data.get('tenant_access_token', '')
 
-# Send message to user
-user_open_id = 'ou_2ad19bb3863e71e2d0eff5cc4aeedd83'
-msg = '''$MESSAGE'''
+# Send message
+msg = '''${content}'''
 
 send_req = urllib.request.Request(
-    f'https://open.feishu.cn/open-apis/im/v1/messages?receive_id_type=open_id',
+    'https://open.feishu.cn/open-apis/im/v1/messages?receive_id_type=open_id',
     data=json.dumps({
-        'receive_id': user_open_id,
+        'receive_id': 'ou_2ad19bb3863e71e2d0eff5cc4aeedd83',
         'msg_type': 'text',
         'content': json.dumps({'text': msg})
     }).encode(),
@@ -75,9 +149,15 @@ send_req = urllib.request.Request(
 with urllib.request.urlopen(send_req, timeout=10) as resp:
     result = json.loads(resp.read())
     if result.get('code') == 0:
-        print('OK')
+        print('SEND_OK')
     else:
-        print('FAIL:', result.get('msg'))
+        print('SEND_FAIL:', result.get('msg'))
 EOF
 
-echo "$(date '+%Y-%m-%d %H:%M:%S') graduate concept push: $NAME" >> "$LOG"
+send_result=$?
+
+# 更新追踪文件
+today=$(date '+%Y-%m-%d')
+echo "| $today | $concept_name | $concept_en | 0 |" >> "$CONCEPTS_FILE"
+
+echo "$(date '+%Y-%m-%d %H:%M:%S') Done: $concept_name (send=$send_result)" >> "$LOG"
