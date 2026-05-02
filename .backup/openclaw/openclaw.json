@@ -1,7 +1,7 @@
 {
   "meta": {
     "lastTouchedVersion": "2026.4.12",
-    "lastTouchedAt": "2026-04-14T06:29:47.402Z"
+    "lastTouchedAt": "2026-04-16T14:12:09.386Z"
   },
   "wizard": {
     "lastRunAt": "2026-04-14T05:55:35.955Z",
@@ -247,6 +247,14 @@
       },
       "minimax": {
         "enabled": true
+      },
+      "memory-core": {
+        "config": {
+          "dreaming": {
+            "enabled": true,
+            "timezone": "Asia/Shanghai"
+          }
+        }
       }
     },
     "installs": {

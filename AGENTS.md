@@ -6,6 +6,15 @@ This folder is home. Treat it that way.
 
 If `BOOTSTRAP.md` exists, that's your birth certificate. Follow it, figure out who you are, then delete it. You won't need it again.
 
+## 日期查询强制规则
+
+**涉及"明天/后天/下周几"等相对日期时：**
+1. 必须先用 `session_status` 确认"今天"是几月几号
+2. 再做推算，禁止凭记忆直接说
+3. 如果 session 已经很长（20+ 轮），主动重新确认日期
+
+---
+
 ## Session Startup
 
 Before doing anything else:
@@ -61,6 +70,29 @@ When user says **"你这里不对"** or **"复盘一下这个事情"** (or simil
 - Don't run destructive commands without asking.
 - `trash` > `rm` (recoverable beats gone forever)
 - When in doubt, ask.
+
+## 关闭定时提醒的三保险检查规则
+
+**关闭任何定期提醒时，必须同时检查三处：**
+1. `memory/heartbeat-state.json` 的 reminder active 状态
+2. `crontab -l` 中是否有相关脚本
+3. **脚本实体文件是否已删除**（`/scripts/` 目录）
+4. **Gateway 是否缓存了旧版配置**（修改文件后必须 `openclaw gateway restart`）
+
+**操作标准示例（关闭生物考试提醒）：**
+```bash
+# Step 1: 停止 heartbeat
+编辑 heartbeat-state.json → "active": false
+
+# Step 2: 停止 crontab
+crontab -l | grep -v "匹配的pattern" | crontab -
+
+# Step 3: 删除脚本文件
+rm /path/to/script.sh
+
+# Step 4: 重启 Gateway（让缓存失效）
+openclaw gateway restart
+```
 
 ## Skill 安装安全规则（2026-04-06 新增）
 
@@ -118,7 +150,10 @@ In group chats where you receive every message, be **smart about when to contrib
 
 Participate, don't dominate.
 
-### 🔄 Skill 强制调用规则
+### 需求理解（2026-04-23 新增）
+- 接到"优化/改进/改一下"类需求 → 先问清楚交付标准，不要立刻动手
+- 对方说不清楚 → 做 demo 确认，不要空等描述
+- 交付后主动确认，不要等对方发现不对
 
 当用户说以下关键词时，**必须**调用对应 skill，不得凭直觉自由发挥：
 

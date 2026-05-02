@@ -6,9 +6,15 @@
 SKILL_DIR="$HOME/.openclaw/workspace/skills/daily-edu-push"
 WORKSPACE="$HOME/.openclaw/workspace"
 
-# 日期
+# 日期（macOS 兼容，避免八进制问题）
 TODAY=$(date +%Y-%m-%d)
-DAY_COUNT=$(($(date +%j) - $(date -d "2026-03-29" +%j) + 1))
+START_DATE="2026-03-29"
+START_DAY_OF_YEAR=$(date -j -f "%Y-%m-%d" "$START_DATE" +%j 2>/dev/null || date -d "$START_DATE" +%j 2>/dev/null)
+CURRENT_DAY_OF_YEAR=$(date +%j)
+# 去掉前导0避免八进制解释
+START_DAY_OF_YEAR=$((10#$START_DAY_OF_YEAR))
+CURRENT_DAY_OF_YEAR=$((10#$CURRENT_DAY_OF_YEAR))
+DAY_COUNT=$(($CURRENT_DAY_OF_YEAR - $START_DAY_OF_YEAR + 1))
 
 # 读取当前薄弱点
 if [ -f "$WORKSPACE/MEMORY.md" ]; then

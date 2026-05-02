@@ -35,7 +35,8 @@ Scope 权限：`note.content.read`（读取）、`note.content.write`（写入�
 
 **正确做法**：始终把 ID 当字符串处理，在 `JSON.parse` 之前替换：
 ```javascript
-const safe = text.replace(/"(id|note_id|next_cursor|parent_id|follow_id|live_id)"\s*:\s*(\d+)/g, '"$1":"$2"');
+const safe = text.replace(/"(id|note_id|parent_id|follow_id|live_id)"\s*:\s*(\d+)/g, '"$1":"$2"');
+// 注：next_cursor 已不需要处理，翻页请直接使用响应中的 cursor（string）字段
 const data = JSON.parse(safe);
 ```
 Python / Go 等语言原生支持大整数，无此问题。
@@ -66,7 +67,9 @@ Python / Go 等语言原生支持大整数，无此问题。
 ## 自然语言路由
 
 ```
-包含 URL                    → /note save（link 模式）
+包含 URL（`biji.com/note/share_note/*` 或 `d.biji.com/*` 短链）  → /note save（link 模式，同步返回 note_id）
+包含 URL（`biji.com/note/{note_id}` 内链）    → /note list（查看详情），如需在正文引用其他笔记请使用 `https://biji.com/note/{note_id}` 格式内链；若笔记会被分享则调用分享接口替代
+其他 URL                   → /note save（link 模式，异步返回 task_id）
 包含图片                    → /note save（image 模式）
 「记/存/保存/收藏」          → /note save（text 模式）
 「搜/找找/有没有 XX」        → /note search
@@ -78,6 +81,51 @@ Python / Go 等语言原生支持大整数，无此问题。
 ```
 
 **决策原则**：优先匹配最具体的意图。有 URL 就是 `/save link`，有图片就是 `/save image`，不确定时询问用户。
+
+---
+
+## API 路由表
+
+> ⚠️ **构造请求时必须使用下表中的完整路径**，Base URL 为 `https://openapi.biji.com`。如果收到 404，说明路径不对，请对照此表检查。
+
+### 笔记
+
+| 方法 | 路径 | 说明 | 详细文档 |
+|------|------|------|----------|
+| POST | `/open/api/v1/resource/note/save` | 新建笔记（文本/链接/图片） | [save.md](references/save.md) |
+| POST | `/open/api/v1/resource/note/task/progress` | 查询异步任务进度 | [save.md](references/save.md) |
+| GET  | `/open/api/v1/resource/note/list` | 笔记列表（分页） | [list.md](references/list.md) |
+| GET  | `/open/api/v1/resource/note/detail` | 笔记详情 | [list.md](references/list.md) |
+| POST | `/open/api/v1/resource/note/update` | 更新笔记 | [list.md](references/list.md) |
+| POST | `/open/api/v1/resource/note/delete` | 删除笔记 | [list.md](references/list.md) |
+| POST | `/open/api/v1/resource/note/sharing` | 创建笔记分享链接 | [list.md](references/list.md) |
+| POST | `/open/api/v1/resource/note/tags/add` | 添加标签 | [tags.md](references/tags.md) |
+| POST | `/open/api/v1/resource/note/tags/delete` | 删除标签 | [tags.md](references/tags.md) |
+| GET  | `/open/api/v1/resource/image/upload_token` | 获取图片上传凭证 | [save.md](references/save.md) |
+
+### 搜索
+
+| 方法 | 路径 | 说明 | 详细文档 |
+|------|------|------|----------|
+| POST | `/open/api/v1/resource/recall` | 全局语义搜索 | [search.md](references/search.md) |
+| POST | `/open/api/v1/resource/recall/knowledge` | 知识库语义搜索 | [search.md](references/search.md) |
+
+### 知识库
+
+| 方法 | 路径 | 说明 | 详细文档 |
+|------|------|------|----------|
+| GET  | `/open/api/v1/resource/knowledge/list` | 我的知识库列表 | [knowledge.md](references/knowledge.md) |
+| GET  | `/open/api/v1/resource/knowledge/subscribe/list` | 订阅知识库列表 | [knowledge.md](references/knowledge.md) |
+| POST | `/open/api/v1/resource/knowledge/create` | 创建知识库 | [knowledge.md](references/knowledge.md) |
+| GET  | `/open/api/v1/resource/knowledge/notes` | 知识库笔记列表 | [knowledge.md](references/knowledge.md) |
+| POST | `/open/api/v1/resource/knowledge/note/batch-add` | 添加笔记到知识库 | [knowledge.md](references/knowledge.md) |
+| POST | `/open/api/v1/resource/knowledge/note/remove` | 从知识库移除笔记 | [knowledge.md](references/knowledge.md) |
+| GET  | `/open/api/v1/resource/knowledge/bloggers` | 知识库博主列表 | [knowledge.md](references/knowledge.md) |
+| GET  | `/open/api/v1/resource/knowledge/blogger/contents` | 博主内容列表 | [knowledge.md](references/knowledge.md) |
+| GET  | `/open/api/v1/resource/knowledge/blogger/content/detail` | 博主内容详情 | [knowledge.md](references/knowledge.md) |
+| GET  | `/open/api/v1/resource/knowledge/lives` | 知识库直播列表 | [knowledge.md](references/knowledge.md) |
+| GET  | `/open/api/v1/resource/knowledge/live/detail` | 直播详情 | [knowledge.md](references/knowledge.md) |
+| POST | `/open/api/v1/resource/knowledge/live/follow` | 关注直播 | [knowledge.md](references/knowledge.md) |
 
 ---
 
