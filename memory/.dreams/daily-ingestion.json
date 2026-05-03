@@ -2,40 +2,36 @@
   "version": 1,
   "files": {
     "memory/2026-05-03.md": {
-      "mtimeMs": 1777748401056,
-      "size": 24095
+      "mtimeMs": 1777787360429,
+      "size": 971
     },
     "memory/2026-05-02.md": {
-      "mtimeMs": 1777731685820,
-      "size": 585
+      "mtimeMs": 1777787332742,
+      "size": 610
     },
     "memory/2026-05-01.md": {
-      "mtimeMs": 1777652430364,
-      "size": 550
+      "mtimeMs": 1777787332731,
+      "size": 575
     },
     "memory/2026-04-30.md": {
-      "mtimeMs": 1777551636090,
-      "size": 534
+      "mtimeMs": 1777787332721,
+      "size": 559
     },
     "memory/2026-04-29.md": {
-      "mtimeMs": 1777481450647,
-      "size": 477
+      "mtimeMs": 1777787332698,
+      "size": 502
     },
     "memory/2026-04-28.md": {
-      "mtimeMs": 1777382439299,
-      "size": 486
+      "mtimeMs": 1777787332663,
+      "size": 511
     },
     "memory/2026-04-27.md": {
-      "mtimeMs": 1777292427870,
-      "size": 727
+      "mtimeMs": 1777787332652,
+      "size": 752
     },
     "memory/2026-04-26.md": {
-      "mtimeMs": 1777209650771,
-      "size": 657
-    },
-    "memory/2026-04-25.md": {
-      "mtimeMs": 1777123231714,
-      "size": 413
+      "mtimeMs": 1777787332618,
+      "size": 648
     }
   }
 }

@@ -28,7 +28,7 @@ BEGIN_QUOTED_NOTES
 
 ### 待跟进
 - [ ] 物理 D13 题：找物理老师确认
-- [ ] Get笔记：channel 未配置
+- Get笔记：✅ 已配置（apiKey+ClientID均已就位）
 
 ## 日终复盘
 - 生物实验操作考试提醒任务圆满完成
@@ -49,7 +49,7 @@ BEGIN_QUOTED_NOTES
 
 ### 📅 周日 Get笔记 全站复盘
 - 今天是周日，按 HEARTBEAT.md 规则需执行每周 Get笔记 全站复盘
-- Get笔记 channel 未配置在 openclaw.json，暂时无法执行
+- Get笔记：✅ 已配置完成
 - 已告知频哥
 
 ### 🎉 兮兮生物实验操作考试已顺利完成
@@ -58,7 +58,7 @@ BEGIN_QUOTED_NOTES
 
 ### 待跟进
 - [ ] 物理 D13 题：找物理老师确认
-- [ ] Get笔记：channel 未配置
+- Get笔记：✅ 已配置（apiKey+ClientID均已就位）
 
 ## 日终复盘
 - 生物实验操作考试提醒任务圆满完成

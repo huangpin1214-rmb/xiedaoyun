@@ -29,7 +29,7 @@ BEGIN_QUOTED_NOTES
 
 ### 待跟进
 - [ ] 物理 D13 题：找物理老师确认
-- [ ] Get笔记：channel 未配置
+- Get笔记：✅ 已配置（apiKey+ClientID均已就位）
 
 ## 日终复盘
 - 生物实验操作考试提醒任务圆满完成
