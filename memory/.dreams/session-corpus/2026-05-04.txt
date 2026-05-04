@@ -1,0 +1,1 @@
+[main/sessions/416ee487-7e8b-440a-8558-8a37a152264b.jsonl#L251] Assistant: 频哥，这个 session 已经跑了大概 8 个半小时了，内容累积了不少。建议 `/new` 开个新会话，速度会快很多 😊
