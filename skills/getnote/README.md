@@ -1,6 +1,6 @@
 # Get笔记 Skill
 
-[![License: MIT-0](https://img.shields.io/badge/License-MIT--0-blue.svg)](https://opensource.org/licenses/MIT-0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 让 AI 成为你的第二大脑。随时记录，需要时召回。
 
@@ -15,6 +15,8 @@
 | **🔍 语义搜索** | 不用翻全部笔记，直接搜关键词，AI 语义召回相关内容 |
 | **📚 知识库管理** | 用知识库和标签整理笔记，还能订阅博主、获取直播总结 |
 | **🎤 语音笔记原文** | 录音笔记支持获取完整转写文本 |
+| **🔗 笔记内链** | 在笔记正文里引用另一条笔记，用 `biji.com/note/{id}` 格式互相串联 |
+| **📤 生成分享链接** | 任意笔记一键生成公开链接，发给别人直接查看 |
 
 ---
 
@@ -99,11 +101,7 @@
 clawhub install getnote
 ```
 
-### 方式二：让 AI 助手安装
-
-> 帮我安装 Get笔记 skill，地址是 https://raw.githubusercontent.com/iswalle/getnote-openclaw/main/SKILL.md
-
-### 方式三：手动安装
+### 方式二：手动安装
 
 ```bash
 mkdir -p ~/.openclaw/workspace/skills/getnote
@@ -114,18 +112,9 @@ curl -sL https://raw.githubusercontent.com/iswalle/getnote-openclaw/main/package
 
 ---
 
-## 🔑 配置
+## 🔑 授权登录
 
-### 自动配置（默认）
-
-安装后首次使用时，AI 会自动发起 OAuth 授权：
-
-1. 你说「存到笔记」或任何笔记相关操作
-2. AI 检测到未配置，自动生成授权链接
-3. 点击链接，授权
-4. 自动配置完成，继续执行你的请求
-
-无需手动配置，无需记忆任何命令。
+安装完成后说「请帮我授权 Get笔记」，AI 自动生成授权链接，点击完成登录，无需手动配置 API Key。
 
 ### 手动配置（可选）
 
@@ -183,6 +172,45 @@ curl -sL https://raw.githubusercontent.com/iswalle/getnote-openclaw/main/package
 
 ---
 
+## 🚀 进阶用法：用笔记内链实践柳比歇夫时间日志法
+
+柳比歇夫时间日志法的核心是**每天记录自己把时间花在了哪里**，事后统计、复盘、改进。
+
+结合 Get笔记内链，AI 可以帮你自动串联：
+
+**每天早上**
+
+> 👤 帮我记一条今日工作日志，内链到「产品设计方案」和「客户反馈」这两条笔记
+>
+> 🤖 已记录「2026-04-24 工作日志」，正文已插入两条内链。
+
+**每周复盘**
+
+> 👤 找找我这周的工作日志，整理一下时间分配
+>
+> 🤖 找到 5 条日志，你这周：产品设计 12h、客户沟通 6h、开会 4h……
+
+**内链格式**：在笔记正文里用 `https://biji.com/note/{note_id}` 引用其他笔记。示例：
+
+```
+参考上次的讨论：https://biji.com/note/1234567890000000001
+```
+
+告诉 AI 要内链到哪条笔记，AI 会自动获取对应 note_id 插入。
+
+---
+
+## 🆕 更新日志
+
+| 日期 | 版本 | 新能力 | 适合怎么用 |
+|------|------|--------|------------|
+| 2026-04-23 | **v1.8.0** | 1. 笔记内链<br>2. 保存分享链接自动变笔记 | 1. 用内链串联每天的工作日志和项目笔记，实践时间日志法<br>2. 收到别人发来的分享链接直接存入笔记 |
+| 2026-04-16 | **v1.7.0** | 1. 生成笔记分享链接<br>2. 知识库订阅得到直播 | 1. 把笔记一键分享给朋友<br>2. 在知识库里订阅得到直播课，直播结束后 AI 摘要自动入库 |
+| 2026-03-26 | **v1.5.6** | 获取我订阅的知识库，支持语义搜索 | 开通了某个知识库，可以直接问 AI：「在我订阅的 XXX 知识库里搜一下时间管理」 |
+| 2026-03-12 | **v1.2.0** | 查看订阅博主内容、直播摘要和转写原文 | 把别人的知识变成自己可检索的笔记库 |
+
+---
+
 ## 📜 相关链接
 
 - [Get笔记官网](https://biji.com)
@@ -194,4 +222,4 @@ curl -sL https://raw.githubusercontent.com/iswalle/getnote-openclaw/main/package
 
 ## License
 
-MIT-0 (MIT No Attribution) · Published on [ClawHub](https://clawhub.ai)
+MIT-0 · Published on [ClawHub](https://clawhub.ai)
