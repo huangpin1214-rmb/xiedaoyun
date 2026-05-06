@@ -20,6 +20,7 @@ API_KEY = "gk_live_79414cc5d34021a6.f48b009c9ed9470d05fbec8f4ef919f4d657e7a15d91
 CLIENT_ID = "cli_a1b2c3d4e5f6789012345678abcdef90"
 TOPIC_ID = "EJ9zwkln"
 USER_OPEN_ID = "ou_2ad19bb3863e71e2d0eff5cc4aeedd83"
+ARCHIVE_DIR = os.path.join(WORKSPACE, "memory", "盯人日报")
 
 def get_tenant_token():
     with open(CONFIG_FILE) as f:
@@ -85,6 +86,79 @@ def extract_summary(content):
         elif line.startswith('📝'):
             fragments.append(line.replace('📝', '').strip())
     return ' | '.join(fragments[:3]) if fragments else ""
+
+def archive_dingren_note(note_data):
+    """将盯人日报存档到 memory/盯人日报/YYYY-MM-DD.md"""
+    title = note_data.get("title", "")
+    summary = note_data.get("summary", "")
+    urls = note_data.get("urls", [])
+    raw_content = note_data.get("raw_content", "")
+
+    # 提取日期（从标题或 created_at）
+    date_str = note_data.get("created_at", "")
+    if date_str:
+        date_part = date_str[:10]
+    else:
+        date_part = datetime.now().strftime("%Y-%m-%d")
+
+    # 提取期号
+    import re as re2
+    m = re2.search(r'#(\d+)', title)
+    issue = m.group(1) if m else "unknown"
+
+    filename = f"{date_part}.md"
+    filepath = os.path.join(ARCHIVE_DIR, filename)
+
+    # 提取关键词行（## 开头的小标题）
+    key_sections = []
+    for line in raw_content.split('\n'):
+        line = line.strip()
+        if line.startswith('## '):
+            key_sections.append(line.replace('## ', '').strip())
+
+    # 构建正文摘要（去重 + 取前500字）
+    body_preview = raw_content[:500].strip() if raw_content else summary
+
+    content_lines = [
+        f"# 盯人日报 #{issue} | {date_part}",
+        "",
+        f"**归档时间：** {datetime.now().strftime('%Y-%m-%d %H:%M')}",
+        f"**来源：** Get笔记知识库 EJ9zwkln",
+        "",
+        "---",
+        "",
+        "## 核心要点",
+    ]
+
+    if summary:
+        content_lines.append(f"{summary}")
+        content_lines.append("")
+
+    if key_sections:
+        content_lines.append("**本期板块：**")
+        for sec in key_sections:
+            content_lines.append(f"- {sec}")
+        content_lines.append("")
+
+    if body_preview and body_preview != summary:
+        content_lines.append("## 内容预览")
+        content_lines.append(body_preview)
+        content_lines.append("")
+
+    if urls:
+        content_lines.append("## 相关链接")
+        for url in urls:
+            content_lines.append(f"- {url}")
+        content_lines.append("")
+
+    content_lines.append(f"---")
+    content_lines.append(f"*本文件由 getnote-dingren-daily-check.sh 自动生成，勿手动修改* ")
+
+    os.makedirs(ARCHIVE_DIR, exist_ok=True)
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write("\n".join(content_lines))
+
+    return filepath
 
 def extract_links(content):
     """从内容中提取链接（取前3个，清理末尾非法字符）"""
@@ -157,6 +231,8 @@ def main():
                 "title": clean_title(title),
                 "summary": summary,
                 "urls": urls,
+                "created_at": n.get("created_at", ""),
+                "raw_content": n.get("content", "") or "",
             })
         elif any(kw in combined for kw in ai_edu_keywords):
             urls = extract_links(content)
@@ -177,6 +253,21 @@ def main():
     if not token:
         print("飞书 token 失败")
         return
+
+    # 存档盯人日报
+    archived_files = []
+    for dn in dingren_notes:
+        try:
+            filepath = archive_dingren_note({
+                "title": dn["title"],
+                "summary": dn["summary"],
+                "urls": dn["urls"],
+                "raw_content": dn.get("raw_content", ""),
+                "created_at": dn.get("created_at", ""),
+            })
+            archived_files.append(filepath)
+        except Exception as e:
+            print(f"存档失败: {e}")
 
     lines = []
     if dingren_notes:
