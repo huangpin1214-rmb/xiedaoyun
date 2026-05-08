@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-07T19:00:00.503Z",
+  "updatedAt": "2026-05-08T19:00:00.612Z",
   "entries": {
     "memory:memory/2026-03-28.md:1:36": {
       "key": "memory:memory/2026-03-28.md:1:36",
@@ -38599,7 +38599,7 @@
       "startLine": 1,
       "endLine": 33,
       "source": "memory",
-      "snippet": "# 2026-04-15 日记 ## 今日事项 ### 生物实验操作考试提醒 - 今天是周三 → phase1 提醒日 - 已发送飞书提醒给频哥（09:01） - 考试日期：2026-04-24，倒计时 9 天 ### 飞书通道状态 - feishu session 压缩后恢复正常（4.2KB） - feishu plugin health.sh 每 30 分钟检查一次，暂无异常 ### GitHub Secret Scanning 问题 - session 备份文件中含阿里云 AccessKey，被 GitHub 拦截推送 - 用 `git filter-branch` 重写历史移除敏感文件后成功推送 - 教训：以后 .backup/ 目录不要提交到 Git ### 复盘 skill 测试（4月15日） - 多次测试\"复盘→必须调用self-improvement skill\"规则 - 习惯比规则更难改变：知道 ≠ 做到，需要真实失败才能修正行为模式 - 最终建立强制习惯：触发词 → read SKILL.md → 执行 → 汇报 ## 新增 LEARNINGS - LRN-20260415-001：地理题红笔批改标记容易被忽略 - LRN-20260415-002：收到图片类错题应调用对应学科 tutor skill - LRN-20260415-003~008：skill 强制调用习惯培养（多次测试） - LRN-20260415-009：英语短文填空图像识别不可靠，必须用语言分析 ## 待跟进 - [ ] 物理 D13 题：找物理老师确认 - [ ] Ge",
+      "snippet": "# 2026-04-15 日记 ## 今日事项 ### 生物实验操作考试提醒 - 今天是周三 → phase1 提醒日 - 已发送飞书提醒给频哥（09:01） - 考试日期：2026-04-24，倒计时 9 天 ### 飞书通道状态 - feishu session 压缩后恢复正常（4.2KB） - feishu plugin health.sh 每 30 分钟检查一次，暂无异常 ### GitHub Secret Scanning 问题 - session 备份文件中含阿里云 AccessKey，被 GitHub 拦截推送 - 用 `git filter-branch` 重写历史移除敏感文件后成功推送 - 教训：以后 .backup/ 目录不要提交到 Git ### 复盘 skill 测试（4月15日） - 多次测试\"复盘→必须调用self-improvement skill\"规则 - 习惯比规则更难改变：知道 ≠ 做到，需要真实失败才能修正行为模式 - 最终建立强制习惯：触发词 → read SKILL.md → 执行 → 汇报 ## 新增 LEARNINGS - LRN-20260415-001：地理题红笔批改标记容易被忽略 - LRN-20260415-002：收到图片类错题应调用对应学科 tutor skill - LRN-20260415-003~008：skill 强制调用习惯培养（多次测试） - LRN-20260415-009：英语短文填空图像识别不可靠，必须用语言分析 ## 待跟进 - [ ] 物理 D13 题：找物理老师确认 - [ ] Get笔记 cursor 继续有效（1873611189678932616）",
       "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
@@ -38615,7 +38615,8 @@
       "recallDays": [
         "2026-04-23",
         "2026-04-26",
-        "2026-05-07"
+        "2026-05-07",
+        "2026-05-06"
       ],
       "conceptTags": [
         "backup",
@@ -38626,7 +38627,8 @@
         "必须调用self-improvement",
         "skill.md",
         "lrn-20260415-001"
-      ]
+      ],
+      "promotedAt": "2026-05-07T19:00:00.503Z"
     },
     "memory:memory/2026-04-24.md:6:8": {
       "key": "memory:memory/2026-04-24.md:6:8",
@@ -58252,12 +58254,12 @@
       "source": "memory",
       "snippet": "🎉 五一劳动节快乐！: 生物实验操作考试已完成归档",
       "recallCount": 0,
-      "dailyCount": 6,
+      "dailyCount": 7,
       "groundedCount": 0,
-      "totalScore": 3.72,
+      "totalScore": 4.34,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-30T19:00:00.387Z",
-      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "f16f2797a8f9"
       ],
@@ -58269,7 +58271,8 @@
         "2026-05-05",
         "2026-05-06",
         "2026-05-07",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ],
       "conceptTags": [
         "五一劳动节",
@@ -58290,12 +58293,12 @@
       "source": "memory",
       "snippet": "📅 研究生小众概念推送: 22:00 定时推送正常",
       "recallCount": 0,
-      "dailyCount": 6,
+      "dailyCount": 7,
       "groundedCount": 0,
-      "totalScore": 3.72,
+      "totalScore": 4.34,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-04-30T19:00:00.387Z",
-      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "f16f2797a8f9"
       ],
@@ -58307,7 +58310,8 @@
         "2026-05-05",
         "2026-05-06",
         "2026-05-07",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ],
       "conceptTags": [
         "研究生",
@@ -59395,12 +59399,12 @@
       "source": "memory",
       "snippet": "📝 教育理念推送内容多样性探索: 完成 `memory/2026-05-02-edu-push-sources-diversity.md`",
       "recallCount": 0,
-      "dailyCount": 5,
+      "dailyCount": 6,
       "groundedCount": 0,
-      "totalScore": 3.1,
+      "totalScore": 3.72,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T19:00:00.392Z",
-      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "f110005857c9"
       ],
@@ -59412,7 +59416,8 @@
         "2026-05-06",
         "2026-05-05",
         "2026-05-07",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ],
       "conceptTags": [
         "教育",
@@ -59433,12 +59438,12 @@
       "source": "memory",
       "snippet": "日终复盘: 研究生小众概念推送正常（库梅尔定律）",
       "recallCount": 0,
-      "dailyCount": 5,
+      "dailyCount": 6,
       "groundedCount": 0,
-      "totalScore": 3.1,
+      "totalScore": 3.72,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T19:00:00.392Z",
-      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "f110005857c9"
       ],
@@ -59450,7 +59455,8 @@
         "2026-05-06",
         "2026-05-05",
         "2026-05-07",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ],
       "conceptTags": [
         "研究生",
@@ -59469,12 +59475,12 @@
       "source": "memory",
       "snippet": "😊 Session / 图片提醒: 发送 session 优化提醒（/new）",
       "recallCount": 0,
-      "dailyCount": 6,
+      "dailyCount": 7,
       "groundedCount": 0,
-      "totalScore": 3.72,
+      "totalScore": 4.34,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T19:00:00.392Z",
-      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "f16f2797a8f9"
       ],
@@ -59485,7 +59491,8 @@
         "2026-05-05",
         "2026-05-06",
         "2026-05-07",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ],
       "conceptTags": [
         "图片",
@@ -59502,12 +59509,12 @@
       "source": "memory",
       "snippet": "日终复盘: 研究生小众概念推送正常; Session 优化提醒已发送",
       "recallCount": 0,
-      "dailyCount": 6,
+      "dailyCount": 7,
       "groundedCount": 0,
-      "totalScore": 3.72,
+      "totalScore": 4.34,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T19:00:00.392Z",
-      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "f16f2797a8f9"
       ],
@@ -59518,7 +59525,8 @@
         "2026-05-05",
         "2026-05-06",
         "2026-05-07",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ],
       "conceptTags": [
         "研究生",
@@ -59538,12 +59546,12 @@
       "source": "memory",
       "snippet": "明日待办: 继续每日 heartbeat 监控",
       "recallCount": 0,
-      "dailyCount": 6,
+      "dailyCount": 7,
       "groundedCount": 0,
-      "totalScore": 3.72,
+      "totalScore": 4.34,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-01T19:00:00.392Z",
-      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "f16f2797a8f9"
       ],
@@ -59554,7 +59562,8 @@
         "2026-05-05",
         "2026-05-06",
         "2026-05-07",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ],
       "conceptTags": [
         "明日",
@@ -61701,12 +61710,12 @@
       "source": "memory",
       "snippet": "🎉 五一假期第二天正常监控: 研究生小众概念推送正常（Day 47：库梅尔定律 Koomey's Law）; Session 优化提醒已发送",
       "recallCount": 0,
-      "dailyCount": 5,
+      "dailyCount": 6,
       "groundedCount": 0,
-      "totalScore": 3.1,
+      "totalScore": 3.72,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-02T19:00:00.405Z",
-      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "f110005857c9"
       ],
@@ -61717,7 +61726,8 @@
         "2026-05-06",
         "2026-05-05",
         "2026-05-07",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ],
       "conceptTags": [
         "五一",
@@ -61738,12 +61748,12 @@
       "source": "memory",
       "snippet": "明日待办: 继续每日 heartbeat 监控",
       "recallCount": 0,
-      "dailyCount": 5,
+      "dailyCount": 6,
       "groundedCount": 0,
-      "totalScore": 3.1,
+      "totalScore": 3.72,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-02T19:00:00.405Z",
-      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "f110005857c9"
       ],
@@ -61754,7 +61764,8 @@
         "2026-05-06",
         "2026-05-05",
         "2026-05-07",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ],
       "conceptTags": [
         "明日",
@@ -64719,12 +64730,12 @@
       "source": "memory",
       "snippet": "🎉 五一假期第三天（周日）: 研究生小众概念推送：邓宁-克鲁格效应生成失败（内容过短），已跳过; Session 优化提醒已发送; Get笔记周复盘：✅ 已配置完成",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-03T19:00:00.629Z",
-      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "c2bf0c07fdd1"
       ],
@@ -64733,7 +64744,8 @@
         "2026-05-03",
         "2026-05-07",
         "2026-05-06",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ],
       "conceptTags": [
         "邓宁-克鲁格效应生成失败",
@@ -64754,12 +64766,12 @@
       "source": "memory",
       "snippet": "待跟进: [ ] 物理 D13 题：找物理老师确认; Get笔记：✅ 已配置（apiKey + ClientID均已就位）",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-03T19:00:00.629Z",
-      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "c2bf0c07fdd1"
       ],
@@ -64768,7 +64780,8 @@
         "2026-05-03",
         "2026-05-07",
         "2026-05-06",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ],
       "conceptTags": [
         "跟进",
@@ -64789,12 +64802,12 @@
       "source": "memory",
       "snippet": "日终复盘: 邓宁-克鲁格效应推送失败（内容生成过短，已跳过）",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-03T19:00:00.629Z",
-      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "c2bf0c07fdd1"
       ],
@@ -64803,7 +64816,8 @@
         "2026-05-03",
         "2026-05-07",
         "2026-05-06",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ],
       "conceptTags": [
         "邓宁-克鲁格效应推送失败",
@@ -64823,12 +64837,12 @@
       "source": "memory",
       "snippet": "明日待办: 继续每日 heartbeat 监控",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-03T19:00:00.629Z",
-      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "c2bf0c07fdd1"
       ],
@@ -64837,7 +64851,8 @@
         "2026-05-03",
         "2026-05-07",
         "2026-05-06",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ],
       "conceptTags": [
         "明日",
@@ -64854,12 +64869,12 @@
       "source": "memory",
       "snippet": "Get笔记 \"channel未配置\" 已清理（2026-05-03）: Get笔记 apiKey + ClientID 早在之前就已配置完成，API测试正常; \"channel未配置\"是4月份的过期条目，实际不存在这个问题; 已从 short-term-recall.json 删除30条过期引用; 已从各日 memory 文件批量更新checkbox条目",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-03T19:00:00.629Z",
-      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "c2bf0c07fdd1"
       ],
@@ -64868,7 +64883,8 @@
         "2026-05-03",
         "2026-05-07",
         "2026-05-06",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ],
       "conceptTags": [
         "short-term-recall.json",
@@ -64889,12 +64905,12 @@
       "source": "memory",
       "snippet": "Get笔记 \"channel未配置\" 已清理（2026-05-03）: 梦境晨报脚本也已移除该过期检查",
       "recallCount": 0,
-      "dailyCount": 3,
+      "dailyCount": 4,
       "groundedCount": 0,
-      "totalScore": 1.8599999999999999,
+      "totalScore": 2.48,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-03T19:00:00.629Z",
-      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "c2bf0c07fdd1"
       ],
@@ -64903,7 +64919,8 @@
         "2026-05-03",
         "2026-05-07",
         "2026-05-06",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ],
       "conceptTags": [
         "get",
@@ -64924,12 +64941,12 @@
       "source": "memory",
       "snippet": "待跟进: [ ] 物理 D13 题：找物理老师确认; Get笔记：✅ 已配置（apiKey+ClientID均已就位）",
       "recallCount": 0,
-      "dailyCount": 4,
+      "dailyCount": 5,
       "groundedCount": 0,
-      "totalScore": 2.48,
+      "totalScore": 3.1,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-03T19:00:00.629Z",
-      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "f110005857c9"
       ],
@@ -64939,7 +64956,8 @@
         "2026-05-06",
         "2026-05-05",
         "2026-05-07",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ],
       "conceptTags": [
         "跟进",
@@ -64960,12 +64978,12 @@
       "source": "memory",
       "snippet": "待跟进: [ ] 物理 D13 题：找物理老师确认; Get笔记：✅ 已配置（apiKey+ClientID均已就位）",
       "recallCount": 0,
-      "dailyCount": 5,
+      "dailyCount": 6,
       "groundedCount": 0,
-      "totalScore": 3.1,
+      "totalScore": 3.72,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-03T19:00:00.629Z",
-      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "f16f2797a8f9"
       ],
@@ -64975,7 +64993,8 @@
         "2026-05-05",
         "2026-05-06",
         "2026-05-07",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ],
       "conceptTags": [
         "跟进",
@@ -66002,19 +66021,20 @@
       "source": "memory",
       "snippet": "🎉 五一假期最后一天（周二）: 10:18 heartbeat正常运行; 已两次提醒频哥开新会话（context 37k/205k）",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-04T19:00:00.622Z",
-      "lastRecalledAt": "2026-05-05T19:00:00.549Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "b3222f2b9fdf"
       ],
       "recallDays": [
         "2026-05-05",
         "2026-05-04",
-        "2026-05-06"
+        "2026-05-06",
+        "2026-05-09"
       ],
       "conceptTags": [
         "37k/205k",
@@ -66092,19 +66112,21 @@
       "source": "memory",
       "snippet": "🎉 五一假期第四天（周一）: 正常 heartbeat 监控中; Session 正常运行",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-04T19:00:00.622Z",
-      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "ad6c7e6ef235"
       ],
       "recallDays": [
         "2026-05-05",
         "2026-05-04",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07",
+        "2026-05-09"
       ],
       "conceptTags": [
         "五一",
@@ -66124,19 +66146,21 @@
       "source": "memory",
       "snippet": "待跟进: [ ] 物理 D13 题：找物理老师确认",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-04T19:00:00.622Z",
-      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "ad6c7e6ef235"
       ],
       "recallDays": [
         "2026-05-05",
         "2026-05-04",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07",
+        "2026-05-09"
       ],
       "conceptTags": [
         "跟进",
@@ -66154,19 +66178,21 @@
       "source": "memory",
       "snippet": "系统状态: 飞书插件：✅ 正常; 备份状态：✅ 正常（备份每日3:00执行，.backup.log确认成功）",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-04T19:00:00.622Z",
-      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "ad6c7e6ef235"
       ],
       "recallDays": [
         "2026-05-05",
         "2026-05-04",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07",
+        "2026-05-09"
       ],
       "conceptTags": [
         "backup",
@@ -66187,19 +66213,21 @@
       "source": "memory",
       "snippet": "日终复盘: Session运行正常，context约17%（35k/205k），无异常; 已提醒频哥开新会话（session跑了一整天）; 系统各项监控正常",
       "recallCount": 0,
-      "dailyCount": 2,
+      "dailyCount": 3,
       "groundedCount": 0,
-      "totalScore": 1.24,
+      "totalScore": 1.8599999999999999,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-04T19:00:00.622Z",
-      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "ad6c7e6ef235"
       ],
       "recallDays": [
         "2026-05-05",
         "2026-05-04",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07",
+        "2026-05-09"
       ],
       "conceptTags": [
         "35k/205k",
@@ -66342,18 +66370,19 @@
       "source": "memory",
       "snippet": "今日要点: 兮兮维生素A夜盲症错题录入bitable（recviKAv1XrGmi）：古代医学记载分析题，正确答案C，核心错因是混淆了维生素缺乏症对应（夜盲症→维A，而非维B）",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-05T19:00:00.549Z",
-      "lastRecalledAt": "2026-05-05T19:00:00.549Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "b3222f2b9fdf"
       ],
       "recallDays": [
         "2026-05-06",
-        "2026-05-05"
+        "2026-05-05",
+        "2026-05-09"
       ],
       "conceptTags": [
         "今日",
@@ -66374,18 +66403,19 @@
       "source": "memory",
       "snippet": "错题本更新: 新建记录 recviKAv1XrGmi（生物·维生素缺乏症），含完整错因分析和原图",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-05T19:00:00.549Z",
-      "lastRecalledAt": "2026-05-05T19:00:00.549Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "b3222f2b9fdf"
       ],
       "recallDays": [
         "2026-05-06",
-        "2026-05-05"
+        "2026-05-05",
+        "2026-05-09"
       ],
       "conceptTags": [
         "更新",
@@ -66406,18 +66436,19 @@
       "source": "memory",
       "snippet": "待跟进: [ ] 物理 D13 题：找物理老师确认",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-05T19:00:00.549Z",
-      "lastRecalledAt": "2026-05-05T19:00:00.549Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "b3222f2b9fdf"
       ],
       "recallDays": [
         "2026-05-06",
-        "2026-05-05"
+        "2026-05-05",
+        "2026-05-09"
       ],
       "conceptTags": [
         "跟进",
@@ -66435,18 +66466,19 @@
       "source": "memory",
       "snippet": "日终复盘: 五一假期最后一天，系统运行正常; 今日主要事项：错题本录入生物维生素缺乏症题目（recviKAv1XrGmi）; Context 37k，session 跑了约2天，建议频哥开新会话",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-05T19:00:00.549Z",
-      "lastRecalledAt": "2026-05-05T19:00:00.549Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "b3222f2b9fdf"
       ],
       "recallDays": [
         "2026-05-06",
-        "2026-05-05"
+        "2026-05-05",
+        "2026-05-09"
       ],
       "conceptTags": [
         "五一",
@@ -66467,18 +66499,19 @@
       "source": "memory",
       "snippet": "明日待办: 假期结束，正常工作日",
       "recallCount": 0,
-      "dailyCount": 1,
+      "dailyCount": 2,
       "groundedCount": 0,
-      "totalScore": 0.62,
+      "totalScore": 1.24,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-05T19:00:00.549Z",
-      "lastRecalledAt": "2026-05-05T19:00:00.549Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
       "queryHashes": [
         "b3222f2b9fdf"
       ],
       "recallDays": [
         "2026-05-06",
-        "2026-05-05"
+        "2026-05-05",
+        "2026-05-09"
       ],
       "conceptTags": [
         "明日",
@@ -68285,7 +68318,8 @@
         "435a39ce08d2"
       ],
       "recallDays": [
-        "2026-05-07"
+        "2026-05-07",
+        "2026-05-06"
       ],
       "conceptTags": [
         "memory.md",
@@ -68316,7 +68350,8 @@
         "435a39ce08d2"
       ],
       "recallDays": [
-        "2026-05-07"
+        "2026-05-07",
+        "2026-05-06"
       ],
       "conceptTags": [
         "geography-tutor",
@@ -68347,7 +68382,8 @@
         "435a39ce08d2"
       ],
       "recallDays": [
-        "2026-05-07"
+        "2026-05-07",
+        "2026-05-06"
       ],
       "conceptTags": [
         "geography-tutor",
@@ -68378,7 +68414,8 @@
         "e86b6551e251"
       ],
       "recallDays": [
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07"
       ],
       "conceptTags": [
         "49k/205k",
@@ -68409,7 +68446,8 @@
         "e86b6551e251"
       ],
       "recallDays": [
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07"
       ],
       "conceptTags": [
         "跟进",
@@ -68437,7 +68475,8 @@
         "e86b6551e251"
       ],
       "recallDays": [
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07"
       ],
       "conceptTags": [
         "备份",
@@ -68465,7 +68504,8 @@
         "edcbe8c19953"
       ],
       "recallDays": [
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07"
       ],
       "conceptTags": [
         "备份",
@@ -68496,7 +68536,8 @@
         "edcbe8c19953"
       ],
       "recallDays": [
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07"
       ],
       "conceptTags": [
         "跟进",
@@ -68524,7 +68565,8 @@
         "edcbe8c19953"
       ],
       "recallDays": [
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07"
       ],
       "conceptTags": [
         "备份",
@@ -68555,7 +68597,8 @@
         "edcbe8c19953"
       ],
       "recallDays": [
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07"
       ],
       "conceptTags": [
         "明日",
@@ -68582,7 +68625,8 @@
         "a259255c9ad9"
       ],
       "recallDays": [
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07"
       ],
       "conceptTags": [
         "已经",
@@ -68613,7 +68657,8 @@
         "a259255c9ad9"
       ],
       "recallDays": [
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07"
       ],
       "conceptTags": [
         "message-id",
@@ -68641,7 +68686,8 @@
         "a259255c9ad9"
       ],
       "recallDays": [
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07"
       ],
       "conceptTags": [
         "备份",
@@ -68672,7 +68718,8 @@
         "a259255c9ad9"
       ],
       "recallDays": [
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07"
       ],
       "conceptTags": [
         "message-id",
@@ -68699,7 +68746,8 @@
         "a259255c9ad9"
       ],
       "recallDays": [
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07"
       ],
       "conceptTags": [
         "没有",
@@ -68730,7 +68778,8 @@
         "a259255c9ad9"
       ],
       "recallDays": [
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07"
       ],
       "conceptTags": [
         "message-id",
@@ -68760,7 +68809,8 @@
         "a259255c9ad9"
       ],
       "recallDays": [
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07"
       ],
       "conceptTags": [
         "备份",
@@ -68791,7 +68841,8 @@
         "a259255c9ad9"
       ],
       "recallDays": [
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07"
       ],
       "conceptTags": [
         "message-id",
@@ -68822,7 +68873,8 @@
         "a259255c9ad9"
       ],
       "recallDays": [
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07"
       ],
       "conceptTags": [
         "note-id",
@@ -68853,7 +68905,8 @@
         "a259255c9ad9"
       ],
       "recallDays": [
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07"
       ],
       "conceptTags": [
         "message-id",
@@ -68882,7 +68935,8 @@
         "a259255c9ad9"
       ],
       "recallDays": [
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07"
       ],
       "conceptTags": [
         "没有",
@@ -68913,7 +68967,8 @@
         "a259255c9ad9"
       ],
       "recallDays": [
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07"
       ],
       "conceptTags": [
         "message-id",
@@ -68942,7 +68997,8 @@
         "a259255c9ad9"
       ],
       "recallDays": [
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-07"
       ],
       "conceptTags": [
         "现在",
@@ -68952,6 +69008,612 @@
         "变更",
         "提交",
         "git"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-07.txt:14:14": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-07.txt:14:14",
+      "path": "memory/.dreams/session-corpus/2026-05-07.txt",
+      "startLine": 14,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "Assistant: Done。4个 skill 全部更新完毕，commit 已落地： - **getnote** — 反幻觉边界 + 失败重试策略 - **multi-search-engine-2** — 新增（全新安装） - **openclaw-find-skills** — 已同步 - **skill-vetter** — 已同步 下次 heartbeat 或 git log 不会看到这堆\"有改动未提交\"了。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "queryHashes": [
+        "a259255c9ad9"
+      ],
+      "recallDays": [
+        "2026-05-08",
+        "2026-05-07"
+      ],
+      "conceptTags": [
+        "multi-search-engine-2",
+        "openclaw-find-skills",
+        "skill-vetter",
+        "done",
+        "skill",
+        "全部",
+        "更新",
+        "完毕"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-07.txt:15:15": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-07.txt:15:15",
+      "path": "memory/.dreams/session-corpus/2026-05-07.txt",
+      "startLine": 15,
+      "endLine": 15,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b5089542b20a0c4a462889dcd834] 用户612847: 复盘一下这个工作",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "queryHashes": [
+        "a259255c9ad9"
+      ],
+      "recallDays": [
+        "2026-05-08",
+        "2026-05-07"
+      ],
+      "conceptTags": [
+        "message-id",
+        "用户",
+        "一下",
+        "这个",
+        "工作"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-07.txt:16:16": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-07.txt:16:16",
+      "path": "memory/.dreams/session-corpus/2026-05-07.txt",
+      "startLine": 16,
+      "endLine": 16,
+      "source": "memory",
+      "snippet": "Assistant: --- **复盘完成 ✓** **本次调用的 self-improvement skill：** `skills/self-improving-agent/SKILL.md`（路径：`~/.openclaw/workspace/skills/self-improving-agent/SKILL.md`） --- **发生了什么：** 1. 频哥收到 OpenClaw \"Skills自动更新报告\"通知 → 来问我\"更新了哪个skill\" 2. 我没确认来源就开始查 git status，看到 modification 就默认\"这些修改",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "queryHashes": [
+        "a259255c9ad9"
+      ],
+      "recallDays": [
+        "2026-05-08",
+        "2026-05-07"
+      ],
+      "conceptTags": [
+        "self-improvement",
+        "完成",
+        "本次",
+        "self",
+        "improvement",
+        "skill",
+        "skills",
+        "improving"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-07.txt:17:17": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-07.txt:17:17",
+      "path": "memory/.dreams/session-corpus/2026-05-07.txt",
+      "startLine": 17,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b50896af920a4c2a312fe4e4baf0] 用户612847: 你后面准备怎么做skill更新的工作？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "queryHashes": [
+        "a259255c9ad9"
+      ],
+      "recallDays": [
+        "2026-05-08",
+        "2026-05-07"
+      ],
+      "conceptTags": [
+        "message-id",
+        "用户",
+        "后面",
+        "准备",
+        "怎么",
+        "skill",
+        "更新",
+        "工作"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-07.txt:18:18": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-07.txt:18:18",
+      "path": "memory/.dreams/session-corpus/2026-05-07.txt",
+      "startLine": 18,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "Assistant: 基于刚才的教训，我理解频哥想要的是：**以后看到 Skills 自动更新报告时，我能主动做点什么。** 我的计划是： **1. 区分清楚两个概念** - 系统自动同步（OpenClaw 每天 06:00）→ 我告诉频哥\"这是系统自动同步，以下是变化摘要\" - 我主动更新 → 我自己执行 git add + commit + 告诉频哥结果 **2. 每天自动同步后主动汇报** 每天 06:00 系统同步完，我会主动检查变化，给频哥发一条简报： ``` 🔄 Skills 更新简报 | MM月DD日 - getnote: [变化摘要]",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "queryHashes": [
+        "a259255c9ad9"
+      ],
+      "recallDays": [
+        "2026-05-08",
+        "2026-05-07"
+      ],
+      "conceptTags": [
+        "基于",
+        "刚才",
+        "教训",
+        "理解",
+        "想要",
+        "的是",
+        "以后",
+        "看到"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-07.txt:19:19": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-07.txt:19:19",
+      "path": "memory/.dreams/session-corpus/2026-05-07.txt",
+      "startLine": 19,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b5089601058a8c3b1d3a65c668dd] 用户612847: 好，先这样",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "queryHashes": [
+        "a259255c9ad9"
+      ],
+      "recallDays": [
+        "2026-05-08",
+        "2026-05-07"
+      ],
+      "conceptTags": [
+        "message-id",
+        "用户",
+        "这样"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-07.txt:20:20": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-07.txt:20:20",
+      "path": "memory/.dreams/session-corpus/2026-05-07.txt",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "Assistant: 已写入 MEMORY.md，下次看到系统同步报告我会主动走这个流程。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-07T19:00:00.503Z",
+      "lastRecalledAt": "2026-05-07T19:00:00.503Z",
+      "queryHashes": [
+        "a259255c9ad9"
+      ],
+      "recallDays": [
+        "2026-05-08",
+        "2026-05-07"
+      ],
+      "conceptTags": [
+        "memory.md",
+        "下次",
+        "看到",
+        "系统",
+        "同步",
+        "报告",
+        "主动",
+        "这个"
+      ]
+    },
+    "memory:memory/2026-05-09.md:6:7": {
+      "key": "memory:memory/2026-05-09.md:6:7",
+      "path": "memory/2026-05-09.md",
+      "startLine": 6,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "周六: 00:18 heartbeat，正常运行; Context 55k/205k（27%），持续提醒频哥开新会话",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-08T19:00:00.612Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
+      "queryHashes": [
+        "f9349cbeaf46"
+      ],
+      "recallDays": [
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "55k/205k",
+        "周六",
+        "heartbeat",
+        "正常",
+        "运行",
+        "context",
+        "55k",
+        "205k"
+      ]
+    },
+    "memory:memory/2026-05-09.md:10:10": {
+      "key": "memory:memory/2026-05-09.md:10:10",
+      "path": "memory/2026-05-09.md",
+      "startLine": 10,
+      "endLine": 10,
+      "source": "memory",
+      "snippet": "待跟进: [ ] 物理 D13 题：找物理老师确认",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-08T19:00:00.612Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
+      "queryHashes": [
+        "f9349cbeaf46"
+      ],
+      "recallDays": [
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "跟进",
+        "物理",
+        "d13",
+        "老师",
+        "确认"
+      ]
+    },
+    "memory:memory/2026-05-09.md:13:14": {
+      "key": "memory:memory/2026-05-09.md:13:14",
+      "path": "memory/2026-05-09.md",
+      "startLine": 13,
+      "endLine": 14,
+      "source": "memory",
+      "snippet": "系统状态: 飞书插件：✅ 正常; 备份状态：待确认",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-08T19:00:00.612Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
+      "queryHashes": [
+        "f9349cbeaf46"
+      ],
+      "recallDays": [
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "备份",
+        "系统",
+        "状态",
+        "正常",
+        "确认"
+      ]
+    },
+    "memory:memory/2026-05-08.md:6:9": {
+      "key": "memory:memory/2026-05-08.md:6:9",
+      "path": "memory/2026-05-08.md",
+      "startLine": 6,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "周五: 00:18 heartbeat，正常运行; Context 55k/205k（27%），持续提醒频哥开新会话; 12:20 heartbeat 正常运行; 下午至晚间多次 heartbeat 正常",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-08T19:00:00.612Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
+      "queryHashes": [
+        "e86b6551e251"
+      ],
+      "recallDays": [
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "55k/205k",
+        "周五",
+        "heartbeat",
+        "正常",
+        "运行",
+        "context",
+        "55k",
+        "205k"
+      ]
+    },
+    "memory:memory/2026-05-08.md:12:12": {
+      "key": "memory:memory/2026-05-08.md:12:12",
+      "path": "memory/2026-05-08.md",
+      "startLine": 12,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "待跟进: [ ] 物理 D13 题：找物理老师确认",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-08T19:00:00.612Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
+      "queryHashes": [
+        "e86b6551e251"
+      ],
+      "recallDays": [
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "跟进",
+        "物理",
+        "d13",
+        "老师",
+        "确认"
+      ]
+    },
+    "memory:memory/2026-05-08.md:15:17": {
+      "key": "memory:memory/2026-05-08.md:15:17",
+      "path": "memory/2026-05-08.md",
+      "startLine": 15,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "系统状态: 飞书插件：✅ 正常; 备份状态：✅ 正常（May 8 03:00 确认成功）; Context 55k/205k（27%），已多次提醒频哥开新会话",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-08T19:00:00.612Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
+      "queryHashes": [
+        "e86b6551e251"
+      ],
+      "recallDays": [
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "备份",
+        "55k/205k",
+        "系统",
+        "状态",
+        "正常",
+        "may",
+        "确认",
+        "成功"
+      ]
+    },
+    "memory:memory/2026-05-08.md:20:20": {
+      "key": "memory:memory/2026-05-08.md:20:20",
+      "path": "memory/2026-05-08.md",
+      "startLine": 20,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "今日待处理: 研究生小众概念推送连续失败（5/4-5/8），需排查",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-08T19:00:00.612Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
+      "queryHashes": [
+        "e86b6551e251"
+      ],
+      "recallDays": [
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "5/4-5/8",
+        "今日",
+        "处理",
+        "研究生",
+        "小众",
+        "概念",
+        "推送",
+        "连续"
+      ]
+    },
+    "memory:memory/2026-05-08.md:23:24": {
+      "key": "memory:memory/2026-05-08.md:23:24",
+      "path": "memory/2026-05-08.md",
+      "startLine": 23,
+      "endLine": 24,
+      "source": "memory",
+      "snippet": "日记备注: 频哥自5月3日以来未发新消息，session持续以heartbeat运行（5月8日约6天）; 已多次提醒开新会话",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-08T19:00:00.612Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
+      "queryHashes": [
+        "e86b6551e251"
+      ],
+      "recallDays": [
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "日记",
+        "备注",
+        "以来",
+        "消息",
+        "持续",
+        "heartbeat",
+        "运行",
+        "多次"
+      ]
+    },
+    "memory:memory/2026-05-08.md:27:28": {
+      "key": "memory:memory/2026-05-08.md:27:28",
+      "path": "memory/2026-05-08.md",
+      "startLine": 27,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "日终复盘: 周五系统运行正常; Context 55k/205k（27%），session跑了约6天，建议频哥开新会话",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-08T19:00:00.612Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
+      "queryHashes": [
+        "e86b6551e251"
+      ],
+      "recallDays": [
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "55k/205k",
+        "周五",
+        "系统",
+        "运行",
+        "正常",
+        "context",
+        "55k",
+        "205k"
+      ]
+    },
+    "memory:memory/2026-05-08.md:32:32": {
+      "key": "memory:memory/2026-05-08.md:32:32",
+      "path": "memory/2026-05-08.md",
+      "startLine": 32,
+      "endLine": 32,
+      "source": "memory",
+      "snippet": "明日待办: 物理D13题待确认",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.62,
+      "maxScore": 0.62,
+      "firstRecalledAt": "2026-05-08T19:00:00.612Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
+      "queryHashes": [
+        "e86b6551e251"
+      ],
+      "recallDays": [
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "明日",
+        "物理",
+        "d13",
+        "确认"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-08.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-08.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-08.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b50e6e4c05ca0c21a47e58ccf57b] 用户612847: 中国国家集成电路产业投资基金（\"大基金\"）正在谈判领投DeepSeek的首轮外部融资，估值约$450亿（约3000亿人民币）。仅数周前，此轮估值预期还是$10 详细解读一下这个消息的内容",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-08T19:00:00.612Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
+      "queryHashes": [
+        "d62c1963872e"
+      ],
+      "recallDays": [
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "message-id",
+        "用户",
+        "中国",
+        "国家",
+        "集成",
+        "电路",
+        "产业",
+        "投资"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-08.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-08.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-08.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: **深度解读：DeepSeek 首轮外部融资** --- **一、核心事实** | 项目 | 内容 | |------|------| | 融资方 | 国家集成电路产业投资基金（\"大基金\"）领投 | | 最新估值 | ≈$450亿（约3065亿元人民币） | | 估值变化 | 数周前预期 ~$200亿，现跳升至 $450亿 | | 其他潜在投资方 | 腾讯、阿里、国资机构 | | 创始人 | 梁文锋（幻方量化创始人） | | 此前融资记录 | **零**——完全靠幻方量化自筹 | --- **二、为什么此时融资？** 搜索结果指向两",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-08T19:00:00.612Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
+      "queryHashes": [
+        "d62c1963872e"
+      ],
+      "recallDays": [
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "深度",
+        "解读",
+        "deepseek",
+        "外部",
+        "融资",
+        "核心",
+        "事实",
+        "项目"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-08.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-08.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-08.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: 估值从$200亿到$450亿的跃升，市场解读是：大基金不是在买\"AI概念\"，而是在买**半导体自主可控战略的软件闭环**。DeepSeek证明了\"模型+国产硬件\"能跑出接近前沿的性能，把\"有硬件没生态\"的死结打开了。 --- **四、股权结构变化** 4月27日（融资消息曝光前几天），DeepSeek悄然完成股权调整： - 注册资本：1000万 → 1500万元 - 梁文锋直接持股：1% → 34% - 梁文锋合计控制：约 **84.29%** 按$450亿估值计算，梁文锋持股价值约 **$380亿美元**。透明的股权架构是机构投资",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-08T19:00:00.612Z",
+      "lastRecalledAt": "2026-05-08T19:00:00.612Z",
+      "queryHashes": [
+        "d62c1963872e"
+      ],
+      "recallDays": [
+        "2026-05-09"
+      ],
+      "conceptTags": [
+        "84.29",
+        "市场",
+        "解读",
+        "基金",
+        "不是",
+        "概念",
+        "而是",
+        "半导体"
       ]
     }
   }
