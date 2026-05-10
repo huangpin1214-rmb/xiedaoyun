@@ -10,7 +10,9 @@
       "task": "请兮兮找物理老师确认：第13题为什么选D是错的？",
       "detail": "原题：直筒塑料管底部橡皮膜，下压后膜的形变方向。兮兮选D但被判错，老师标准答案是D。物理分析：下压时外部液体压强增大 > 内部水柱压强不变 → 膜应向上凸起，与老师结论矛盾，需当面确认。",
       "active": true
-    }
+    },
+    "grad_school_concept_investigation": "2026-05-10T06:20:00+08:00",
+    "grad_school_concept_issue": "模型正常生成内容，但脚本 content 变量为空，可能 stderr 捕获问题"
   },
   "reminders": {
     "grad_school_concept": {
