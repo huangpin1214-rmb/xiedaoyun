@@ -1,0 +1,4 @@
+[main/sessions/416ee487-7e8b-440a-8558-8a37a152264b.jsonl#L2041] Assistant: 频哥，session 已经跑了约 9 天了，context 持续累积，建议 `/new` 开个新会话，速度会快很多 😊
+[main/sessions/416ee487-7e8b-440a-8558-8a37a152264b.jsonl#L2113] Assistant: 频哥，session context 已到 107k（52%），越来越大了。建议 `/new` 开个新会话，速度会快很多 😊
+[main/sessions/49735fbf-f1b4-4be3-a450-4244e9122c44.jsonl#L5] User: [message_id: om_x100b6f055e266108c3dde9eb67059e3] 用户612847: 在吗？
+[main/sessions/49735fbf-f1b4-4be3-a450-4244e9122c44.jsonl#L7] Assistant: 在的频哥，有啥事儿？
