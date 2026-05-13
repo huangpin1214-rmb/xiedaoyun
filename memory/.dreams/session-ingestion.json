@@ -268,8 +268,8 @@
       "lastContentLine": 0
     },
     "main:sessions/416ee487-7e8b-440a-8558-8a37a152264b.jsonl": {
-      "mtimeMs": 1778611830595,
-      "size": 1532891,
+      "mtimeMs": 1778698226715,
+      "size": 1678748,
       "contentHash": "d3f994eeb30eb8b9eceeeef6646eea46396dd97c4c391e0d15465471fb612912",
       "lineCount": 15,
       "lastContentLine": 15
@@ -540,6 +540,13 @@
       "lineCount": 2,
       "lastContentLine": 2
     },
+    "main:sessions/8f4ab902-386b-4ca8-98a2-10df7d48af13.jsonl.deleted.2026-05-12T19-00-48.873Z": {
+      "mtimeMs": 1778612432834,
+      "size": 4907,
+      "contentHash": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+      "lineCount": 0,
+      "lastContentLine": 0
+    },
     "main:sessions/8ffe7edc-0ef0-43d5-82cb-cd441728c34e.jsonl.deleted.2026-04-14T05-55-32.436Z": {
       "mtimeMs": 1776127569487,
       "size": 4509,
@@ -567,6 +574,13 @@
       "contentHash": "59badf8cd9375b3cf1ba169cd8deee27f492efe30189c4eb54e1cb43634327a5",
       "lineCount": 2,
       "lastContentLine": 2
+    },
+    "main:sessions/943c5705-0be2-48f8-adc7-27c1e12909a3.jsonl": {
+      "mtimeMs": 1778612462049,
+      "size": 4569,
+      "contentHash": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+      "lineCount": 0,
+      "lastContentLine": 0
     },
     "main:sessions/9d17be9a-1f8f-4fe1-81fc-838b0d803d4e.jsonl": {
       "mtimeMs": 1778094068930,
@@ -620,6 +634,13 @@
     "main:sessions/a8c447f6-2023-4c31-8492-e73fb17fe298.jsonl": {
       "mtimeMs": 1778439650231,
       "size": 7042,
+      "contentHash": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+      "lineCount": 0,
+      "lastContentLine": 0
+    },
+    "main:sessions/a8e7565a-c648-4d84-b55e-3dc40bcb12ec.jsonl.deleted.2026-05-12T19-00-49.416Z": {
+      "mtimeMs": 1778612447899,
+      "size": 6662,
       "contentHash": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
       "lineCount": 0,
       "lastContentLine": 0
@@ -3184,10 +3205,11 @@
       "eed7bd4f472b3bc7ef25c0e5074a001ee3d4fa53",
       "c121181b732b84510a4b4b9c72ea9c3a29b35a79"
     ],
-    "main:20827697-1a2e-453e-a6a4-582b0c3b9090": [],
     "main:49735fbf-f1b4-4be3-a450-4244e9122c44": [
       "1bacce4fbf3a076607f884e50bbd425974a6d8be",
       "e7406f41c0bdac884486defad7c069cae45a9b91"
-    ]
+    ],
+    "main:8f4ab902-386b-4ca8-98a2-10df7d48af13": [],
+    "main:a8e7565a-c648-4d84-b55e-3dc40bcb12ec": []
   }
 }
