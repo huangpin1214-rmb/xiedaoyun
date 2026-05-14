@@ -1,0 +1,1 @@
+[main/sessions/416ee487-7e8b-440a-8558-8a37a152264b.jsonl#L2358] Assistant: 频哥，这个 session 已经跑了约 10 天了，context 到了 115k（56%），越来越大了。建议 `/new` 开个新会话，速度会快很多 😊
