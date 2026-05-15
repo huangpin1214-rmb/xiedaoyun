@@ -1,0 +1,3 @@
+[main/sessions/416ee487-7e8b-440a-8558-8a37a152264b.jsonl#L2621] Assistant: 频哥，session context 已到 122k（60%）了，接近上限了。建议 `/new` 开个新会话，速度会快很多 😊
+[main/sessions/66c853d1-e586-41e0-8f0c-e7aecfe51f59.jsonl#L5] User: [message_id: om_x100b6f52125030a4b34d914d61d26f7] 用户612847: 具体什么内容？
+[main/sessions/66c853d1-e586-41e0-8f0c-e7aecfe51f59.jsonl#L7] Assistant: 频哥，没有看到之前的上下文呢——你是指哪条消息的内容？可以把链接或截图发给我，或者再描述一下 😊
