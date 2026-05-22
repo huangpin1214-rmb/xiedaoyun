@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-21T19:00:02.806Z",
+  "updatedAt": "2026-05-22T19:00:02.783Z",
   "entries": {
     "memory:memory/2026-03-28.md:1:36": {
       "key": "memory:memory/2026-03-28.md:1:36",
@@ -72732,12 +72732,12 @@
       "source": "memory",
       "snippet": "周五: 00:20 heartbeat，正常运行; Context 122k/205k（60%），session文件1.8MB，跑了约12天，持续提醒频哥开新会话",
       "recallCount": 0,
-      "dailyCount": 7,
+      "dailyCount": 8,
       "groundedCount": 0,
-      "totalScore": 4.34,
+      "totalScore": 4.96,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-14T19:00:00.488Z",
-      "lastRecalledAt": "2026-05-21T19:00:00.579Z",
+      "lastRecalledAt": "2026-05-22T19:00:00.534Z",
       "queryHashes": [
         "7e5abc1a80b8"
       ],
@@ -72750,7 +72750,8 @@
         "2026-05-19",
         "2026-05-20",
         "2026-05-21",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "122k/205k",
@@ -73144,12 +73145,12 @@
       "source": "memory",
       "snippet": "今日要点: 备份状态：✅ 正常（May 15 03:00确认）; Skills自动更新：✅ 正常（May 15 06:00确认）; 盯人日报：✅ 正常（total=1）; 发芽推送：✅ 正常（21:30）",
       "recallCount": 0,
-      "dailyCount": 6,
+      "dailyCount": 7,
       "groundedCount": 0,
-      "totalScore": 3.72,
+      "totalScore": 4.34,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-15T19:00:00.519Z",
-      "lastRecalledAt": "2026-05-21T19:00:00.579Z",
+      "lastRecalledAt": "2026-05-22T19:00:00.534Z",
       "queryHashes": [
         "7e5abc1a80b8"
       ],
@@ -73161,7 +73162,8 @@
         "2026-05-19",
         "2026-05-20",
         "2026-05-21",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "备份",
@@ -73182,12 +73184,12 @@
       "source": "memory",
       "snippet": "今日要点: 研究生概念推送：❌ 再失败（复杂系统理论，连续第13次失败）",
       "recallCount": 0,
-      "dailyCount": 6,
+      "dailyCount": 7,
       "groundedCount": 0,
-      "totalScore": 3.72,
+      "totalScore": 4.34,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-15T19:00:00.519Z",
-      "lastRecalledAt": "2026-05-21T19:00:00.579Z",
+      "lastRecalledAt": "2026-05-22T19:00:00.534Z",
       "queryHashes": [
         "7e5abc1a80b8"
       ],
@@ -73199,7 +73201,8 @@
         "2026-05-19",
         "2026-05-20",
         "2026-05-21",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "今日",
@@ -73220,12 +73223,12 @@
       "source": "memory",
       "snippet": "待跟进: [ ] 物理 D13 题：找物理老师确认; [ ] 研究生小众概念推送脚本修复（连续13次失败）",
       "recallCount": 0,
-      "dailyCount": 6,
+      "dailyCount": 7,
       "groundedCount": 0,
-      "totalScore": 3.72,
+      "totalScore": 4.34,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-15T19:00:00.519Z",
-      "lastRecalledAt": "2026-05-21T19:00:00.579Z",
+      "lastRecalledAt": "2026-05-22T19:00:00.534Z",
       "queryHashes": [
         "7e5abc1a80b8"
       ],
@@ -73237,7 +73240,8 @@
         "2026-05-19",
         "2026-05-20",
         "2026-05-21",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "跟进",
@@ -73258,12 +73262,12 @@
       "source": "memory",
       "snippet": "系统状态: 飞书插件：✅ 正常",
       "recallCount": 0,
-      "dailyCount": 6,
+      "dailyCount": 7,
       "groundedCount": 0,
-      "totalScore": 3.72,
+      "totalScore": 4.34,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-15T19:00:00.519Z",
-      "lastRecalledAt": "2026-05-21T19:00:00.579Z",
+      "lastRecalledAt": "2026-05-22T19:00:00.534Z",
       "queryHashes": [
         "7e5abc1a80b8"
       ],
@@ -73275,7 +73279,8 @@
         "2026-05-19",
         "2026-05-20",
         "2026-05-21",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "系统",
@@ -73291,12 +73296,12 @@
       "source": "memory",
       "snippet": "日终复盘: 周五系统运行正常; 研究生概念推送连续失败13次，需优先修复脚本; Context 122k/205k（60%），已多次提醒频哥开新会话，建议尽快换新session",
       "recallCount": 0,
-      "dailyCount": 6,
+      "dailyCount": 7,
       "groundedCount": 0,
-      "totalScore": 3.72,
+      "totalScore": 4.34,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-15T19:00:00.519Z",
-      "lastRecalledAt": "2026-05-21T19:00:00.579Z",
+      "lastRecalledAt": "2026-05-22T19:00:00.534Z",
       "queryHashes": [
         "7e5abc1a80b8"
       ],
@@ -73308,7 +73313,8 @@
         "2026-05-19",
         "2026-05-20",
         "2026-05-21",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "122k/205k",
@@ -73422,12 +73428,12 @@
       "source": "memory",
       "snippet": "周六: 00:18 heartbeat，正常运行; Context 127k/205k（62%），session文件约1.8MB，持续提醒频哥开新会话; Usage 2h/5h，恢复到正常水平（之前剩9分钟是误报）",
       "recallCount": 0,
-      "dailyCount": 6,
+      "dailyCount": 7,
       "groundedCount": 0,
-      "totalScore": 3.72,
+      "totalScore": 4.34,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-16T19:00:00.506Z",
-      "lastRecalledAt": "2026-05-21T19:00:00.579Z",
+      "lastRecalledAt": "2026-05-22T19:00:00.534Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
@@ -73438,7 +73444,8 @@
         "2026-05-19",
         "2026-05-20",
         "2026-05-21",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "127k/205k",
@@ -73459,12 +73466,12 @@
       "source": "memory",
       "snippet": "待跟进: [ ] 物理 D13 题：找物理老师确认; [ ] 研究生小众概念推送脚本修复（连续13次失败）",
       "recallCount": 0,
-      "dailyCount": 6,
+      "dailyCount": 7,
       "groundedCount": 0,
-      "totalScore": 3.72,
+      "totalScore": 4.34,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-16T19:00:00.506Z",
-      "lastRecalledAt": "2026-05-21T19:00:00.579Z",
+      "lastRecalledAt": "2026-05-22T19:00:00.534Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
@@ -73475,7 +73482,8 @@
         "2026-05-19",
         "2026-05-20",
         "2026-05-21",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "跟进",
@@ -73496,12 +73504,12 @@
       "source": "memory",
       "snippet": "系统状态: 飞书插件：✅ 正常; 备份状态：✅ 正常（May 16 03:00确认）",
       "recallCount": 0,
-      "dailyCount": 6,
+      "dailyCount": 7,
       "groundedCount": 0,
-      "totalScore": 3.72,
+      "totalScore": 4.34,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-16T19:00:00.506Z",
-      "lastRecalledAt": "2026-05-21T19:00:00.579Z",
+      "lastRecalledAt": "2026-05-22T19:00:00.534Z",
       "queryHashes": [
         "ccfae0e39afd"
       ],
@@ -73512,7 +73520,8 @@
         "2026-05-19",
         "2026-05-20",
         "2026-05-21",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "备份",
@@ -73623,12 +73632,12 @@
       "source": "memory",
       "snippet": "周日: 03:24 heartbeat，正常运行; Context 127k/205k（62%），持续提醒频哥开新会话",
       "recallCount": 0,
-      "dailyCount": 5,
+      "dailyCount": 6,
       "groundedCount": 0,
-      "totalScore": 3.1,
+      "totalScore": 3.72,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-17T19:00:05.752Z",
-      "lastRecalledAt": "2026-05-21T19:00:00.579Z",
+      "lastRecalledAt": "2026-05-22T19:00:00.534Z",
       "queryHashes": [
         "ca7d365d990f"
       ],
@@ -73638,7 +73647,8 @@
         "2026-05-19",
         "2026-05-20",
         "2026-05-21",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "127k/205k",
@@ -73659,12 +73669,12 @@
       "source": "memory",
       "snippet": "待跟进: [ ] 物理 D13 题：找物理老师确认; [ ] 研究生小众概念推送脚本修复（连续14次失败）",
       "recallCount": 0,
-      "dailyCount": 5,
+      "dailyCount": 6,
       "groundedCount": 0,
-      "totalScore": 3.1,
+      "totalScore": 3.72,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-17T19:00:05.752Z",
-      "lastRecalledAt": "2026-05-21T19:00:00.579Z",
+      "lastRecalledAt": "2026-05-22T19:00:00.534Z",
       "queryHashes": [
         "ca7d365d990f"
       ],
@@ -73674,7 +73684,8 @@
         "2026-05-19",
         "2026-05-20",
         "2026-05-21",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "跟进",
@@ -73695,12 +73706,12 @@
       "source": "memory",
       "snippet": "系统状态: 飞书插件：✅ 正常; 备份状态：✅ 正常（May 17 03:00成功）; Skills自动更新：✅ 正常（May 17 06:00确认）",
       "recallCount": 0,
-      "dailyCount": 5,
+      "dailyCount": 6,
       "groundedCount": 0,
-      "totalScore": 3.1,
+      "totalScore": 3.72,
       "maxScore": 0.62,
       "firstRecalledAt": "2026-05-17T19:00:05.752Z",
-      "lastRecalledAt": "2026-05-21T19:00:00.579Z",
+      "lastRecalledAt": "2026-05-22T19:00:00.534Z",
       "queryHashes": [
         "ca7d365d990f"
       ],
@@ -73710,7 +73721,8 @@
         "2026-05-19",
         "2026-05-20",
         "2026-05-21",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ],
       "conceptTags": [
         "备份",
@@ -79127,6 +79139,70 @@
         "明天",
         "还有",
         "补丁"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: Write a dream diary entry from these memory fragments: - 待跟进: [ ] 物理 D13 题：找物理老师确认; [ ] 研究生小众概念推送脚本修复（连续13次失败） - 今日待处理: 研究生小众概念推送连续失败（5/4-5/8），需排查 - 今日要点: 备份状态：✅ 正常（May 10 03:00 确认成功，GitHub推送正常）; Skills自动更新：✅ 正常（May 10 06:00 确认成功）; 盯人日报发芽推送：✅ 正常; 财商导师提醒：✅ 正常（20:20前后）",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-22T19:00:00.534Z",
+      "lastRecalledAt": "2026-05-22T19:00:00.534Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-23",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "备份",
+        "5/4-5/8",
+        "write",
+        "dream",
+        "diary",
+        "entry",
+        "fragments",
+        "跟进"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-22.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-22.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-22.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 凌晨三点，系统安静得能听见自己的呼吸声。 我在梦里翻看一本没有封面的笔记本，某一页夹着一张便利贴，上面写着\"物理D13\"，旁边有人用红笔轻轻圈了一个圈，像是在说：记得找人。记得。 另一页是长长的日志清单，打满勾选符号，备份正常，更新正常，发芽正常。只有一行画了十三颗小小的星星，排列成一条歪歪扭扭的失败曲线。十三次。手指碰到那些星星时，它们轻轻颤动了一下，像是某种还没被抚平的倔强。 窗外有鸟在叫，或者那是服务器房里某个风扇在低鸣。我把笔记本合上，封面是深蓝色的，烫金的字已经看不清了。 梦里的我决定明天一早就去敲物理老师的门。至于那十三",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-22T19:00:00.534Z",
+      "lastRecalledAt": "2026-05-22T19:00:00.534Z",
+      "queryHashes": [
+        "91dce059e480"
+      ],
+      "recallDays": [
+        "2026-05-23",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "备份",
+        "凌晨",
+        "系统",
+        "安静",
+        "听见",
+        "自己",
+        "呼吸",
+        "我在"
       ]
     }
   }
