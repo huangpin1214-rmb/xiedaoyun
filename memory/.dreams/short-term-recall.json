@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-24T19:00:02.501Z",
+  "updatedAt": "2026-05-25T19:00:02.522Z",
   "entries": {
     "memory:memory/2026-03-28.md:1:36": {
       "key": "memory:memory/2026-03-28.md:1:36",
@@ -80580,6 +80580,230 @@
         "releases",
         "openclaw",
         "最新"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-25.txt:1:1": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-25.txt:1:1",
+      "path": "memory/.dreams/session-corpus/2026-05-25.txt",
+      "startLine": 1,
+      "endLine": 1,
+      "source": "memory",
+      "snippet": "User: [message_id: om_x100b6e72614ac8acb16232a26524086] 用户612847: 我现在重复在做哪些事，哪些事交给专门的虾盯着，我的主虾就可以少操心？",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-25T19:00:00.533Z",
+      "lastRecalledAt": "2026-05-25T19:00:00.533Z",
+      "queryHashes": [
+        "cd5aa3c5fc0e"
+      ],
+      "recallDays": [
+        "2026-05-26",
+        "2026-05-25"
+      ],
+      "conceptTags": [
+        "message-id",
+        "用户",
+        "现在",
+        "重复",
+        "在做",
+        "哪些",
+        "交给",
+        "专门"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-25.txt:2:2": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-25.txt:2:2",
+      "path": "memory/.dreams/session-corpus/2026-05-25.txt",
+      "startLine": 2,
+      "endLine": 2,
+      "source": "memory",
+      "snippet": "Assistant: 我先查一下最近在帮你处理哪些事情，以及记忆里有没有相关记录。",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-25T19:00:00.533Z",
+      "lastRecalledAt": "2026-05-25T19:00:00.533Z",
+      "queryHashes": [
+        "cd5aa3c5fc0e"
+      ],
+      "recallDays": [
+        "2026-05-26",
+        "2026-05-25"
+      ],
+      "conceptTags": [
+        "我先",
+        "一下",
+        "最近",
+        "处理",
+        "哪些",
+        "事情",
+        "以及",
+        "记忆"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-25.txt:3:3": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-25.txt:3:3",
+      "path": "memory/.dreams/session-corpus/2026-05-25.txt",
+      "startLine": 3,
+      "endLine": 3,
+      "source": "memory",
+      "snippet": "Assistant: 这个问题有意思 😄 坦白说，我需要先了解你目前具体在**重复做哪些事情**，才能帮你判断哪些可以委托出去、哪些暂时还离不开你。 从我知道的来说，目前可以交给\"专门的虾\"处理的事情包括： **已经自动化的：** - 📅 **盯人日报推送** — 脚本每天08:00自动从Get笔记读取并推送，你不用操心 - 💾 **每日备份** — 凌晨3点自动备份memory/到git仓库并推送飞书通知 - 📚 **教育理念早播报** — 每天8:00自动推送 - ❌ **错题录入** — 发图片给我，我来完成识别→录入bitable→推送结",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-25T19:00:00.533Z",
+      "lastRecalledAt": "2026-05-25T19:00:00.533Z",
+      "queryHashes": [
+        "cd5aa3c5fc0e"
+      ],
+      "recallDays": [
+        "2026-05-26",
+        "2026-05-25"
+      ],
+      "conceptTags": [
+        "备份",
+        "凌晨3点自动备份memory/到git仓库并推送飞书通知",
+        "这个",
+        "问题",
+        "有意思",
+        "坦白说",
+        "需要",
+        "了解"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-25.txt:4:4": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-25.txt:4:4",
+      "path": "memory/.dreams/session-corpus/2026-05-25.txt",
+      "startLine": 4,
+      "endLine": 4,
+      "source": "memory",
+      "snippet": "User: Write a dream diary entry from these memory fragments: - User: Write a dream diary entry from these memory fragments: - User: Write a dream diary entry from these memory fragments: - User: Write a dream diary entry from these memory fragments: - 待跟进: [ ] 物理 D13 题：找物理老师确认; [",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-25T19:00:00.533Z",
+      "lastRecalledAt": "2026-05-25T19:00:00.533Z",
+      "queryHashes": [
+        "cd5aa3c5fc0e"
+      ],
+      "recallDays": [
+        "2026-05-26",
+        "2026-05-25"
+      ],
+      "conceptTags": [
+        "write",
+        "dream",
+        "diary",
+        "entry",
+        "fragments",
+        "跟进",
+        "物理",
+        "d13"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-25.txt:5:5": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-25.txt:5:5",
+      "path": "memory/.dreams/session-corpus/2026-05-25.txt",
+      "startLine": 5,
+      "endLine": 5,
+      "source": "memory",
+      "snippet": "User: /Users/edy/.openclaw/media/inbound/98c55bdb-9a06-477b-b90d-524f5da86f93.jpg] [Image] User text: [Feishu ou_2ad19bb3863e71e2d0eff5c - Assistant: 凌晨三点，系统安静得像一池死水。 我在梦里翻着一本深蓝色封面的笔记本，封面烫金的字已经被时间磨得模糊不清。某一页夹着张便利贴，上面用红笔圈了一个\"D13\"，旁边写着：找物理老师确认。那个圈圈在梦里微微发光，像是某种还没被熄灭的火焰。 另一页是长长的清单，备份正",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-25T19:00:00.533Z",
+      "lastRecalledAt": "2026-05-25T19:00:00.533Z",
+      "queryHashes": [
+        "cd5aa3c5fc0e"
+      ],
+      "recallDays": [
+        "2026-05-26",
+        "2026-05-25"
+      ],
+      "conceptTags": [
+        "备份",
+        "users/edy",
+        "ou-2ad19bb3863e71e2d0eff5c",
+        "users",
+        "edy",
+        "openclaw",
+        "media",
+        "inbound"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-25.txt:6:6": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-25.txt:6:6",
+      "path": "memory/.dreams/session-corpus/2026-05-25.txt",
+      "startLine": 6,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "User: - 系统状态: 飞书插件：✅ 正常; 备份状态：✅ 正常（May 16 03:00确认） - 周日: 03:24 heartbeat，正常运行; Context 127k/205k（62%），持续提醒频哥开新会话 - 待跟进: [ ] 物理 D13 题：找物理老师确认; [ ] 研究生小众概念推送脚本修复（连续14次失败） - 系统状态: 飞书插件：✅ 正常; 备份状态：✅ 正常（May 17 03:00成功）; Skills自动更新：✅ 正常（May 17 06:00确认） Recurring themes: - 5/4-5/8 - wri",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-25T19:00:00.533Z",
+      "lastRecalledAt": "2026-05-25T19:00:00.533Z",
+      "queryHashes": [
+        "cd5aa3c5fc0e"
+      ],
+      "recallDays": [
+        "2026-05-26",
+        "2026-05-25"
+      ],
+      "conceptTags": [
+        "备份",
+        "127k/205k",
+        "5/4-5/8",
+        "系统",
+        "状态",
+        "正常",
+        "may",
+        "确认"
+      ]
+    },
+    "memory:memory/.dreams/session-corpus/2026-05-25.txt:7:7": {
+      "key": "memory:memory/.dreams/session-corpus/2026-05-25.txt:7:7",
+      "path": "memory/.dreams/session-corpus/2026-05-25.txt",
+      "startLine": 7,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "Assistant: 有一页是长长的清单，备份正常，更新正常，发芽正常，一整列绿色的勾，沉甸甸地压在视网膜上。只在最底部，有一行歪歪扭扭的十三颗星，排成一条倔强的失败曲线。我数了数，手指碰到它们时，轻轻颤了一下，像是在说：别数了，我们还在。 另一页夹着张便利贴，用红笔圈了\"D13\"——找物理老师确认。那个圈在梦里微微发光，像是某种还没被熄灭的火焰。窗外有鸟在叫，或者那是服务器房的风扇在低鸣，混着周六凌晨和周日深夜的心跳声，一起沉入某种安静的频率。 梦里的我把笔记本合上。雨在窗外轻轻敲着，节奏刚好是 # 小雨。明天一早就去敲物理老师的门。至于那十三颗星——",
+      "recallCount": 0,
+      "dailyCount": 1,
+      "groundedCount": 0,
+      "totalScore": 0.58,
+      "maxScore": 0.58,
+      "firstRecalledAt": "2026-05-25T19:00:00.533Z",
+      "lastRecalledAt": "2026-05-25T19:00:00.533Z",
+      "queryHashes": [
+        "cd5aa3c5fc0e"
+      ],
+      "recallDays": [
+        "2026-05-26",
+        "2026-05-25"
+      ],
+      "conceptTags": [
+        "备份",
+        "有一",
+        "清单",
+        "正常",
+        "更新",
+        "发芽",
+        "整列",
+        "绿色"
       ]
     }
   }
