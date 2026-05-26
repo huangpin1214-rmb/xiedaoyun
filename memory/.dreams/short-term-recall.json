@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-25T19:00:02.522Z",
+  "updatedAt": "2026-05-26T15:03:35.203Z",
   "entries": {
     "memory:memory/2026-03-28.md:1:36": {
       "key": "memory:memory/2026-03-28.md:1:36",
@@ -27279,37 +27279,6 @@
         "scripts/getnote-weekly-review.sh",
         "芯片/ai/投资/供应链/一老一小/安全/教育",
         "日记"
-      ]
-    },
-    "memory:memory/2026-04-17.md:1:17": {
-      "key": "memory:memory/2026-04-17.md:1:17",
-      "path": "memory/2026-04-17.md",
-      "startLine": 1,
-      "endLine": 17,
-      "source": "memory",
-      "snippet": "## Light Sleep <!-- openclaw:dreaming:light:start --> - Candidate: User: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b52eb4ea6a8b4c31c10cddc37ee1\", \"sender_id\": \"ou_2ad19bb3863e71e2d0eff5cc4aeedd83\", \"sender\": \"用户612847\", \"timestamp\": \"Tue 2026-04-14 15:43 GMT+8\" } ``` Sender (untrusted metadata): ```json { \"label\": \" - confidence: 0.58 - evidence: memory/.dreams/session-corpus/2026-04-14.txt:97-97 - recalls: 0 - status: staged - Candidate: Assistant: 当前安装的技能（skills）： **学习辅导类** - 📐 math-tutor — 兮兮数学错题分析 - 🧬 biology-tutor — 兮兮生物辅导 - 🌍 geography-tutor — 兮兮地理辅导 - 📝 yuwen-tutor — 兮兮语文辅导 - 🌐 language-learning-tutor — 多语言AI导师（英语为主） **效率工具类** - 📚 getnote —",
-      "recallCount": 1,
-      "dailyCount": 0,
-      "groundedCount": 0,
-      "totalScore": 1,
-      "maxScore": 1,
-      "firstRecalledAt": "2026-04-20T00:41:29.169Z",
-      "lastRecalledAt": "2026-04-20T00:41:29.169Z",
-      "queryHashes": [
-        "673f0d848412"
-      ],
-      "recallDays": [
-        "2026-04-20"
-      ],
-      "conceptTags": [
-        "message-id",
-        "sender-id",
-        "0.58",
-        "97-97",
-        "math-tutor",
-        "biology-tutor",
-        "geography-tutor",
-        "yuwen-tutor"
       ]
     },
     "memory:memory/2026-04-20.md:6:7": {
@@ -80804,6 +80773,38 @@
         "发芽",
         "整列",
         "绿色"
+      ]
+    },
+    "memory:memory/2026-03-25.md:1:8": {
+      "key": "memory:memory/2026-03-25.md:1:8",
+      "path": "memory/2026-03-25.md",
+      "startLine": 1,
+      "endLine": 8,
+      "source": "memory",
+      "snippet": "# 2026-03-25 ## 首次见面 - 频哥给我起名：**苹果虾** 🍎🦐 - 我叫频哥 - 通过 openclaw-control-ui 的 webchat 交流",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-25T22:51:47.355Z",
+      "lastRecalledAt": "2026-05-25T22:51:47.355Z",
+      "queryHashes": [
+        "11e23bf0c7e8"
+      ],
+      "recallDays": [
+        "2026-05-26",
+        "2026-05-25"
+      ],
+      "conceptTags": [
+        "openclaw-control-ui",
+        "首次",
+        "见面",
+        "起名",
+        "苹果",
+        "通过",
+        "openclaw",
+        "control"
       ]
     }
   }
