@@ -40,11 +40,16 @@ echo "📁 备份 memory..."
 mkdir -p "$BACKUP_DIR/memory"
 cp -r "$WORKSPACE/memory" "$BACKUP_DIR/memory/" 2>/dev/null
 
+# ===== Workspaces（所有 agent 工作空间） =====
+echo "📁 备份 Workspaces..."
+mkdir -p "$BACKUP_DIR/workspaces"
+cp -r "$OPENCLAW_DIR/workspaces" "$BACKUP_DIR/workspaces/" 2>/dev/null
+
 # ===== 打包成 tar.gz =====
 cd "$BACKUP_DIR"
 echo "📦 打包..."
 BACKUP_TAR="$WORKSPACE/openclaw_backup_${DATE}.tar.gz"
-tar -czf "$BACKUP_TAR" openclaw skills memory 2>/dev/null
+tar -czf "$BACKUP_TAR" openclaw skills memory workspaces 2>/dev/null
 TAR_SIZE=$(du -h "$BACKUP_TAR" | cut -f1)
 echo "📦 打包完成: $TAR_SIZE"
 
@@ -56,7 +61,7 @@ echo "📝 提交变更..."
 git add "openclaw_backup_${DATE}.tar.gz" .gitignore scripts/ -f
 
 # 单独提交 memory 增量，方便查看变化
-git add "memory/" -f
+git add "memory/" "workspaces/" -f
 git commit -m "backup: $DATE" --quiet 2>/dev/null
 
 # 推送
