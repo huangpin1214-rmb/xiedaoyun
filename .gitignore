@@ -19,3 +19,9 @@ subagents/
 # 教辅素材库图片太大（按需备份）
 教辅素材库/
 .backup/
+
+# 2026-06-20 修复：备份排除 sessions 大目录
+**/sessions/
+**/sessions/*.jsonl
+**/sessions/*.trajectory.jsonl
+**/sessions/*.trajectory-path.json
