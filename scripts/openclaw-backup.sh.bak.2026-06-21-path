@@ -8,11 +8,6 @@
 # - git-lfs 已配：tar.gz 走 lfs，未来即使涨到 2GB 也不卡 GitHub 100MB
 # - 加 .gitignore 排除 sessions：避免 backup/memory 累积 sessions jsonl
 # - 加 git pull --rebase：避免 ahead 4 commits 卡住 push
-# === 2026-06-21 修复（频哥拍 A · cron PATH 问题）===
-# - 显式导出 PATH：macOS cron 进程默认 PATH 不含 /usr/local/bin，git-lfs 找不到
-#   → git add *.tar.gz 触发 filter-process 失败 → 文件加不进 index → push 被 pre-push hook 拒
-# - 加在脚本最前面，覆盖整个脚本执行期（git add / git commit / git push / pre-push hook 都受益）
-export PATH="/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:$PATH"
 
 WORKSPACE="$HOME/.openclaw/workspace"
 BACKUP_DIR="$WORKSPACE/.backup"
